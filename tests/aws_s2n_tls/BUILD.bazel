@@ -1,0 +1,11 @@
+load("@bazel_skylib//rules:build_test.bzl", "build_test")
+
+build_test(
+  name = "s2n_tls_test",
+  targets = ["@aws_s2n_tls//:s2n_tls"],
+)
+
+build_test(
+  name = "s2n_tls_impl_test",
+  targets = ["@aws_s2n_tls//:s2n_tls_impl"],
+)

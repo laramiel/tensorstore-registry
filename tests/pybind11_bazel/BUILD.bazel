@@ -1,0 +1,6 @@
+load("@bazel_skylib//rules:build_test.bzl", "build_test")
+
+build_test(
+  name = "pybind11_test",
+  targets = ["@pybind11_bazel//:pybind11"],
+)

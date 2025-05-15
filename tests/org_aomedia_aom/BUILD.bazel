@@ -1,0 +1,66 @@
+load("@bazel_skylib//rules:build_test.bzl", "build_test")
+
+build_test(
+  name = "libaom_test",
+  targets = ["@org_aomedia_aom//:libaom"],
+)
+
+build_test(
+  name = "av1_test",
+  targets = ["@org_aomedia_aom//:av1"],
+)
+
+build_test(
+  name = "av1_x86_asm_test",
+  targets = ["@org_aomedia_aom//:av1_x86_asm"],
+)
+
+build_test(
+  name = "dsp_test",
+  targets = ["@org_aomedia_aom//:dsp"],
+)
+
+build_test(
+  name = "dsp_x86_asm_test",
+  targets = ["@org_aomedia_aom//:dsp_x86_asm"],
+)
+
+build_test(
+  name = "scale_test",
+  targets = ["@org_aomedia_aom//:scale"],
+)
+
+build_test(
+  name = "codec_test",
+  targets = ["@org_aomedia_aom//:codec"],
+)
+
+build_test(
+  name = "codec_x86_asm_test",
+  targets = ["@org_aomedia_aom//:codec_x86_asm"],
+)
+
+build_test(
+  name = "mem_test",
+  targets = ["@org_aomedia_aom//:mem"],
+)
+
+build_test(
+  name = "args_helper_test",
+  targets = ["@org_aomedia_aom//:args_helper"],
+)
+
+build_test(
+  name = "fastfeat_test",
+  targets = ["@org_aomedia_aom//:fastfeat"],
+)
+
+build_test(
+  name = "vector_test",
+  targets = ["@org_aomedia_aom//:vector"],
+)
+
+build_test(
+  name = "config_test",
+  targets = ["@org_aomedia_aom//:config"],
+)

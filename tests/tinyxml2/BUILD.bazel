@@ -1,0 +1,6 @@
+load("@bazel_skylib//rules:build_test.bzl", "build_test")
+
+build_test(
+  name = "tinyxml2_test",
+  targets = ["@tinyxml2//:tinyxml2"],
+)

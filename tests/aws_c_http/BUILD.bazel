@@ -1,0 +1,6 @@
+load("@bazel_skylib//rules:build_test.bzl", "build_test")
+
+build_test(
+  name = "aws_c_http_test",
+  targets = ["@aws_c_http//:aws_c_http"],
+)

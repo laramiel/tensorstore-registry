@@ -1,0 +1,6 @@
+load("@bazel_skylib//rules:build_test.bzl", "build_test")
+
+build_test(
+  name = "bz2_test",
+  targets = ["@bzip2//:bz2"],
+)

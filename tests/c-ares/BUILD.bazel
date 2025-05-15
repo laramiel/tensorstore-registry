@@ -1,0 +1,11 @@
+load("@bazel_skylib//rules:build_test.bzl", "build_test")
+
+build_test(
+  name = "ares_test",
+  targets = ["@c-ares//:ares"],
+)
+
+build_test(
+  name = "ares_private_test",
+  targets = ["@c-ares//:ares_private"],
+)

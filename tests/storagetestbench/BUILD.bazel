@@ -1,0 +1,16 @@
+load("@bazel_skylib//rules:build_test.bzl", "build_test")
+
+build_test(
+  name = "google_test",
+  targets = ["@storagetestbench//:google"],
+)
+
+build_test(
+  name = "gcs_test",
+  targets = ["@storagetestbench//:gcs"],
+)
+
+build_test(
+  name = "testbench_test",
+  targets = ["@storagetestbench//:testbench"],
+)

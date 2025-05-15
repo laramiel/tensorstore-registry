@@ -1,0 +1,16 @@
+load("@bazel_skylib//rules:build_test.bzl", "build_test")
+
+build_test(
+  name = "webp_test",
+  targets = ["@libwebp//:webp"],
+)
+
+build_test(
+  name = "webp_utils_test",
+  targets = ["@libwebp//:webp_utils"],
+)
+
+build_test(
+  name = "sharpyuv_test",
+  targets = ["@libwebp//:sharpyuv"],
+)
