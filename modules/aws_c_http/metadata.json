@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/awslabs/aws-c-http",
+  "repository": [
+    "github:awslabs/aws-c-http"
+  ],
+  "versions": [
+    "0.9.7"
+  ]
+}

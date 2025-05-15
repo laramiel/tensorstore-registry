@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/google/re2",
+  "repository": [
+    "github:google/re2"
+  ],
+  "versions": [
+    "2024-07-02"
+  ]
+}

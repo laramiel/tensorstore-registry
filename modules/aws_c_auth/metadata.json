@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/awslabs/aws-c-auth",
+  "repository": [
+    "github:awslabs/aws-c-auth"
+  ],
+  "versions": [
+    "0.9.0"
+  ]
+}

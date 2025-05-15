@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/bazelbuild/rules_proto",
+  "repository": [
+    "github:bazelbuild/rules_proto"
+  ],
+  "versions": [
+    "7.1.0"
+  ]
+}

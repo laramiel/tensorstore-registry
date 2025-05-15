@@ -1,0 +1,28 @@
+{
+  "doc_version": "1.5.0",
+  "urls": [
+    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/webmproject/libwebp/archive/v1.5.0.tar.gz",
+    "https://github.com/webmproject/libwebp/archive/v1.5.0.tar.gz"
+  ],
+  "sha256": "668c9aba45565e24c27e17f7aaf7060a399f7f31dba6c97a044e1feacb930f37",
+  "strip_prefix": "libwebp-1.5.0",
+  "cmake_name": "WebP",
+  "bazel_to_cmake": {},
+  "cmake_target_mapping": {
+    "@libwebp//:webp": "WebP::webp",
+    "@libwebp//:sharpyuv": "WebP::sharpyuv"
+  },
+  "cmake_package_redirect_libraries": {
+    "WebP": "WebP::webp",
+    "LIBSHARPYUV": "WebP::sharpyuv"
+  },
+  "cmake_package_aliases": [
+    "libsharpyuv"
+  ],
+  "name": "libwebp",
+  "package_name": "libwebp",
+  "version": "1.5.0",
+  "doc_homepage": "https://github.com/webmproject/libwebp",
+  "has_system_package": true,
+  "deps": []
+}

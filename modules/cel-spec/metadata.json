@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/google/cel-spec",
+  "repository": [
+    "github:google/cel-spec"
+  ],
+  "versions": [
+    "0.16.2"
+  ]
+}

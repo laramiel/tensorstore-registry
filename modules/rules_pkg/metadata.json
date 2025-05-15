@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/bazelbuild/rules_pkg",
+  "repository": [
+    "github:bazelbuild/rules_pkg"
+  ],
+  "versions": [
+    "1.0.1"
+  ]
+}

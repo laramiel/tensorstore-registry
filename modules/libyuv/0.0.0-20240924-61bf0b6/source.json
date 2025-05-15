@@ -1,0 +1,10 @@
+{
+  "type": "archive",
+  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/chromium.googlesource.com/libyuv/libyuv/+archive/1e40e34573c3861480d107cd4a4ce290df79951f.tar.gz",
+  "integrity": "sha256-3AMqRGLmzplMLA8B0HqHQvA1VmHU+XFt22IfRXik9Pw=",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-WqTxdlrfUk5X1UKOvC/Giw7kKYJ4YudQP4hF4gwlhn4=",
+    "BUILD.bazel": "sha256-c0S1VrYmv7kubFZPE9h7eUzh2zxbOftDfqYF5A9+8SA=",
+    "MODULE.bazel": "sha256-50U7HcwGvp6z/uSkDsANWkcVSslsxGJxRy6j23gqhbE="
+  }
+}

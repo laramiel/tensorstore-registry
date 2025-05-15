@@ -1,0 +1,21 @@
+{
+  "strip_prefix": "nghttp2-1.65.0",
+  "urls": [
+    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/nghttp2/nghttp2/archive/v1.65.0.tar.gz"
+  ],
+  "sha256": "bcf08112bd583f8543776d086dcdede159b87e1261a36e6ae1d931c812a3ca70",
+  "cmake_name": "NGHTTP2",
+  "cmake_target_mapping": {
+    "@org_nghttp2//:nghttp2": "NGHTTP2::NGHTTP2"
+  },
+  "bazel_to_cmake": {},
+  "cmake_package_redirect_libraries": {
+    "NGHTTP2": "NGHTTP2::NGHTTP2"
+  },
+  "name": "org_nghttp2",
+  "package_name": "nghttp2",
+  "version": "1.65.0",
+  "doc_homepage": "https://github.com/nghttp2/nghttp2",
+  "has_system_package": true,
+  "deps": []
+}

@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/awslabs/aws-c-sdkutils",
+  "repository": [
+    "github:awslabs/aws-c-sdkutils"
+  ],
+  "versions": [
+    "0.2.3"
+  ]
+}

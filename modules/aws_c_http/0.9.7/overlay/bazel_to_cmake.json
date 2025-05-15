@@ -1,0 +1,20 @@
+{
+  "sha256": "18cb2a19a7cd80eafc4c29e6845ec97135a381a1e32fc848bdb8340cc747204a",
+  "strip_prefix": "aws-c-http-0.9.7",
+  "urls": [
+    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/awslabs/aws-c-http/archive/v0.9.7.tar.gz"
+  ],
+  "cmake_name": "aws_c_http",
+  "cmake_target_mapping": {
+    "@aws_c_http//:aws_c_http": "aws_c_http::aws_c_http"
+  },
+  "bazel_to_cmake": {},
+  "name": "aws_c_http",
+  "package_name": "aws_c_http",
+  "version": "0.9.7",
+  "doc_homepage": "https://github.com/awslabs/aws-c-http",
+  "deps": [
+    "aws_c_compression",
+    "aws_c_io"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "archive",
+  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/leethomason/tinyxml2/archive/11.0.0.tar.gz",
+  "integrity": "sha256-VVbetQgfskbukq+uc+/ZQ8iJzvDK/qkrC4JCLWoY8ok=",
+  "strip_prefix": "tinyxml2-11.0.0",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-kppCDyc4YwMOUOsU+XR8wps9FrEtwu43W+Hwus7w+P0=",
+    "BUILD.bazel": "sha256-Ws8necy9UDo09/HCIG6nj5pQahhM0bzUi21eMWBusSs=",
+    "MODULE.bazel": "sha256-gJj0ALnGpFhD/SNnWnSxoX44LvKcWKDOe9ZvKBc7tWc="
+  }
+}

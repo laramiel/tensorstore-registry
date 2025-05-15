@@ -1,0 +1,10 @@
+{
+  "type": "archive",
+  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/googleapis/storage-testbench/archive/bc7738b9f0c737c198d67e03a12d21600c3e771b.tar.gz",
+  "integrity": "sha256-enGDm+PF4FAstpn0v28i+HjM569Oelk6ayoNEAK+6HM=",
+  "strip_prefix": "storage-testbench-bc7738b9f0c737c198d67e03a12d21600c3e771b",
+  "overlay": {
+    "BUILD.bazel": "sha256-ox6aCdPwIZbJ/ZQ42KtmBEvTM1/KiHqUSZDSyRBBjLc=",
+    "MODULE.bazel": "sha256-/jyRBGCSD/St3nL5qH9g8nPjoSEIFdQk8ADiQuUqo90="
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "urls": [
+    "https://storage.googleapis.com/tensorstore-bazel-mirror/sourceforge.net/projects/half/files/half/2.2.1/half-2.2.1.zip",
+    "https://sourceforge.net/projects/half/files/half/2.2.1/half-2.2.1.zip"
+  ],
+  "sha256": "76ddbf406e9d9b772ec73af2bf925b38b290b4390cc4064720a08d4b4bca0aa9",
+  "cmake_name": "half",
+  "cmake_target_mapping": {
+    "@net_sourceforge_half//:half": "half::half"
+  },
+  "bazel_to_cmake": {},
+  "name": "net_sourceforge_half",
+  "package_name": "half",
+  "version": "2.2.1",
+  "doc_homepage": "https://sourceforge.net/",
+  "deps": []
+}

@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/c-ares/c-ares",
+  "repository": [
+    "github:c-ares/c-ares"
+  ],
+  "versions": [
+    "1.34.5"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "archive",
+  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/googleapis/googleapis/archive/32bc03653260356351854429bd7e2dfbf670d352.tar.gz",
+  "integrity": "sha256-RsptmmNJw4RTNN3i1V1IKhHnwQcqkIW4m2welM3rLT4=",
+  "strip_prefix": "googleapis-32bc03653260356351854429bd7e2dfbf670d352",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-oKum98/qR47yQ+AOKDerT252xxe1RHl7K/tOvxR37og="
+  }
+}

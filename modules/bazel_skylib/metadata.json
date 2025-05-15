@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/bazelbuild/bazel-skylib",
+  "repository": [
+    "github:bazelbuild/bazel-skylib"
+  ],
+  "versions": [
+    "1.7.1"
+  ]
+}

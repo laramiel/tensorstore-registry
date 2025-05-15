@@ -1,0 +1,11 @@
+{
+  "type": "archive",
+  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/awslabs/aws-c-s3/archive/v0.7.15.tar.gz",
+  "integrity": "sha256-RYsygRBp40GGz872wtY6ArNGV+cOiA4cBwaXbOS1g4k=",
+  "strip_prefix": "aws-c-s3-0.7.15",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-3AEpFlwA+ITleFy956AhXpz3xgk3YWIWjwz+dr1u12U=",
+    "BUILD.bazel": "sha256-IR4V081QkZSGUnphj1bajSQCLiGsBHA3xcQVCTxacgI=",
+    "MODULE.bazel": "sha256-QwqHkrydTq6qw7uUKOTnKVLbXZXrvHJQQ9gNnlU4Xb0="
+  }
+}

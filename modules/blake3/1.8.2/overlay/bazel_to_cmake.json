@@ -1,0 +1,22 @@
+{
+  "strip_prefix": "BLAKE3-1.8.2",
+  "sha256": "6b51aefe515969785da02e87befafc7fdc7a065cd3458cf1141f29267749e81f",
+  "urls": [
+    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/BLAKE3-team/BLAKE3/archive/1.8.2.tar.gz"
+  ],
+  "cmake_name": "BLAKE3",
+  "cmake_languages": [
+    "ASM",
+    "ASM_MASM"
+  ],
+  "bazel_to_cmake": {},
+  "cmake_target_mapping": {
+    "@blake3//:blake3": "BLAKE3::BLAKE3"
+  },
+  "name": "blake3",
+  "package_name": "blake3",
+  "version": "1.8.2",
+  "doc_homepage": "https://github.com/BLAKE3-team/BLAKE3",
+  "has_system_package": true,
+  "deps": []
+}

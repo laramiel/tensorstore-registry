@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/google/riegeli",
+  "repository": [
+    "github:google/riegeli"
+  ],
+  "versions": [
+    "0.0.0-20231212-e54e430"
+  ]
+}

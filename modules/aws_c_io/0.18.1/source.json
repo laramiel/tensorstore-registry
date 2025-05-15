@@ -1,0 +1,11 @@
+{
+  "type": "archive",
+  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/awslabs/aws-c-io/archive/v0.18.1.tar.gz",
+  "integrity": "sha256-ZdJ1u94aHSh83N5iFk3AFblhOlUl/miOlyER2KO1aPs=",
+  "strip_prefix": "aws-c-io-0.18.1",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-BAQcdUK3DfGZ6ZETHKhVereK+7JgtrRpcWBZKCaZ8x4=",
+    "BUILD.bazel": "sha256-TpvFZC7ZWJm9VDCsQaXy+ghOLfC9Pb1qd122Oj9ddDg=",
+    "MODULE.bazel": "sha256-on9PAQohSCyddC5O9HUv0Epd9hdvA+THSbBAzcNoNqg="
+  }
+}

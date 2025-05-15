@@ -1,0 +1,9 @@
+{
+  "homepage": "https://chromium.googlesource.com/libyuv/libyuv/",
+  "repository": [
+    "https://chromium.googlesource.com"
+  ],
+  "versions": [
+    "0.0.0-20240924-61bf0b6"
+  ]
+}

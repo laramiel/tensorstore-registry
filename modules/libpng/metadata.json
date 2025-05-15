@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/pnggroup/libpng",
+  "repository": [
+    "github:pnggroup/libpng"
+  ],
+  "versions": [
+    "1.6.47"
+  ]
+}

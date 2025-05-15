@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/facebook/zstd",
+  "repository": [
+    "github:facebook/zstd"
+  ],
+  "versions": [
+    "1.5.7"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/awslabs/aws-c-common",
+  "repository": [
+    "github:awslabs/aws-c-common"
+  ],
+  "versions": [
+    "0.12.2"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "homepage": "https://www.nasm.us/",
+  "repository": [
+    "https://www.nasm.us"
+  ],
+  "versions": [
+    "2.15.05"
+  ]
+}

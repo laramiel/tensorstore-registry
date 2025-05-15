@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/bazelbuild/rules_cc",
+  "repository": [
+    "github:bazelbuild/rules_cc"
+  ],
+  "versions": [
+    "0.1.1"
+  ]
+}

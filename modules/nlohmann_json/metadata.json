@@ -1,0 +1,9 @@
+{
+  "homepage": "https://json.nlohmann.me/",
+  "repository": [
+    "github:nlohmann/json"
+  ],
+  "versions": [
+    "3.11.3"
+  ]
+}

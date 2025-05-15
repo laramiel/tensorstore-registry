@@ -1,0 +1,20 @@
+{
+  "sha256": "516ff370a45bfc49fd6d34a9bd2b1b3e753221046a9e2fbd117341d6f9d39edc",
+  "strip_prefix": "aws-c-cal-0.9.0",
+  "urls": [
+    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/awslabs/aws-c-cal/archive/v0.9.0.tar.gz"
+  ],
+  "cmake_name": "aws_c_cal",
+  "cmake_target_mapping": {
+    "@aws_c_cal//:aws_c_cal": "aws_c_cal::aws_c_cal"
+  },
+  "bazel_to_cmake": {},
+  "name": "aws_c_cal",
+  "package_name": "aws_c_cal",
+  "version": "0.9.0",
+  "doc_homepage": "https://github.com/awslabs/aws-c-cal",
+  "deps": [
+    "aws_c_common",
+    "boringssl"
+  ]
+}

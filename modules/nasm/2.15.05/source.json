@@ -1,0 +1,10 @@
+{
+  "type": "archive",
+  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/www.nasm.us/pub/nasm/releasebuilds/2.15.05/nasm-2.15.05.tar.bz2",
+  "integrity": "sha256-PEuDOeWrVLG8sjFhAfiYWl2lCj+eUE1D+m81ZovuL9A=",
+  "strip_prefix": "nasm-2.15.05",
+  "overlay": {
+    "BUILD.bazel": "sha256-KndpDb8Xoxy6ZvRyUc6fm/v5sKvcZ+3cnfmznF8efSA=",
+    "MODULE.bazel": "sha256-Q1h2eGiwKIANfnWPIhpdT+T6pc/PaQE8MDyAgey9Pn8="
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "sha256": "458b32811069e34186cfcef6c2d63a02b34657e70e880e1c0706976ce4b58389",
+  "strip_prefix": "aws-c-s3-0.7.15",
+  "urls": [
+    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/awslabs/aws-c-s3/archive/v0.7.15.tar.gz"
+  ],
+  "cmake_name": "aws_c_s3",
+  "cmake_target_mapping": {
+    "@aws_c_s3//:aws_c_s3": "aws_c_s3::aws_c_s3"
+  },
+  "bazel_to_cmake": {},
+  "name": "aws_c_s3",
+  "package_name": "aws_c_s3",
+  "version": "0.7.15",
+  "doc_homepage": "https://github.com/awslabs/aws-c-s3",
+  "deps": [
+    "aws_c_auth",
+    "aws_c_http",
+    "aws_checksums"
+  ]
+}

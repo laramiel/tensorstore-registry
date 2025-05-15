@@ -1,0 +1,25 @@
+{
+  "urls": [
+    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/AOMediaCodec/libavif/archive/v1.2.1.tar.gz"
+  ],
+  "sha256": "9c859c7c12ccb0f407511bfe303e6a7247f5f6738f54852662c6df8048daddf4",
+  "strip_prefix": "libavif-1.2.1",
+  "cmake_name": "AVIF",
+  "bazel_to_cmake": {},
+  "cmake_target_mapping": {
+    "//:avif": "AVIF::AVIF"
+  },
+  "cmake_package_redirect_libraries": {
+    "AVIF": "AVIF::AVIF"
+  },
+  "name": "org_aomedia_avif",
+  "package_name": "org_aomedia_avif",
+  "version": "1.2.1",
+  "doc_homepage": "https://github.com/AOMediaCodec/libavif",
+  "has_system_package": true,
+  "deps": [
+    "libyuv",
+    "org_aomedia_aom",
+    "org_videolan_dav1d"
+  ]
+}

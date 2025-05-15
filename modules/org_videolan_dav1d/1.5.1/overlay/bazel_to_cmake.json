@@ -1,0 +1,23 @@
+{
+  "sha256": "fa635e2bdb25147b1384007c83e15de44c589582bb3b9a53fc1579cb9d74b695",
+  "strip_prefix": "dav1d-1.5.1",
+  "urls": [
+    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/videolan/dav1d/archive/1.5.1.tar.gz"
+  ],
+  "cmake_name": "dav1d",
+  "bazel_to_cmake": {},
+  "cmake_languages": [
+    "ASM_NASM"
+  ],
+  "cmake_target_mapping": {
+    "@org_videolan_dav1d//:dav1d": "DAV1D::DAV1D"
+  },
+  "cmake_package_redirect_libraries": {
+    "DAV1D": "DAV1D::DAV1D"
+  },
+  "name": "org_videolan_dav1d",
+  "package_name": "org_videolan_dav1d",
+  "version": "1.5.1",
+  "doc_homepage": "https://github.com/videolan/dav1d",
+  "deps": []
+}

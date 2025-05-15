@@ -1,0 +1,11 @@
+{
+  "type": "archive",
+  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/pnggroup/libpng/archive/refs/tags/v1.6.47.tar.gz",
+  "integrity": "sha256-YxpMWOpsEMgfFgxLIfqElbcV0lFpjrwlUgd+hFDzBFQ=",
+  "strip_prefix": "libpng-1.6.47",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-h04nNAPbqs15/1f1DgtJPZoeIKrRZ+l6ynwlI90eh/M=",
+    "BUILD.bazel": "sha256-owkm509gQpmAJPoqRgloXXOgXbYXP0jrErypU8Lt1Fo=",
+    "MODULE.bazel": "sha256-xuzpt92ufIfni8Yh38tq3EFGRolb9FjR1Sx9Q/oFpxM="
+  }
+}

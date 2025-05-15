@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/grpc/grpc",
+  "repository": [
+    "github:grpc/grpc"
+  ],
+  "versions": [
+    "1.72.0"
+  ]
+}

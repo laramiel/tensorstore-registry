@@ -1,0 +1,9 @@
+{
+  "homepage": "https://tukaani.org/xz/",
+  "repository": [
+    "github:tukaani-project/xz"
+  ],
+  "versions": [
+    "5.8.1"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/awslabs/aws-c-mqtt",
+  "repository": [
+    "github:awslabs/aws-c-mqtt"
+  ],
+  "versions": [
+    "0.12.3"
+  ]
+}

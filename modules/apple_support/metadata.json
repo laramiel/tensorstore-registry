@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/bazelbuild/apple_support",
+  "repository": [
+    "github:bazelbuild/apple_support"
+  ],
+  "versions": [
+    "1.17.1"
+  ]
+}

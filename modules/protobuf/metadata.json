@@ -1,0 +1,9 @@
+{
+  "homepage": "https://protobuf.dev/",
+  "repository": [
+    "github:protocolbuffers/protobuf"
+  ],
+  "versions": [
+    "30.2"
+  ]
+}

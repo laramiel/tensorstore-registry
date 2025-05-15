@@ -1,0 +1,9 @@
+
+module(
+    name = "org_aomedia_aom",
+    version = "3.5.0-20221031-d730cef",
+    compatibility_level = 1,
+    bazel_compatibility = [">=7.2.1"],
+)
+bazel_dep(name = "platforms", version = "0.0.10")
+

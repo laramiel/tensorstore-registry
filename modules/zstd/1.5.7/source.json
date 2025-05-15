@@ -1,0 +1,11 @@
+{
+  "type": "archive",
+  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/facebook/zstd/archive/v1.5.7.zip",
+  "integrity": "sha256-eJe8XWIFgNm3zTU5xEtZ1482V9M2Y/6XoUXge069aaQ=",
+  "strip_prefix": "zstd-1.5.7",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-SZqtmy8grYHMsktfOg+8jvXpJDvzUpOiIGqaKoM+Ydw=",
+    "BUILD.bazel": "sha256-vPyX2qY25EJReh8nJXLoEp3QgQbRqLTIbDfNEw75Bts=",
+    "MODULE.bazel": "sha256-JQtvix5kHaqrHHSrtBqCJwi6g+3nRZBi+MzXzexVnyc="
+  }
+}

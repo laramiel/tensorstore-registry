@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/Blosc/c-blosc",
+  "repository": [
+    "github:Blosc/c-blosc"
+  ],
+  "versions": [
+    "1.21.6"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "archive",
+  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/google/re2/releases/download/2024-07-02/re2-2024-07-02.tar.gz",
+  "integrity": "sha256-6y34B8eBYBwUomClB6W7RQm+HuYmAky0WsvVfLnUAys=",
+  "strip_prefix": "re2-2024-07-02",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-avkVNU6Pny+yp0UZoe7qNG5pmF5271WcpWCUDAHW6KE=",
+    "BUILD.bazel": "sha256-DwWWG15JsIcG4RJtelHxxqKiwnKmRZzBU9pN40feLsQ=",
+    "MODULE.bazel": "sha256-MXRqtrWBzcUF/z8dfAQSShVrpKoJQNaMn5SKHgaWNbs="
+  }
+}

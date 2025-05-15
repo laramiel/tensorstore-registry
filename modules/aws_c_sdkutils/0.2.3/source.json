@@ -1,0 +1,11 @@
+{
+  "type": "archive",
+  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/awslabs/aws-c-sdkutils/archive/v0.2.3.tar.gz",
+  "integrity": "sha256-WgSJ1Qg0G4TupVbjUXF7wzUk09/WIH7jq6YGiZTqYBg=",
+  "strip_prefix": "aws-c-sdkutils-0.2.3",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-AObRebYg7n/mKX0smH7Cu2dBCqOvXdAoEpkXWioMioo=",
+    "BUILD.bazel": "sha256-ny676K0WIVWR4ySW0Ej7l3P/vobSgCdWO4clIMsxPM4=",
+    "MODULE.bazel": "sha256-TXzT1GcJVxV0paGrJqe555HB+mYFjnxsWJujDII1Nw8="
+  }
+}

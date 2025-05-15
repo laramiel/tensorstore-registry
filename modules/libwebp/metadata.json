@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/webmproject/libwebp",
+  "repository": [
+    "github:webmproject/libwebp"
+  ],
+  "versions": [
+    "1.5.0"
+  ]
+}

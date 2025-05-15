@@ -1,0 +1,19 @@
+{
+  "sha256": "3ab786720ac23b35bcf6f4354659652e2ec8eb20b1a3989e7be93c3e7985ea5e",
+  "strip_prefix": "s2n-tls-1.5.17",
+  "urls": [
+    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/aws/s2n-tls/archive/v1.5.17.tar.gz"
+  ],
+  "cmake_name": "s2n_tls",
+  "cmake_target_mapping": {
+    "@aws_s2n_tls//:s2n_tls": "s2n_tls::s2n_tls"
+  },
+  "bazel_to_cmake": {},
+  "name": "aws_s2n_tls",
+  "package_name": "aws_s2n_tls",
+  "version": "1.5.17",
+  "doc_homepage": "https://github.com/aws/s2n-tls",
+  "deps": [
+    "boringssl"
+  ]
+}

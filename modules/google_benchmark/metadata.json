@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/google/benchmark",
+  "repository": [
+    "github:google/benchmark"
+  ],
+  "versions": [
+    "1.9.0"
+  ]
+}

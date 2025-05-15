@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/videolan/dav1d",
+  "repository": [
+    "github:videolan/dav1d"
+  ],
+  "versions": [
+    "1.5.1"
+  ]
+}

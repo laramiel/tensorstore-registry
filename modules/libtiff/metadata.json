@@ -1,0 +1,9 @@
+{
+  "homepage": "https://download.osgeo.org/",
+  "repository": [
+    "https://download.osgeo.org"
+  ],
+  "versions": [
+    "4.7.0"
+  ]
+}

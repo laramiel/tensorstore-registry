@@ -1,0 +1,8 @@
+
+module(
+    name = "boringssl",
+    version = "0.0.0-20220719-0986955",
+    compatibility_level = 1,
+    bazel_compatibility = [">=7.2.1"],
+)
+

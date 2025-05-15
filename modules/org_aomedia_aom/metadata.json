@@ -1,0 +1,9 @@
+{
+  "homepage": "https://aomedia.googlesource.com/",
+  "repository": [
+    "https://aomedia.googlesource.com"
+  ],
+  "versions": [
+    "3.5.0-20221031-d730cef"
+  ]
+}

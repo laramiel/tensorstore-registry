@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/google/googletest",
+  "repository": [
+    "github:google/googletest"
+  ],
+  "versions": [
+    "1.15.2-20240829-0953a17"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/libjpeg-turbo/libjpeg-turbo",
+  "repository": [
+    "github:libjpeg-turbo/libjpeg-turbo"
+  ],
+  "versions": [
+    "2.1.5.1"
+  ]
+}

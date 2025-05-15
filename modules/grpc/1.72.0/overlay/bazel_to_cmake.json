@@ -1,0 +1,90 @@
+{
+  "sha256": "4a8aa99d5e24f80ea6b7ec95463e16af5bd91aa805e26c661ef6491ae3d2d23c",
+  "strip_prefix": "grpc-1.72.0",
+  "urls": [
+    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/grpc/grpc/archive/v1.72.0.tar.gz"
+  ],
+  "patches": [
+    "//third_party:grpc/patches/add_ports_def.diff",
+    "//third_party:grpc/patches/update_build_system.diff"
+  ],
+  "patch_args": [
+    "-p1"
+  ],
+  "repo_mapping": {
+    "@com_github_cares_cares": "@c-ares",
+    "@com_github_cncf_xds": "@xds",
+    "@com_github_google_benchmark": "@com_google_benchmark",
+    "@com_google_absl": "@abseil-cpp",
+    "@com_google_googleapis": "@googleapis",
+    "@com_google_googletest": "@googletest",
+    "@com_googlesource_code_re2": "@re2",
+    "@com_github_grpc_grpc": "@grpc",
+    "@io_bazel_rules_go": "@local_proto_mirror"
+  },
+  "cmake_name": "gRPC",
+  "cmake_enable_system_package": false,
+  "bazel_to_cmake": {
+    "args": [
+      "--ignore-library=//bazel:objc_grpc_library.bzl",
+      "--ignore-library=//bazel:cython_library.bzl",
+      "--ignore-library=//bazel:python_rules.bzl",
+      "--ignore-library=//bazel:generate_objc.bzl",
+      "--ignore-library=//bazel:python_rules.bzl",
+      "--ignore-library=@rules_fuzzing//fuzzing:cc_defs.bzl",
+      "--ignore-library=@build_bazel_rules_apple//apple:ios.bzl",
+      "--ignore-library=@build_bazel_rules_apple//apple/testing/default_runner:ios_test_runner.bzl",
+      "--ignore-library=@rules_license//rules:license.bzl",
+      "--exclude-target=//:grpc_cel_engine",
+      "--target=//:grpc",
+      "--target=//:grpc++",
+      "--target=//:grpc++_codegen_proto",
+      "--target=//:grpc++_test",
+      "--target=//src/compiler:grpc_cpp_plugin",
+      "--bind=//third_party:cares=@c-ares//:ares",
+      "--bind=//third_party:grpc++_codegen_proto=@grpc//:grpc++_codegen_proto",
+      "--bind=//third_party:grpc_cpp_plugin=@grpc//src/compiler:grpc_cpp_plugin",
+      "--bind=//third_party:protobuf=@com_google_protobuf//:protobuf",
+      "--bind=//third_party:protobuf_clib=@com_google_protobuf//:protoc_lib",
+      "--bind=//third_party:protobuf_headers=@com_google_protobuf//:protobuf",
+      "--bind=//third_party:protocol_compiler=@com_google_protobuf//:protoc",
+      "--bind=//third_party:benchmark=@com_google_benchmark//:benchmark",
+      "--bind=//third_party:gtest=@googletest//:gtest",
+      "--bind=//third_party:libcrypto=@boringssl//:crypto",
+      "--bind=//third_party:libssl=@boringssl//:ssl",
+      "--bind=//third_party:libuv=@com_github_libuv_libuv//:libuv",
+      "--bind=//third_party:libuv_test=@com_github_libuv_libuv//:libuv_test",
+      "--bind=//third_party:madler_zlib=@zlib//:zlib",
+      "--bind=//third_party:re2=@re2//:re2"
+    ],
+    "exclude": [
+      "src/android/**",
+      "src/csharp/**",
+      "src/objective-c/**",
+      "src/php/**",
+      "src/ruby/**",
+      "src/python/**",
+      "src/proto/grpc/testing/**",
+      "test/**",
+      "third_party/android/**",
+      "third_party/objective_c/**",
+      "third_party/py/**",
+      "third_party/toolchains/**",
+      "third_party/upb/**",
+      "tools/**",
+      "examples/**",
+      "fuzztest/**",
+      "src/core/ext/transport/binder/java/**"
+    ]
+  },
+  "cmake_target_mapping": {
+    "//:grpc": "gRPC::grpc",
+    "//:grpc++": "gRPC::grpc++",
+    "//:grpc++_test": "gRPC::grpc_test_util",
+    "//src/compiler:grpc_cpp_plugin": "gRPC::grpc_cpp_plugin"
+  },
+  "name": "grpc",
+  "package_name": "grpc",
+  "version": "1.72.0",
+  "doc_homepage": "https://github.com/grpc/grpc"
+}

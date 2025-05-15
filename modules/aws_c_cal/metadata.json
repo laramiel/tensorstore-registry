@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/awslabs/aws-c-cal",
+  "repository": [
+    "github:awslabs/aws-c-cal"
+  ],
+  "versions": [
+    "0.9.0"
+  ]
+}

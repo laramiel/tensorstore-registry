@@ -1,0 +1,11 @@
+{
+  "type": "archive",
+  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/AOMediaCodec/libavif/archive/v1.2.1.tar.gz",
+  "integrity": "sha256-nIWcfBLMsPQHURv+MD5qckf19nOPVIUmYsbfgEja3fQ=",
+  "strip_prefix": "libavif-1.2.1",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-Q5Nr03jFwKQey2tRsvTkU/4jHp2/dG4zA4vQ+RTHHKk=",
+    "BUILD.bazel": "sha256-PrUktosOOBWtBfWRkPkcVHENbiO/JJmmW4EOAqH4X1w=",
+    "MODULE.bazel": "sha256-wOF+maxunJt05JSxqMWHdaxvX/f3nsVLaWUD1PqFbQ8="
+  }
+}

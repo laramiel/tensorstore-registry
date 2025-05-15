@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/bazelbuild/rules_license",
+  "repository": [
+    "github:bazelbuild/rules_license"
+  ],
+  "versions": [
+    "1.0.0"
+  ]
+}

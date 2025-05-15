@@ -1,0 +1,21 @@
+{
+  "doc_version": "1.6.47",
+  "urls": [
+    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/pnggroup/libpng/archive/refs/tags/v1.6.47.tar.gz"
+  ],
+  "sha256": "631a4c58ea6c10c81f160c4b21fa8495b715d251698ebc2552077e8450f30454",
+  "strip_prefix": "libpng-1.6.47",
+  "cmake_name": "PNG",
+  "bazel_to_cmake": {},
+  "cmake_target_mapping": {
+    "//:png": "PNG::PNG"
+  },
+  "name": "libpng",
+  "package_name": "libpng",
+  "version": "1.6.47",
+  "doc_homepage": "https://github.com/pnggroup/libpng",
+  "has_system_package": true,
+  "deps": [
+    "zlib"
+  ]
+}

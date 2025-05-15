@@ -1,0 +1,6 @@
+{
+  "type": "archive",
+  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/bazelbuild/bazel-skylib/archive/1.7.1.tar.gz",
+  "integrity": "sha256-4/6gP/damCHoQZlGZ5m6Vg2667KZxlW1MH9N8eWXBpY=",
+  "strip_prefix": "bazel-skylib-1.7.1"
+}

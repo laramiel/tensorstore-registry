@@ -1,0 +1,9 @@
+{
+  "homepage": "https://sourceware.org/",
+  "repository": [
+    "https://sourceware.org"
+  ],
+  "versions": [
+    "1.0.8"
+  ]
+}

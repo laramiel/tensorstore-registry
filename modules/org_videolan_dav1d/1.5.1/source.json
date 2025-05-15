@@ -1,0 +1,11 @@
+{
+  "type": "archive",
+  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/videolan/dav1d/archive/1.5.1.tar.gz",
+  "integrity": "sha256-+mNeK9slFHsThAB8g+Fd5ExYlYK7O5pT/BV5y510tpU=",
+  "strip_prefix": "dav1d-1.5.1",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-anNXXlCkbUc46UB/oJ90Wy1VChTisQpDUvvdXy2oTHw=",
+    "BUILD.bazel": "sha256-294ntzGc9t7tbzsFidspoOsZzpFUHDMVLYNCGftfFno=",
+    "MODULE.bazel": "sha256-3PlN3ix1g7gu9zXfzHz8b97NoaZpqcWck9oxdov8yQs="
+  }
+}

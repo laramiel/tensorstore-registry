@@ -1,0 +1,11 @@
+{
+  "type": "archive",
+  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/libjpeg-turbo/libjpeg-turbo/archive/2.1.5.1.tar.gz",
+  "integrity": "sha256-YYRiUZQeV5EAX7f6zhlu7CRUH84E8SVwwwhVdSnpLHU=",
+  "strip_prefix": "libjpeg-turbo-2.1.5.1",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-sIOfCFR/vi6ERVEPsGGbZHZ8K+DnEhbpuGhIIVTMDKI=",
+    "BUILD.bazel": "sha256-EtNYKNjKhTXffWl/TpieX/0jyKd7Q0z8GWdE30RojMw=",
+    "MODULE.bazel": "sha256-B7HErd6jPJuYKTOCMMhamBKooamNFqmX6WmCKrmix2A="
+  }
+}

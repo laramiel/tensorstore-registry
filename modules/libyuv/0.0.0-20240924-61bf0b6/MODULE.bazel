@@ -1,0 +1,8 @@
+
+module(
+    name = "libyuv",
+    version = "0.0.0-20240924-61bf0b6",
+    compatibility_level = 1,
+    bazel_compatibility = [">=7.2.1"],
+)
+

@@ -1,0 +1,13 @@
+{
+  "type": "archive",
+  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/google/brotli/archive/440e03642b891968a76b6d088d70f01f06e0c349.zip",
+  "integrity": "sha256-HI1J1y9cscqJLKS8OAIce9lKdPEMxJO2dWuN1VBwEYk=",
+  "strip_prefix": "brotli-440e03642b891968a76b6d088d70f01f06e0c349",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-ByHDXdhhG2CUQrEayNJ5w33kImBNBfA7YvGAfgaSeVY="
+  },
+  "patches": {
+    "fix_ror.diff": "sha256-S4MKjm2FoR7wM1k4s1/0AtWbLnaIZooKQANRYqSNldI="
+  },
+  "patch_strip": 1
+}

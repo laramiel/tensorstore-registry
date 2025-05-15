@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/awslabs/aws-c-io",
+  "repository": [
+    "github:awslabs/aws-c-io"
+  ],
+  "versions": [
+    "0.18.1"
+  ]
+}

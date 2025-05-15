@@ -1,0 +1,27 @@
+{
+  "urls": [
+    "https://storage.googleapis.com/tensorstore-bazel-mirror/download.osgeo.org/libtiff/tiff-4.7.0.tar.gz"
+  ],
+  "sha256": "67160e3457365ab96c5b3286a0903aa6e78bdc44c4bc737d2e486bcecb6ba976",
+  "doc_version": "4.7.0",
+  "strip_prefix": "tiff-4.7.0",
+  "remove_paths": [
+    "VERSION"
+  ],
+  "cmake_name": "TIFF",
+  "cmake_target_mapping": {
+    "//:tiff": "TIFF::TIFF"
+  },
+  "bazel_to_cmake": {},
+  "name": "libtiff",
+  "package_name": "libtiff",
+  "version": "4.7.0",
+  "doc_homepage": "https://download.osgeo.org/",
+  "has_system_package": true,
+  "deps": [
+    "libjpeg_turbo",
+    "xz",
+    "zlib",
+    "zstd"
+  ]
+}

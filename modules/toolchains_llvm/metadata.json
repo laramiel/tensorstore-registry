@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/bazel-contrib/toolchains_llvm",
+  "repository": [
+    "github:bazel-contrib/toolchains_llvm"
+  ],
+  "versions": [
+    "1.2.0"
+  ]
+}

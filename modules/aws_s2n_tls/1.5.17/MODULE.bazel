@@ -1,0 +1,9 @@
+
+module(
+    name = "aws_s2n_tls",
+    version = "1.5.17",
+    compatibility_level = 1,
+    bazel_compatibility = [">=7.2.1"],
+)
+bazel_dep(name = "boringssl", version = "0.0.0-20220719-0986955")
+

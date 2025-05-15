@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/bazelbuild/rules_shell",
+  "repository": [
+    "github:bazelbuild/rules_shell"
+  ],
+  "versions": [
+    "0.4.0"
+  ]
+}

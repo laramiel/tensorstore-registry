@@ -1,0 +1,19 @@
+{
+  "sha256": "178e8398d98111f29150f7813a70c20ad97ab30be0de02525440355fe84ccb1d",
+  "strip_prefix": "aws-checksums-0.2.7",
+  "urls": [
+    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/awslabs/aws-checksums/archive/v0.2.7.tar.gz"
+  ],
+  "cmake_name": "aws_checksums",
+  "cmake_target_mapping": {
+    "@aws_checksums//:aws_checksums": "aws_checksums::aws_checksums"
+  },
+  "bazel_to_cmake": {},
+  "name": "aws_checksums",
+  "package_name": "aws_checksums",
+  "version": "0.2.7",
+  "doc_homepage": "https://github.com/awslabs/aws-checksums",
+  "deps": [
+    "aws_c_common"
+  ]
+}

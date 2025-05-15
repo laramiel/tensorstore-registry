@@ -1,0 +1,21 @@
+{
+  "sha256": "cef8b78e362836d15514110fb43a0a0c7a86b0a210d5fe25fd248a82027a7272",
+  "strip_prefix": "aws-c-event-stream-0.5.4",
+  "urls": [
+    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/awslabs/aws-c-event-stream/archive/v0.5.4.tar.gz"
+  ],
+  "cmake_name": "aws_c_event_stream",
+  "cmake_target_mapping": {
+    "@aws_c_event_stream//:aws_c_event_stream": "aws_c_event_stream::aws_c_event_stream"
+  },
+  "bazel_to_cmake": {},
+  "name": "aws_c_event_stream",
+  "package_name": "aws_c_event_stream",
+  "version": "0.5.4",
+  "doc_homepage": "https://github.com/awslabs/aws-c-event-stream",
+  "deps": [
+    "aws_c_common",
+    "aws_c_io",
+    "aws_checksums"
+  ]
+}

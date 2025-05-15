@@ -1,0 +1,19 @@
+{
+  "sha256": "5a0489d508341b84eea556e351717bc33524d3dfd6207ee3aba6068994ea6018",
+  "strip_prefix": "aws-c-sdkutils-0.2.3",
+  "urls": [
+    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/awslabs/aws-c-sdkutils/archive/v0.2.3.tar.gz"
+  ],
+  "cmake_name": "aws_c_sdkutils",
+  "cmake_target_mapping": {
+    "@aws_c_sdkutils//:aws_c_sdkutils": "aws_c_sdkutils::aws_c_sdkutils"
+  },
+  "bazel_to_cmake": {},
+  "name": "aws_c_sdkutils",
+  "package_name": "aws_c_sdkutils",
+  "version": "0.2.3",
+  "doc_homepage": "https://github.com/awslabs/aws-c-sdkutils",
+  "deps": [
+    "aws_c_common"
+  ]
+}

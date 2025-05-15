@@ -1,0 +1,9 @@
+{
+  "homepage": "https://abseil.io/",
+  "repository": [
+    "github:abseil/abseil-cpp"
+  ],
+  "versions": [
+    "20250429-5f3435aba"
+  ]
+}

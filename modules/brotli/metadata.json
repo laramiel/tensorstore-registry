@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/google/brotli",
+  "repository": [
+    "github:google/brotli"
+  ],
+  "versions": [
+    "1.1.0-20250715-39bcecf"
+  ]
+}

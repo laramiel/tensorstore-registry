@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/nghttp2/nghttp2",
+  "repository": [
+    "github:nghttp2/nghttp2"
+  ],
+  "versions": [
+    "1.65.0"
+  ]
+}

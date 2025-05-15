@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/awslabs/aws-c-s3",
+  "repository": [
+    "github:awslabs/aws-c-s3"
+  ],
+  "versions": [
+    "0.7.15"
+  ]
+}

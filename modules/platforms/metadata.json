@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/bazelbuild/platforms",
+  "repository": [
+    "github:bazelbuild/platforms"
+  ],
+  "versions": [
+    "0.0.10"
+  ]
+}

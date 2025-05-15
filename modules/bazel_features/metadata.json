@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/bazel-contrib/bazel_features",
+  "repository": [
+    "github:bazel-contrib/bazel_features"
+  ],
+  "versions": [
+    "1.17.0"
+  ]
+}

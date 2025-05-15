@@ -1,0 +1,41 @@
+{
+  "doc_version": "20250415-9da769a3",
+  "urls": [
+    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/google/riegeli/archive/bcae1d3b1f6da547e77119c463bcab67d7f785d3.tar.gz"
+  ],
+  "sha256": "b45c9b8b3f96b68272b9fa1bc543e7c286717b54a36e877115f39c69a0abf346",
+  "strip_prefix": "riegeli-bcae1d3b1f6da547e77119c463bcab67d7f785d3",
+  "patches": [
+    "//third_party:riegeli/patches/chain.diff"
+  ],
+  "patch_args": [
+    "-p1"
+  ],
+  "repo_mapping": {
+    "@net_zstd": "@zstd",
+    "@com_google_googleapis": "@googleapis",
+    "@com_google_googletest": "@googletest",
+    "@com_google_absl": "@abseil-cpp"
+  },
+  "cmake_name": "riegeli",
+  "bazel_to_cmake": {
+    "args": [
+      "--exclude-target=//riegeli/digests:highwayhash_digester"
+    ],
+    "include": [
+      "riegeli/**"
+    ],
+    "exclude": [
+      "riegeli/brotli/**",
+      "riegeli/chunk_encoding/**",
+      "riegeli/lz4/**",
+      "riegeli/records/**",
+      "riegeli/snappy/**",
+      "riegeli/tensorflow/**"
+    ]
+  },
+  "name": "riegeli",
+  "package_name": "riegeli",
+  "version": "0.0.0-20231212-e54e430",
+  "doc_homepage": "https://github.com/google/riegeli"
+}

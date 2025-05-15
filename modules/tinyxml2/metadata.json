@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/leethomason/tinyxml2",
+  "repository": [
+    "github:leethomason/tinyxml2"
+  ],
+  "versions": [
+    "11.0.0"
+  ]
+}

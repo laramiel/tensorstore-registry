@@ -1,0 +1,19 @@
+{
+  "sha256": "ecea168ea974f2da73b5a0adc19d9c5ebca73ca4b9f733de7c37fc453ee7d1c2",
+  "strip_prefix": "aws-c-common-0.12.2",
+  "urls": [
+    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/awslabs/aws-c-common/archive/v0.12.2.tar.gz"
+  ],
+  "cmake_name": "aws_c_common",
+  "cmake_target_mapping": {
+    "@aws_c_common//:aws_c_common": "aws_c_common::aws_c_common"
+  },
+  "bazel_to_cmake": {},
+  "name": "aws_c_common",
+  "package_name": "aws_c_common",
+  "version": "0.12.2",
+  "doc_homepage": "https://github.com/awslabs/aws-c-common",
+  "deps": [
+    "platforms"
+  ]
+}

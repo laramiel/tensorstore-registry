@@ -1,0 +1,11 @@
+{
+  "type": "archive",
+  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/download.osgeo.org/libtiff/tiff-4.7.0.tar.gz",
+  "integrity": "sha256-ZxYONFc2WrlsWzKGoJA6pueL3ETEvHN9LkhrzstrqXY=",
+  "strip_prefix": "tiff-4.7.0",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-L4aGPZDGgKI/nW7eCNhsZrC5IGPXd2V8KFc8p522Zjw=",
+    "BUILD.bazel": "sha256-Nyuy/u+KyUkx4eouP8+vG/8g9g7DynGIlPPWMYQlxo8=",
+    "MODULE.bazel": "sha256-tjx96/ItYSNSnaNDsebxRfeegMzAPkJZL5+n4QiLXvo="
+  }
+}

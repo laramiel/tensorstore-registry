@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/AOMediaCodec/libavif",
+  "repository": [
+    "github:AOMediaCodec/libavif"
+  ],
+  "versions": [
+    "1.2.1"
+  ]
+}

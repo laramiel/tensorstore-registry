@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/cncf/xds",
+  "repository": [
+    "github:cncf/xds"
+  ],
+  "versions": [
+    "0.0.0-20240905-b4127c9"
+  ]
+}

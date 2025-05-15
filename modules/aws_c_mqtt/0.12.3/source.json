@@ -1,0 +1,11 @@
+{
+  "type": "archive",
+  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/awslabs/aws-c-mqtt/archive/v0.12.3.tar.gz",
+  "integrity": "sha256-wupdOzRpLFtx7E/z79gnevAfFnBpcOiFE3PDYauvHXI=",
+  "strip_prefix": "aws-c-mqtt-0.12.3",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-OFqicGgh/UUbGXGA5Ovu5/KwthIQ1z/w1W0RQ4HKnvw=",
+    "BUILD.bazel": "sha256-C4mobRexxUAum9aftG506owoCMGP7qc+L8GQV/+B9kQ=",
+    "MODULE.bazel": "sha256-UD/sfo+6rAlvJmqi0nGY7veE4ceuDexBe+8JlIkuTnA="
+  }
+}

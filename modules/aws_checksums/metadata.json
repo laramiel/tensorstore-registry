@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/awslabs/aws-checksums",
+  "repository": [
+    "github:awslabs/aws-checksums"
+  ],
+  "versions": [
+    "0.2.7"
+  ]
+}

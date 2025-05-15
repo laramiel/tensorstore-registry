@@ -1,0 +1,9 @@
+{
+  "homepage": "https://curl.se/",
+  "repository": [
+    "https://curl.se"
+  ],
+  "versions": [
+    "8.13.0"
+  ]
+}

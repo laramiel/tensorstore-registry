@@ -1,0 +1,11 @@
+{
+  "type": "archive",
+  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/awslabs/aws-c-cal/archive/v0.9.0.tar.gz",
+  "integrity": "sha256-UW/zcKRb/En9bTSpvSsbPnUyIQRqni+9EXNB1vnTntw=",
+  "strip_prefix": "aws-c-cal-0.9.0",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-GZz4CRbHylLjpsyL4DXDW/SiE/0IPVdtgOIFrnLOIxQ=",
+    "BUILD.bazel": "sha256-ZYfhv4nQyNMq43IYmFe99XRSXa7q5qNpOEpo59DimW8=",
+    "MODULE.bazel": "sha256-EM1AHhLMuvayI8wzLqCr6IdRiICtYgrBHcqxsloc9sQ="
+  }
+}
