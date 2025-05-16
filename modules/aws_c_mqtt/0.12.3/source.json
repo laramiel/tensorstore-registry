@@ -4,7 +4,7 @@
   "integrity": "sha256-wupdOzRpLFtx7E/z79gnevAfFnBpcOiFE3PDYauvHXI=",
   "strip_prefix": "aws-c-mqtt-0.12.3",
   "overlay": {
-    "bazel_to_cmake.json": "sha256-cw9EN+rRUClHulxuOIsHlS7GgYqcrtWPkLcFq5mfw1g=",
+    "bazel_to_cmake.json": "sha256-mHISuwjfW1uBML+mHpvDBXYiBb7ZAqt39A1Vz0UkM3w=",
     "BUILD.bazel": "sha256-C4mobRexxUAum9aftG506owoCMGP7qc+L8GQV/+B9kQ=",
     "MODULE.bazel": "sha256-RKAvQwV96vcJRkCjOkpK84fkjnqUJOD3h2rDeVCfKfM="
   }

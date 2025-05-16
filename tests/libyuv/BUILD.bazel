@@ -4,8 +4,3 @@ build_test(
   name = "libyuv_test",
   targets = ["@libyuv//:libyuv"],
 )
-
-build_test(
-  name = "libyuv_headers_test",
-  targets = ["@libyuv//:libyuv_headers"],
-)

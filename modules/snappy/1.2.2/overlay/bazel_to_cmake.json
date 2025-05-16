@@ -24,5 +24,7 @@
   "build_deps": [
     "bazel_skylib"
   ],
-  "build_targets": {}
+  "build_targets": {
+    "snappy": "cc_library"
+  }
 }

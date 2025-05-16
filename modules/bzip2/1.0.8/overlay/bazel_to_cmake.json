@@ -17,5 +17,7 @@
   "doc_homepage": "https://sourceware.org/",
   "has_system_package": true,
   "build_deps": [],
-  "build_targets": {}
+  "build_targets": {
+    "bz2": "cc_library"
+  }
 }

@@ -16,5 +16,7 @@
     "aws_c_io",
     "aws_checksums"
   ],
-  "build_targets": {}
+  "build_targets": {
+    "aws_c_event_stream": "cc_library"
+  }
 }

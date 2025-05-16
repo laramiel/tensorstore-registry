@@ -4,7 +4,7 @@
   "integrity": "sha256-eJe8XWIFgNm3zTU5xEtZ1482V9M2Y/6XoUXge069aaQ=",
   "strip_prefix": "zstd-1.5.7",
   "overlay": {
-    "bazel_to_cmake.json": "sha256-xopdqYG+ITp3qap2QOAGu7xII5njl4v87+5iYsLsj/k=",
+    "bazel_to_cmake.json": "sha256-Pz7+VGbq0KEWZ88Wp4sKvUslEtadNFO9Iy2ARC9DEeA=",
     "BUILD.bazel": "sha256-vPyX2qY25EJReh8nJXLoEp3QgQbRqLTIbDfNEw75Bts=",
     "MODULE.bazel": "sha256-fI7mDvI3zMGi6Te/Inopo98CljZ/rsIKbPxI8NbMxBg="
   }

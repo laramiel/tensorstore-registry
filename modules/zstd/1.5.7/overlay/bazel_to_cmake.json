@@ -24,5 +24,7 @@
     "platforms",
     "rules_cc"
   ],
-  "build_targets": {}
+  "build_targets": {
+    "zstd": "cc_library"
+  }
 }

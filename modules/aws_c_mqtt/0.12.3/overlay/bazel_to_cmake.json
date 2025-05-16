@@ -15,5 +15,7 @@
     "aws_c_http",
     "aws_c_io"
   ],
-  "build_targets": {}
+  "build_targets": {
+    "aws_c_mqtt": "cc_library"
+  }
 }

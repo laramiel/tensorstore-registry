@@ -1,8 +1,0 @@
-Build options: --registry=file:///Users/lar/github/tensorstore-registry --registry=https://bcr.bazel.build --explain=test.txt --verbose_failures
-Executing action 'Writing script half_test.sh': no entry in the cache (action is new).
-Executing action 'Writing repo mapping manifest for //:half_test': no entry in the cache (action is new).
-Executing action 'BazelWorkspaceStatusAction stable-status.txt': unconditional execution is requested.
-Executing action 'Creating source manifest for //:half_test': no entry in the cache (action is new).
-Executing action 'Executing genrule //:half_test_0__deps': no entry in the cache (action is new).
-Executing action 'Creating runfiles tree bazel-out/darwin_arm64-fastbuild/bin/half_test.sh.runfiles': no entry in the cache (action is new).
-Executing action 'Testing //:half_test': unconditional execution is requested.

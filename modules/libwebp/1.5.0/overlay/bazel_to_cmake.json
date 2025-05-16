@@ -26,6 +26,8 @@
     "platforms"
   ],
   "build_targets": {
-    "webp": "cc_library"
+    "webp": "cc_library",
+    "webp_utils": "cc_library",
+    "sharpyuv": "cc_library"
   }
 }

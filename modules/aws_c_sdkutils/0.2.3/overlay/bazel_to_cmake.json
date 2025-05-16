@@ -14,5 +14,7 @@
   "build_deps": [
     "aws_c_common"
   ],
-  "build_targets": {}
+  "build_targets": {
+    "aws_c_sdkutils": "cc_library"
+  }
 }

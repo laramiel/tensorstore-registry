@@ -15,5 +15,7 @@
     "aws_c_http",
     "aws_c_sdkutils"
   ],
-  "build_targets": {}
+  "build_targets": {
+    "aws_c_auth": "cc_library"
+  }
 }

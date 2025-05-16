@@ -15,5 +15,7 @@
   },
   "name": "libyuv",
   "build_deps": [],
-  "build_targets": {}
+  "build_targets": {
+    "libyuv": "cc_library"
+  }
 }
