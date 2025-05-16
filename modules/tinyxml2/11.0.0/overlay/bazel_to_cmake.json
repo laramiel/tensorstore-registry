@@ -10,9 +10,8 @@
     "@tinyxml2//:tinyxml2": "tinyxml2::tinyxml2"
   },
   "name": "tinyxml2",
-  "package_name": "tinyxml2",
-  "version": "11.0.0",
   "doc_homepage": "https://github.com/leethomason/tinyxml2",
   "has_system_package": true,
-  "deps": []
+  "build_deps": [],
+  "build_targets": {}
 }

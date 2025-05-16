@@ -14,14 +14,18 @@
   },
   "bazel_to_cmake": {},
   "name": "libtiff",
-  "package_name": "libtiff",
-  "version": "4.7.0",
   "doc_homepage": "https://download.osgeo.org/",
   "has_system_package": true,
-  "deps": [
+  "build_deps": [
+    "bazel_skylib",
     "libjpeg_turbo",
+    "platforms",
+    "rules_cc",
     "xz",
     "zlib",
     "zstd"
-  ]
+  ],
+  "build_targets": {
+    "tiff": "cc_library"
+  }
 }

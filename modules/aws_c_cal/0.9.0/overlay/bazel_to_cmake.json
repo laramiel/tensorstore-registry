@@ -10,11 +10,12 @@
   },
   "bazel_to_cmake": {},
   "name": "aws_c_cal",
-  "package_name": "aws_c_cal",
-  "version": "0.9.0",
   "doc_homepage": "https://github.com/awslabs/aws-c-cal",
-  "deps": [
+  "build_deps": [
     "aws_c_common",
-    "boringssl"
-  ]
+    "boringssl",
+    "platforms",
+    "rules_cc"
+  ],
+  "build_targets": {}
 }

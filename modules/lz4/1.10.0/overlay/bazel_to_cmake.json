@@ -15,8 +15,9 @@
     "LZ4": "LZ4::LZ4"
   },
   "name": "lz4",
-  "package_name": "lz4",
-  "version": "1.10.0",
   "has_system_package": true,
-  "deps": []
+  "build_deps": [],
+  "build_targets": {
+    "lz4": "cc_library"
+  }
 }

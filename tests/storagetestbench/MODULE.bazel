@@ -5,7 +5,9 @@ module(
     compatibility_level = 1,
     bazel_compatibility = [">=7.2.1"],
 )
-
-bazel_dep(name = "storagetestbench", version = "bc7738b9f0c737c198d67e03a12d21600c3e771b")
-
 bazel_dep(name = "bazel_skylib", version = "1.7.1")
+single_version_override(module_name = "bazel_skylib", version = "1.7.1")
+bazel_dep(name = "protobuf", version = "30.2")
+single_version_override(module_name = "protobuf", version = "30.2")
+bazel_dep(name = "storagetestbench", version = "bc7738b9f0c737c198d67e03a12d21600c3e771b")
+single_version_override(module_name = "storagetestbench", version = "bc7738b9f0c737c198d67e03a12d21600c3e771b")

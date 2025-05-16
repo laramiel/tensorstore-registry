@@ -21,10 +21,13 @@
     "AOM": "AOM::AOM"
   },
   "name": "org_aomedia_aom",
-  "package_name": "org_aomedia_aom",
-  "version": "3.5.0-20221031-d730cef",
   "doc_homepage": "https://aomedia.googlesource.com/",
-  "deps": [
-    "platforms"
-  ]
+  "build_deps": [
+    "bazel_skylib",
+    "platforms",
+    "rules_cc"
+  ],
+  "build_targets": {
+    "libaom": "cc_library"
+  }
 }

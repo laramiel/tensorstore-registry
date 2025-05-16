@@ -4,6 +4,6 @@
   "integrity": "sha256-EyNNliLvS3ZgtiWUmKbwLwAf0mDUL6IeZ7KP1MTg00Q=",
   "strip_prefix": "cel-spec-0.16.2",
   "overlay": {
-    "bazel_to_cmake.json": "sha256-MJOoV7Rn5R4QDakKiAIsuT+Gz57fVLIN2tYphSRyP4Y="
+    "bazel_to_cmake.json": "sha256-Qaeuk9E7hd+twMNYMt1EUq1oszUKBUDjJs/7jGai298="
   }
 }

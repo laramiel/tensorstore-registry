@@ -1,36 +1,6 @@
 load("@bazel_skylib//rules:build_test.bzl", "build_test")
 
 build_test(
-  name = "blosc_common_test",
-  targets = ["@c-blosc//:blosc_common"],
-)
-
-build_test(
-  name = "shuffle_generic_test",
-  targets = ["@c-blosc//:shuffle_generic"],
-)
-
-build_test(
-  name = "shuffle_sse2_test",
-  targets = ["@c-blosc//:shuffle_sse2"],
-)
-
-build_test(
-  name = "shuffle_avx2_test",
-  targets = ["@c-blosc//:shuffle_avx2"],
-)
-
-build_test(
-  name = "shuffle_test",
-  targets = ["@c-blosc//:shuffle"],
-)
-
-build_test(
-  name = "win32_test",
-  targets = ["@c-blosc//:win32"],
-)
-
-build_test(
   name = "blosc_test",
   targets = ["@c-blosc//:blosc"],
 )

@@ -10,14 +10,17 @@
     "//:blosc": "Blosc::blosc"
   },
   "name": "org_blosc_cblosc",
-  "package_name": "c-blosc",
-  "version": "1.21.6",
   "doc_homepage": "https://github.com/Blosc/c-blosc",
   "has_system_package": true,
-  "deps": [
+  "build_deps": [
     "lz4",
+    "platforms",
+    "rules_cc",
     "snappy",
     "zlib",
     "zstd"
-  ]
+  ],
+  "build_targets": {
+    "blosc": "cc_library"
+  }
 }

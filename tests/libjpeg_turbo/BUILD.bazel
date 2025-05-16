@@ -4,38 +4,3 @@ build_test(
   name = "jpeg_test",
   targets = ["@libjpeg_turbo//:jpeg"],
 )
-
-build_test(
-  name = "simd_common_test",
-  targets = ["@libjpeg_turbo//:simd_common"],
-)
-
-build_test(
-  name = "simd_none_test",
-  targets = ["@libjpeg_turbo//:simd_none"],
-)
-
-build_test(
-  name = "simd_altivec_test",
-  targets = ["@libjpeg_turbo//:simd_altivec"],
-)
-
-build_test(
-  name = "simd_x86_64_test",
-  targets = ["@libjpeg_turbo//:simd_x86_64"],
-)
-
-build_test(
-  name = "simd_x86_64_asm_test",
-  targets = ["@libjpeg_turbo//:simd_x86_64_asm"],
-)
-
-build_test(
-  name = "neon-compat_hdr_test",
-  targets = ["@libjpeg_turbo//:neon-compat_hdr"],
-)
-
-build_test(
-  name = "simd_arm_test",
-  targets = ["@libjpeg_turbo//:simd_arm"],
-)

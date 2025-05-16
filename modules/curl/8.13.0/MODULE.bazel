@@ -5,10 +5,4 @@ module(
     compatibility_level = 1,
     bazel_compatibility = [">=7.2.1"],
 )
-bazel_dep(name = "boringssl", version = "0.0.0-20220719-0986955")
-bazel_dep(name = "brotli", version = "1.1.0-20250715-39bcecf")
-bazel_dep(name = "c-ares", version = "1.34.5")
-bazel_dep(name = "nghttp2", version = "1.65.0")
-bazel_dep(name = "zlib", version = "1.3.0.1-20240223")
-bazel_dep(name = "zstd", version = "1.5.7")
 

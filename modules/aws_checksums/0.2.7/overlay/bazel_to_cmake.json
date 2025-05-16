@@ -10,10 +10,14 @@
   },
   "bazel_to_cmake": {},
   "name": "aws_checksums",
-  "package_name": "aws_checksums",
-  "version": "0.2.7",
   "doc_homepage": "https://github.com/awslabs/aws-checksums",
-  "deps": [
-    "aws_c_common"
-  ]
+  "build_deps": [
+    "aws_c_common",
+    "bazel_skylib",
+    "platforms",
+    "rules_cc"
+  ],
+  "build_targets": {
+    "aws_checksums": "cc_library"
+  }
 }

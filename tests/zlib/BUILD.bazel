@@ -4,8 +4,3 @@ build_test(
   name = "zlib_test",
   targets = ["@zlib//:zlib"],
 )
-
-build_test(
-  name = "zlib_opt_includes_test",
-  targets = ["@zlib//:zlib_opt_includes"],
-)

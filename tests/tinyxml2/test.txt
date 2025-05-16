@@ -1,0 +1,10 @@
+Build options: --registry=file:///Users/lar/github/tensorstore-registry --registry=https://bcr.bazel.build --explain=test.txt --verbose_failures
+Executing action 'Creating source manifest for //:tinyxml2_test': no entry in the cache (action is new).
+Executing action 'Writing script tinyxml2_test.sh': no entry in the cache (action is new).
+Executing action 'BazelWorkspaceStatusAction stable-status.txt': unconditional execution is requested.
+Executing action 'Writing repo mapping manifest for //:tinyxml2_test': no entry in the cache (action is new).
+Executing action 'Compiling tinyxml2.cpp': no entry in the cache (action is new).
+Executing action 'Creating runfiles tree bazel-out/darwin_arm64-fastbuild/bin/tinyxml2_test.sh.runfiles': no entry in the cache (action is new).
+Executing action 'Linking external/tinyxml2+/libtinyxml2.a': no entry in the cache (action is new).
+Executing action 'Executing genrule //:tinyxml2_test_0__deps': no entry in the cache (action is new).
+Executing action 'Testing //:tinyxml2_test': unconditional execution is requested.

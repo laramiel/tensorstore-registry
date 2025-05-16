@@ -1,0 +1,31 @@
+{
+  "strip_prefix": "boringssl-0.20250415.0",
+  "doc_version": "0.20250415",
+  "urls": [
+    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/google/boringssl/archive/refs/tags/0.20250415.0.tar.gz"
+  ],
+  "sha256": "b2d64c4d52c505d60b0fb86833568dc4762445910d7a7757ff9b172e5556cb01",
+  "cmake_name": "OpenSSL",
+  "cmake_target_mapping": {
+    "//:crypto": "OpenSSL::Crypto",
+    "//:ssl": "OpenSSL::SSL"
+  },
+  "bazel_to_cmake": {
+    "aliased_targets_only": true
+  },
+  "cmake_package_redirect_libraries": {
+    "OPENSSL_CRYPTO": "OpenSSL::Crypto",
+    "OPENSSL_SSL": "OpenSSL::SSL",
+    "OPENSSL": "OpenSSL::SSL"
+  },
+  "cmake_package_redirect_extra": "\n# Required by curl to avoid `check_symbol_exists` call that won't work when using FetchContent.\nset(HAVE_RAND_EGD ON)\nset(HAVE_SSL_CTX_SET_QUIC_METHOD ON)\n",
+  "name": "boringssl",
+  "bazel_deps": {
+    "googletest": "1.16.0",
+    "platforms": "0.0.11",
+    "rules_cc": "0.1.1",
+    "rules_license": "1.0.0"
+  },
+  "doc_homepage": "https://github.com/google/boringssl",
+  "has_system_package": true
+}

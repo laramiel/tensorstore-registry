@@ -1,0 +1,14 @@
+{
+  "type": "archive",
+  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/google/benchmark/archive/v1.9.2.zip",
+  "integrity": "sha256-oTzc07Djcl43H5d6KFX+zWUfwCNsZ9oW4yW3JgV7FbQ=",
+  "strip_prefix": "benchmark-1.9.2",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-/4XBPng5pJ7PYarv9Iwg/IniCiU3rQtUriEjcG3x20Q=",
+    "MODULE.bazel": "sha256-HTD3F/ANXxjn2OVdGFc7q4BlHXW0DjORrymSzSVoV3o="
+  },
+  "patches": {
+    "fix_mingw.diff": "sha256-cLjl3CK5w+9ymzvoYB+5CpKbKprCAjcx3FZIocdbuw0="
+  },
+  "patch_strip": 1
+}

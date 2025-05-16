@@ -1,11 +1,6 @@
 load("@bazel_skylib//rules:build_test.bzl", "build_test")
 
 build_test(
-  name = "lz4_internal_test",
-  targets = ["@lz4//:lz4_internal"],
-)
-
-build_test(
   name = "lz4_test",
   targets = ["@lz4//:lz4"],
 )

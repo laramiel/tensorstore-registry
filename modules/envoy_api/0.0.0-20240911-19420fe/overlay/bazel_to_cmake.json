@@ -63,7 +63,5 @@
     ]
   },
   "name": "envoy_api",
-  "package_name": "envoy_api",
-  "version": "0.0.0-20240911-19420fe",
   "doc_homepage": "https://github.com/envoyproxy/data-plane-api"
 }

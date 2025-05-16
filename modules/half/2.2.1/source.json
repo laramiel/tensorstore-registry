@@ -3,7 +3,7 @@
   "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/sourceforge.net/projects/half/files/half/2.2.1/half-2.2.1.zip",
   "integrity": "sha256-dt2/QG6dm3cuxzryv5JbOLKQtDkMxAZHIKCNS0vKCqk=",
   "overlay": {
-    "bazel_to_cmake.json": "sha256-HFwbfYmmNj7KAal9qxJTFe4NBpCsakOMTFqY/FOX6/c=",
+    "bazel_to_cmake.json": "sha256-A8FVTc6wtE9n7Y/Q/wkg+ZyVtSWZafRxAMYkO3C5zZM=",
     "BUILD.bazel": "sha256-QvP4m8WKz9U9KEMG+51CA4eFC4K1p5emF1bZG6VAzUM=",
     "MODULE.bazel": "sha256-//kFd/N9ey0jvHRCsGB2yvoVVSelWfEuy+Wi89jJakE="
   }

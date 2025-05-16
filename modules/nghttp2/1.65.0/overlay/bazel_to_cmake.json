@@ -13,9 +13,13 @@
     "NGHTTP2": "NGHTTP2::NGHTTP2"
   },
   "name": "org_nghttp2",
-  "package_name": "nghttp2",
-  "version": "1.65.0",
   "doc_homepage": "https://github.com/nghttp2/nghttp2",
   "has_system_package": true,
-  "deps": []
+  "build_deps": [
+    "bazel_skylib",
+    "rules_cc"
+  ],
+  "build_targets": {
+    "nghttp2": "cc_library"
+  }
 }

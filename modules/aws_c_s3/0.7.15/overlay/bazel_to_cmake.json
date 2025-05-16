@@ -10,12 +10,11 @@
   },
   "bazel_to_cmake": {},
   "name": "aws_c_s3",
-  "package_name": "aws_c_s3",
-  "version": "0.7.15",
   "doc_homepage": "https://github.com/awslabs/aws-c-s3",
-  "deps": [
+  "build_deps": [
     "aws_c_auth",
     "aws_c_http",
     "aws_checksums"
-  ]
+  ],
+  "build_targets": {}
 }

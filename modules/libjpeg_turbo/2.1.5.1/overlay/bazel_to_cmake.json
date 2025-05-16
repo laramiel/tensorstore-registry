@@ -14,9 +14,14 @@
     "//:jpeg": "JPEG::JPEG"
   },
   "name": "libjpeg_turbo",
-  "package_name": "libjpeg_turbo",
-  "version": "2.1.5.1",
   "doc_homepage": "https://github.com/libjpeg-turbo/libjpeg-turbo",
   "has_system_package": true,
-  "deps": []
+  "build_deps": [
+    "bazel_skylib",
+    "platforms",
+    "rules_cc"
+  ],
+  "build_targets": {
+    "jpeg": "cc_library"
+  }
 }

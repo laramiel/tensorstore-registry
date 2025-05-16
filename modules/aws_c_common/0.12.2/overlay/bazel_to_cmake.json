@@ -10,10 +10,13 @@
   },
   "bazel_to_cmake": {},
   "name": "aws_c_common",
-  "package_name": "aws_c_common",
-  "version": "0.12.2",
   "doc_homepage": "https://github.com/awslabs/aws-c-common",
-  "deps": [
-    "platforms"
-  ]
+  "build_deps": [
+    "bazel_skylib",
+    "platforms",
+    "rules_cc"
+  ],
+  "build_targets": {
+    "aws_c_common": "cc_library"
+  }
 }

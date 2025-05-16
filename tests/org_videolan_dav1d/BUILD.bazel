@@ -4,28 +4,3 @@ build_test(
   name = "dav1d_test",
   targets = ["@org_videolan_dav1d//:dav1d"],
 )
-
-build_test(
-  name = "dav1d_core_test",
-  targets = ["@org_videolan_dav1d//:dav1d_core"],
-)
-
-build_test(
-  name = "dav1d_8bit_test",
-  targets = ["@org_videolan_dav1d//:dav1d_8bit"],
-)
-
-build_test(
-  name = "dav1d_16bit_test",
-  targets = ["@org_videolan_dav1d//:dav1d_16bit"],
-)
-
-build_test(
-  name = "dav1d_asm_x86_test",
-  targets = ["@org_videolan_dav1d//:dav1d_asm_x86"],
-)
-
-build_test(
-  name = "headers_test",
-  targets = ["@org_videolan_dav1d//:headers"],
-)

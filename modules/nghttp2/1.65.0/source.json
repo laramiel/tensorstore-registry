@@ -4,7 +4,7 @@
   "integrity": "sha256-vPCBEr1YP4VDd20Ibc3t4Vm4fhJho25q4dkxyBKjynA=",
   "strip_prefix": "nghttp2-1.65.0",
   "overlay": {
-    "bazel_to_cmake.json": "sha256-PYfgVYGG0Nn87PSyfr31RXdRQEuJiKKgVOCkwgAjHC8=",
+    "bazel_to_cmake.json": "sha256-NcZf+jYM7QpG7hiPgcZLIReaFANPGBKypRFeVPexcQI=",
     "BUILD.bazel": "sha256-aGVXddtFFXECNmozqlAdGqo9NDjBml80HUiQCv8xZ1Y=",
     "MODULE.bazel": "sha256-2aipm8AMSZ6N7N828KCxORo05zHtCH7m/y3hpPTI38c="
   }

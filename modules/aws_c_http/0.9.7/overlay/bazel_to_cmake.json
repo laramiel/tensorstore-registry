@@ -10,11 +10,10 @@
   },
   "bazel_to_cmake": {},
   "name": "aws_c_http",
-  "package_name": "aws_c_http",
-  "version": "0.9.7",
   "doc_homepage": "https://github.com/awslabs/aws-c-http",
-  "deps": [
+  "build_deps": [
     "aws_c_compression",
     "aws_c_io"
-  ]
+  ],
+  "build_targets": {}
 }

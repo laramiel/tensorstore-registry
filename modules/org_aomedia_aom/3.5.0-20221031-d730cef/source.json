@@ -3,9 +3,9 @@
   "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/aomedia.googlesource.com/aom/+archive/d730cef03ac754f2b6a233e926cd925d8ce8de81.tar.gz",
   "integrity": "sha256-f4eWC+Ye24RuJbfRDk5BrvbWUvYicOGRcufK+um1Nq0=",
   "overlay": {
-    "bazel_to_cmake.json": "sha256-3fW3/JPD06qOg9fqeZ6ph67yvqI5fD1PWDghUD4yceo=",
+    "bazel_to_cmake.json": "sha256-xi0krbKuOJl5LebJZincX+wGG5RpKDnAs/VOYif1g1k=",
     "BUILD.bazel": "sha256-Sxl1Y5KfOqjbnjVX+N4NwYLa0CDXaqH8d6bp6C3bYS8=",
-    "MODULE.bazel": "sha256-pXfmq/3uUA1IeAeUYgTsBbfW2naDOLXzMKRNt1VDk7I="
+    "MODULE.bazel": "sha256-7o15LF2R+zGsMhcaP5i7tC2Kt6c3jdy0zoMfvcxbPv4="
   },
   "patches": {
     "fix-3395.diff": "sha256-6E4N1q2XTBtqBd0sjm3t5mNVfBf/0xZ9AQE05RzfrMI="

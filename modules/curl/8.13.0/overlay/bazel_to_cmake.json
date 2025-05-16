@@ -14,15 +14,19 @@
     "//:curl": "CURL::libcurl"
   },
   "name": "curl",
-  "package_name": "curl",
-  "version": "8.13.0",
   "has_system_package": true,
-  "deps": [
+  "build_deps": [
+    "bazel_skylib",
     "boringssl",
     "brotli",
     "c-ares",
     "nghttp2",
+    "platforms",
+    "rules_cc",
     "zlib",
     "zstd"
-  ]
+  ],
+  "build_targets": {
+    "curl": "cc_library"
+  }
 }

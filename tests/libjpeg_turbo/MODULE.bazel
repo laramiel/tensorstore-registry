@@ -5,7 +5,9 @@ module(
     compatibility_level = 1,
     bazel_compatibility = [">=7.2.1"],
 )
-
-bazel_dep(name = "libjpeg_turbo", version = "2.1.5.1")
-
 bazel_dep(name = "bazel_skylib", version = "1.7.1")
+single_version_override(module_name = "bazel_skylib", version = "1.7.1")
+bazel_dep(name = "libjpeg_turbo", version = "2.1.5.1")
+single_version_override(module_name = "libjpeg_turbo", version = "2.1.5.1")
+bazel_dep(name = "protobuf", version = "30.2")
+single_version_override(module_name = "protobuf", version = "30.2")

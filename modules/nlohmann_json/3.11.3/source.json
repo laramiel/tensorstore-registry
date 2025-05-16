@@ -4,6 +4,6 @@
   "integrity": "sha256-BAIrBdgG61/3MCPCgLaGl9Erk+G3JnoLIqGjnsdXgGk=",
   "strip_prefix": "json-3.11.3",
   "overlay": {
-    "bazel_to_cmake.json": "sha256-H6eD6UhXkuQYHjh1miCo2b8R16ygnnnPpxgdI6ooyb4="
+    "bazel_to_cmake.json": "sha256-0D1Y4YIYr5uO3VjSWoWIe3X/DrywI/zutHwNVgniZC8="
   }
 }

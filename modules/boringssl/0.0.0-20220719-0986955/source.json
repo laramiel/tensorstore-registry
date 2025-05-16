@@ -1,9 +1,0 @@
-{
-  "type": "archive",
-  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/google/boringssl/archive/refs/tags/0.20250415.0.tar.gz",
-  "integrity": "sha256-stZMTVLFBdYLD7hoM1aNxHYkRZENendX/5sXLlVWywE=",
-  "strip_prefix": "boringssl-0.20250415.0",
-  "overlay": {
-    "bazel_to_cmake.json": "sha256-KhgBIrKMEp16eNnZmd6m1Jb+wDk2On/CNXVUJi1x0pc="
-  }
-}

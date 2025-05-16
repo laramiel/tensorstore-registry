@@ -2,5 +2,8 @@
   "type": "archive",
   "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/bazelbuild/rules_license/archive/1.0.0.tar.gz",
   "integrity": "sha256-dXWZOa7zrrcm6AFBeog97vra23/qSZRqH1u3SlFi6B4=",
-  "strip_prefix": "rules_license-1.0.0"
+  "strip_prefix": "rules_license-1.0.0",
+  "overlay": {
+    "MODULE.bazel": "sha256-p/2mDu/fPYyCcmK6SZlX5N8G9lkzC75s29uXW3aLtlw="
+  }
 }

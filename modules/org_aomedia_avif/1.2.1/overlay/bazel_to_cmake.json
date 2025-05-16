@@ -13,13 +13,15 @@
     "AVIF": "AVIF::AVIF"
   },
   "name": "org_aomedia_avif",
-  "package_name": "org_aomedia_avif",
-  "version": "1.2.1",
   "doc_homepage": "https://github.com/AOMediaCodec/libavif",
   "has_system_package": true,
-  "deps": [
+  "build_deps": [
     "libyuv",
     "org_aomedia_aom",
-    "org_videolan_dav1d"
-  ]
+    "org_videolan_dav1d",
+    "rules_cc"
+  ],
+  "build_targets": {
+    "avif": "cc_library"
+  }
 }

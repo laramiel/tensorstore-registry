@@ -14,9 +14,13 @@
     "@blake3//:blake3": "BLAKE3::BLAKE3"
   },
   "name": "blake3",
-  "package_name": "blake3",
-  "version": "1.8.2",
   "doc_homepage": "https://github.com/BLAKE3-team/BLAKE3",
   "has_system_package": true,
-  "deps": []
+  "build_deps": [
+    "bazel_skylib",
+    "platforms"
+  ],
+  "build_targets": {
+    "blake3": "cc_library"
+  }
 }

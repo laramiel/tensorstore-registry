@@ -14,9 +14,8 @@
     "//:bz2": "BZip2::BZip2"
   },
   "name": "bzip2",
-  "package_name": "bzip2",
-  "version": "1.0.8",
   "doc_homepage": "https://sourceware.org/",
   "has_system_package": true,
-  "deps": []
+  "build_deps": [],
+  "build_targets": {}
 }

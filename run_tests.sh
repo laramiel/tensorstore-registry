@@ -1,10 +1,15 @@
 
 REG="file://$(PWD)"
 
-for x in tests/*; do
+function test_repo() {
 (
-  echo "$x"
-  cd $x
-  bazelisk test "--registry=$REG" --registry=https://bcr.bazel.build //:all
+  # --registry=https://bcr.bazel.build 
+  echo "$1"
+  cd $1
+  bazelisk test "--registry=${REG:-file:///Users/lar/github/tensorstore-registry}" --registry=https://bcr.bazel.build  --explain=test.txt --verbose_failures //:all
 )
-done
+}
+
+for x in tests/*; do test_repo $x; done
+
+# --registry=https://bcr.bazel.build 

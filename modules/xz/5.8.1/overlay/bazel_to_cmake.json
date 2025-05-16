@@ -12,8 +12,12 @@
   },
   "bazel_to_cmake": {},
   "name": "xz",
-  "package_name": "xz",
-  "version": "5.8.1",
   "has_system_package": true,
-  "deps": []
+  "build_deps": [
+    "bazel_skylib",
+    "platforms"
+  ],
+  "build_targets": {
+    "lzma": "cc_library"
+  }
 }

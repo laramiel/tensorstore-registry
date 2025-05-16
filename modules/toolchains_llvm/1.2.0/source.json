@@ -1,6 +1,0 @@
-{
-  "type": "archive",
-  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/bazel-contrib/toolchains_llvm/releases/download/v1.2.0/toolchains_llvm-v1.2.0.tar.gz",
-  "integrity": "sha256-4/ttxrd+rxZ8srDEEN+V0JEny+IFR+WjKcdxgIqBarQ=",
-  "strip_prefix": "toolchains_llvm-v1.2.0"
-}

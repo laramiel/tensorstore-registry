@@ -1,0 +1,31 @@
+{
+  "urls": [
+    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/google/benchmark/archive/v1.9.2.zip"
+  ],
+  "sha256": "a13cdcd3b0e3725e371f977a2855fecd651fc0236c67da16e325b726057b15b4",
+  "strip_prefix": "benchmark-1.9.2",
+  "patches": [
+    "//third_party:google_benchmark/patches/fix_mingw.diff"
+  ],
+  "doc_version": "1.9.0",
+  "patch_args": [
+    "-p1"
+  ],
+  "cmake_name": "benchmark",
+  "bazel_to_cmake": {
+    "include": [
+      ""
+    ]
+  },
+  "name": "google_benchmark",
+  "bazel_deps": {
+    "bazel_skylib": "1.7.1",
+    "platforms": "0.0.10",
+    "rules_cc": "0.0.9",
+    "rules_python": "1.0.0",
+    "googletest": "1.14.0",
+    "libpfm": "4.11.0.bcr.1",
+    "nanobind_bazel": "2.5.0"
+  },
+  "doc_homepage": "https://github.com/google/benchmark"
+}

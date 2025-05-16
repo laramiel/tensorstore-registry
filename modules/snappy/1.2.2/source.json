@@ -1,0 +1,11 @@
+{
+  "type": "archive",
+  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/google/snappy/archive/6af9287fbdb913f0794d0148c6aa43b58e63c8e3.tar.gz",
+  "integrity": "sha256-McVm7WU6v6aJYyMuUql7m4mEHVJV2tPIi9nXTbMDnSg=",
+  "strip_prefix": "snappy-6af9287fbdb913f0794d0148c6aa43b58e63c8e3",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-KCI+M38rYZKswkCGX9Wa4BenXTPGpv98SJTjgObbG5w=",
+    "BUILD.bazel": "sha256-npzfWuyS8kJpak9310M/zCM+VCSgK+usQNrMYjmWWRA=",
+    "MODULE.bazel": "sha256-AZFf9x+ccKAE7ZGCPn62NrjMw7qOBc1EOvtsTDYuWZI="
+  }
+}

@@ -15,10 +15,13 @@
     "ZLIB": "ZLIB::ZLIB"
   },
   "name": "zlib",
-  "package_name": "zlib",
-  "version": "1.3.0.1-20240223",
   "has_system_package": true,
-  "deps": [
-    "platforms"
-  ]
+  "build_deps": [
+    "bazel_skylib",
+    "platforms",
+    "rules_cc"
+  ],
+  "build_targets": {
+    "zlib": "cc_library"
+  }
 }

@@ -10,12 +10,11 @@
   },
   "bazel_to_cmake": {},
   "name": "aws_c_event_stream",
-  "package_name": "aws_c_event_stream",
-  "version": "0.5.4",
   "doc_homepage": "https://github.com/awslabs/aws-c-event-stream",
-  "deps": [
+  "build_deps": [
     "aws_c_common",
     "aws_c_io",
     "aws_checksums"
-  ]
+  ],
+  "build_targets": {}
 }

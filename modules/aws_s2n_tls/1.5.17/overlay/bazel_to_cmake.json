@@ -10,10 +10,12 @@
   },
   "bazel_to_cmake": {},
   "name": "aws_s2n_tls",
-  "package_name": "aws_s2n_tls",
-  "version": "1.5.17",
   "doc_homepage": "https://github.com/aws/s2n-tls",
-  "deps": [
-    "boringssl"
-  ]
+  "build_deps": [
+    "boringssl",
+    "rules_cc"
+  ],
+  "build_targets": {
+    "s2n_tls": "cc_library"
+  }
 }

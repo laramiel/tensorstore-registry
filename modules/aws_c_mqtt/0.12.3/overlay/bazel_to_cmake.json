@@ -10,11 +10,10 @@
   },
   "bazel_to_cmake": {},
   "name": "aws_c_mqtt",
-  "package_name": "aws_c_mqtt",
-  "version": "0.12.3",
   "doc_homepage": "https://github.com/awslabs/aws-c-mqtt",
-  "deps": [
+  "build_deps": [
     "aws_c_http",
     "aws_c_io"
-  ]
+  ],
+  "build_targets": {}
 }

@@ -43,7 +43,17 @@
     ]
   },
   "name": "xds",
-  "package_name": "xds",
-  "version": "0.0.0-20240905-b4127c9",
+  "bazel_deps": {
+    "bazel_skylib": "1.5.0",
+    "cel-spec": "0.15.0",
+    "gazelle": "0.36.0",
+    "googleapis": "0.0.0-20240326-1c8d509c5",
+    "grpc": "1.56.3.bcr.1",
+    "protobuf": "29.1",
+    "protoc-gen-validate": "1.0.4",
+    "re2": "2024-05-01",
+    "rules_go": "0.46.0",
+    "rules_proto": "6.0.0"
+  },
   "doc_homepage": "https://github.com/cncf/xds"
 }

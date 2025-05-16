@@ -2,5 +2,8 @@
   "type": "archive",
   "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/bazel-contrib/bazel_features/archive/v1.17.0.tar.gz",
   "integrity": "sha256-vcEvy+YHYYDYNcndWzaF1QmWYZF2Cg6xCydgJfy3YVg=",
-  "strip_prefix": "bazel_features-1.17.0"
+  "strip_prefix": "bazel_features-1.17.0",
+  "overlay": {
+    "MODULE.bazel": "sha256-LIhud1cQ132jZH88YaPWh+qRVy9GeDWnRaWDuY4vgQA="
+  }
 }

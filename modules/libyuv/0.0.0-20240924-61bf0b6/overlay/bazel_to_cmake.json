@@ -14,7 +14,6 @@
     "LIBYUV": "LIBYUV::LIBYUV"
   },
   "name": "libyuv",
-  "package_name": "libyuv",
-  "version": "0.0.0-20240924-61bf0b6",
-  "deps": []
+  "build_deps": [],
+  "build_targets": {}
 }

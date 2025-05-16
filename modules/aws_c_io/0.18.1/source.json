@@ -4,8 +4,8 @@
   "integrity": "sha256-ZdJ1u94aHSh83N5iFk3AFblhOlUl/miOlyER2KO1aPs=",
   "strip_prefix": "aws-c-io-0.18.1",
   "overlay": {
-    "bazel_to_cmake.json": "sha256-BAQcdUK3DfGZ6ZETHKhVereK+7JgtrRpcWBZKCaZ8x4=",
+    "bazel_to_cmake.json": "sha256-63BJIfz8fhFTWzXv8Wa1d1NUmWu6DQs+IfdhZUtBYeY=",
     "BUILD.bazel": "sha256-TpvFZC7ZWJm9VDCsQaXy+ghOLfC9Pb1qd122Oj9ddDg=",
-    "MODULE.bazel": "sha256-on9PAQohSCyddC5O9HUv0Epd9hdvA+THSbBAzcNoNqg="
+    "MODULE.bazel": "sha256-FkDr2QCqGKJ2pfkZbdu6sf+ckE6B0j1jtliSyaZ9bX0="
   }
 }

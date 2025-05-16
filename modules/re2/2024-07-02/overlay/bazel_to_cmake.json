@@ -15,8 +15,23 @@
     "//:re2": "re2::re2"
   },
   "name": "re2",
-  "package_name": "re2",
-  "version": "2024-07-02",
+  "bazel_deps": {
+    "platforms": "0.0.10",
+    "apple_support": "1.15.1",
+    "rules_cc": "0.0.9",
+    "abseil-cpp": "20240116.2",
+    "rules_python": "0.33.2",
+    "pybind11_bazel": "2.12.0",
+    "google_benchmark": "1.8.4",
+    "googletest": "1.14.0.bcr.1",
+    "abseil-py": "2.1.0"
+  },
   "doc_homepage": "https://github.com/google/re2",
-  "deps": []
+  "build_deps": [
+    "abseil-cpp",
+    "platforms"
+  ],
+  "build_targets": {
+    "re2": "cc_library"
+  }
 }

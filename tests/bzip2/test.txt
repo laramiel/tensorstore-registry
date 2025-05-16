@@ -1,0 +1,12 @@
+Build options: --registry=file:///Users/lar/github/tensorstore-registry --registry=https://bcr.bazel.build --explain=test.txt --verbose_failures
+Executing action 'BazelWorkspaceStatusAction stable-status.txt': unconditional execution is requested.
+Executing action 'Writing repo mapping manifest for //:bz2_test': action command has changed (try --verbose_explanations for more info).
+Executing action 'Compiling huffman.c': One of the files has changed.
+Executing action 'Compiling randtable.c': One of the files has changed.
+Executing action 'Compiling blocksort.c': One of the files has changed.
+Executing action 'Compiling crctable.c': One of the files has changed.
+Executing action 'Compiling bzlib.c': One of the files has changed.
+Executing action 'Compiling decompress.c': One of the files has changed.
+Executing action 'Compiling compress.c': One of the files has changed.
+Executing action 'Linking external/bzip2+/libbz2.a': One of the files has changed.
+Executing action 'Executing genrule //:bz2_test_0__deps': One of the files has changed.

@@ -13,7 +13,5 @@
   },
   "bazel_to_cmake": {},
   "name": "nlohmann_json",
-  "package_name": "nlohmann_json",
-  "version": "3.11.3",
   "has_system_package": true
 }

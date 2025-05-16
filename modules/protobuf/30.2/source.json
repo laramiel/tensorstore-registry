@@ -4,11 +4,11 @@
   "integrity": "sha256-B6Q9iP5aOOQ0x/lBKcrVakxDpR+ZM2B00HmcL31ORMU=",
   "strip_prefix": "protobuf-30.2",
   "overlay": {
-    "bazel_to_cmake.json": "sha256-6HmRK3S/8MUwojsl7xODw0rPmeuAqP7GglSs2zKBmOY=",
-    "BUILD.bazel_to_cmake": "sha256-k+IPP6+9pKpSguhFTAPC0YC+P1gZLsoBl0u9k+xLpzs="
+    "bazel_to_cmake.json": "sha256-pNrsRpaM+2EYoJgzi/YJwzz4ShmymRGvi/48dWR9O8A=",
+    "BUILD.bazel_to_cmake": "sha256-k+IPP6+9pKpSguhFTAPC0YC+P1gZLsoBl0u9k+xLpzs=",
+    "MODULE.bazel": "sha256-a4s3+DkPuvm+5e7VWGlyOAgvq2WKiomWMoYoKSrnnS4="
   },
   "patches": {
-    "win_infinity.diff": "sha256-4B4ZVMhqLXcHhXnQ+iEqjfVXmQWdjoirPrVwHXSGYfU=",
     "no_rules_java.diff": "sha256-IAJwjQASKlK3rW1v/u4jjaBunTLF3Xp0Kbzea5s2rFI="
   },
   "patch_strip": 1

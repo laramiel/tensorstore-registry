@@ -16,8 +16,13 @@
     "DAV1D": "DAV1D::DAV1D"
   },
   "name": "org_videolan_dav1d",
-  "package_name": "org_videolan_dav1d",
-  "version": "1.5.1",
   "doc_homepage": "https://github.com/videolan/dav1d",
-  "deps": []
+  "build_deps": [
+    "bazel_skylib",
+    "platforms",
+    "rules_cc"
+  ],
+  "build_targets": {
+    "dav1d": "cc_library"
+  }
 }

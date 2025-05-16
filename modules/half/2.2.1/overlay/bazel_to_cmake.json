@@ -10,8 +10,9 @@
   },
   "bazel_to_cmake": {},
   "name": "net_sourceforge_half",
-  "package_name": "half",
-  "version": "2.2.1",
   "doc_homepage": "https://sourceforge.net/",
-  "deps": []
+  "build_deps": [],
+  "build_targets": {
+    "half": "cc_library"
+  }
 }

@@ -107,6 +107,11 @@
     "ABSL_FIND_GOOGLETEST": "ON"
   },
   "name": "abseil-cpp",
-  "package_name": "abseil-cpp",
-  "version": "20250429-5f3435aba"
+  "bazel_deps": {
+    "rules_cc": "0.1.1",
+    "bazel_skylib": "1.7.1",
+    "platforms": "0.0.11",
+    "google_benchmark": "1.9.2",
+    "googletest": "1.16.0.bcr.1"
+  }
 }

@@ -19,10 +19,10 @@
     "Zstd": "Zstd::Zstd"
   },
   "name": "zstd",
-  "package_name": "zstd",
-  "version": "1.5.7",
   "has_system_package": true,
-  "deps": [
-    "platforms"
-  ]
+  "build_deps": [
+    "platforms",
+    "rules_cc"
+  ],
+  "build_targets": {}
 }

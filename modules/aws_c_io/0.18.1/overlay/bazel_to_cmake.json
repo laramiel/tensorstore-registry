@@ -10,13 +10,14 @@
   },
   "bazel_to_cmake": {},
   "name": "aws_c_io",
-  "package_name": "aws_c_io",
-  "version": "0.18.1",
   "doc_homepage": "https://github.com/awslabs/aws-c-io",
-  "deps": [
+  "build_deps": [
     "aws_c_cal",
     "aws_c_common",
     "aws_s2n_tls",
-    "boringssl"
-  ]
+    "boringssl",
+    "platforms",
+    "rules_cc"
+  ],
+  "build_targets": {}
 }

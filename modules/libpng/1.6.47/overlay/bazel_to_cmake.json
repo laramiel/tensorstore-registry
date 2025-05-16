@@ -11,11 +11,15 @@
     "//:png": "PNG::PNG"
   },
   "name": "libpng",
-  "package_name": "libpng",
-  "version": "1.6.47",
   "doc_homepage": "https://github.com/pnggroup/libpng",
   "has_system_package": true,
-  "deps": [
+  "build_deps": [
+    "bazel_skylib",
+    "platforms",
+    "rules_cc",
     "zlib"
-  ]
+  ],
+  "build_targets": {
+    "png": "cc_library"
+  }
 }

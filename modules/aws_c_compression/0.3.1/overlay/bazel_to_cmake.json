@@ -10,10 +10,9 @@
   },
   "bazel_to_cmake": {},
   "name": "aws_c_compression",
-  "package_name": "aws_c_compression",
-  "version": "0.3.1",
   "doc_homepage": "https://github.com/awslabs/aws-c-compression",
-  "deps": [
+  "build_deps": [
     "aws_c_common"
-  ]
+  ],
+  "build_targets": {}
 }
