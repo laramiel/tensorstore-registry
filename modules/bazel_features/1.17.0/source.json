@@ -4,6 +4,6 @@
   "integrity": "sha256-vcEvy+YHYYDYNcndWzaF1QmWYZF2Cg6xCydgJfy3YVg=",
   "strip_prefix": "bazel_features-1.17.0",
   "overlay": {
-    "MODULE.bazel": "sha256-LIhud1cQ132jZH88YaPWh+qRVy9GeDWnRaWDuY4vgQA="
+    "MODULE.bazel": "sha256-RsPC2SIrqd5jzfNc6MC3SoEwNezNRMVWofc9SOyPG3k="
   }
 }

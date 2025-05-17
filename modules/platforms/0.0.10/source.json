@@ -3,6 +3,6 @@
   "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/bazelbuild/platforms/releases/download/0.0.10/platforms-0.0.10.tar.gz",
   "integrity": "sha256-IY7+juc20mo1cmY7N0olPAErcW2K8MB+hC6C8jigp+4=",
   "overlay": {
-    "MODULE.bazel": "sha256-jLjvryAL3rIVDZPhYsQPOIUpolhSszLOyHk3N3HkjtU="
+    "MODULE.bazel": "sha256-W7p0zlxeqZlbZZZe4qP60QDrJTRjtQ5xaWHT3xUYG8o="
   }
 }

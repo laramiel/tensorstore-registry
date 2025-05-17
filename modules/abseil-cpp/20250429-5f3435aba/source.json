@@ -5,6 +5,6 @@
   "strip_prefix": "abseil-cpp-5f3435aba00bcd7f12062d2e8e1839b4eaf1a575",
   "overlay": {
     "bazel_to_cmake.json": "sha256-KQyPez6gJGhh1YTm3lMzU1QfR0rLrqEfSvhLRlIbT4I=",
-    "MODULE.bazel": "sha256-jMSajaFXOKxtmbTZHZ+R7Pyi8pF9DNspMawbBpWk4Sw="
+    "MODULE.bazel": "sha256-aDP1g9tW1kY56PwF5VZoZG1PSxy5EkYqJA5h+EpzZK8="
   }
 }

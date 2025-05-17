@@ -4,6 +4,6 @@
   "integrity": "sha256-PhFEJKXH5P1D4BM8xuzf5U5Fror/oU+t2DnymQFCQEM=",
   "strip_prefix": "rules_shell-0.4.0",
   "overlay": {
-    "MODULE.bazel": "sha256-blW9AxoxawsVwBOADt/rQuOb3L7QmwKpIVsC/MYgvBA="
+    "MODULE.bazel": "sha256-6n/0Rysyoq9jRZpTiPRREL0jk6PVcYTilJGYbAiio5k="
   }
 }

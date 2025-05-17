@@ -5,6 +5,6 @@
   "strip_prefix": "googletest-cd430b47a54841ec45d64d2377d7cabaf0eba610",
   "overlay": {
     "bazel_to_cmake.json": "sha256-4ZMYBam75ZmmQ1GK+36m3A6uIvTdQTkH9RItk3u+rEk=",
-    "MODULE.bazel": "sha256-Ste8PhXOnPbDAbIkgW0Ctb+o2fP3ml+lw6FlyJnVGAA="
+    "MODULE.bazel": "sha256-HvzZ/hlKpEDNQNRo+c8yGml7wdT/rdB5KwuWWw+Dzi8="
   }
 }

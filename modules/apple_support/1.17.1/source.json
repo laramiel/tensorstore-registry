@@ -3,6 +3,6 @@
   "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/bazelbuild/apple_support/releases/download/1.17.1/apple_support.1.17.1.tar.gz",
   "integrity": "sha256-tT9kkedCVJ8ThmYo3f/MddHzstaYfcTxShayQhE8iQs=",
   "overlay": {
-    "MODULE.bazel": "sha256-bJIXW56Uz7+ddRLIUFUYyV3nNsKGSihBZ+sKD/mBKI0="
+    "MODULE.bazel": "sha256-nI7+6MnDBA+Ed6dgldXsoBA/ph5jkdu0+OUn/vTtyEY="
   }
 }

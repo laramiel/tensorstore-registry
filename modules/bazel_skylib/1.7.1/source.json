@@ -4,6 +4,6 @@
   "integrity": "sha256-4/6gP/damCHoQZlGZ5m6Vg2667KZxlW1MH9N8eWXBpY=",
   "strip_prefix": "bazel-skylib-1.7.1",
   "overlay": {
-    "MODULE.bazel": "sha256-cO1tThfWF0m9NLCgmHZrBs2E4/qWhKOXGZHRX5XQnUA="
+    "MODULE.bazel": "sha256-TI2KJVnTu09GFfBqypKB6Tt8QNjY27E29oTZ69aRVj0="
   }
 }

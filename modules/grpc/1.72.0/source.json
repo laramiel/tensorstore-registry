@@ -5,7 +5,7 @@
   "strip_prefix": "grpc-1.72.0",
   "overlay": {
     "bazel_to_cmake.json": "sha256-/Nf8C4QKwnDmEnKJs8jeEr1dMYEXTOLG8Ej3DRQzd8o=",
-    "MODULE.bazel": "sha256-sqguJnhxdoP5GKyHNkAF/Qvzrjv8qbDK5o6Ri6QllLE="
+    "MODULE.bazel": "sha256-PV89y0ep5O5k2/J4FXeIFq8tK0eh91PQq7tyFJ+81X0="
   },
   "patches": {
     "update_build_system.diff": "sha256-eKYg3jbEGLYRdbeBcLRDjY5NoKJQHoy6+FDPa0lG2mc=",

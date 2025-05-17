@@ -6,6 +6,6 @@
   "overlay": {
     "bazel_to_cmake.json": "sha256-19LwkzMe8pfqIZNv1pNqboqJvtUyyltzeruLngKHKTA=",
     "BUILD.bazel": "sha256-npzfWuyS8kJpak9310M/zCM+VCSgK+usQNrMYjmWWRA=",
-    "MODULE.bazel": "sha256-AZFf9x+ccKAE7ZGCPn62NrjMw7qOBc1EOvtsTDYuWZI="
+    "MODULE.bazel": "sha256-zb2+r21bncHnOqW0MgISuaz/lkTkddM1buZ6PsjQu50="
   }
 }

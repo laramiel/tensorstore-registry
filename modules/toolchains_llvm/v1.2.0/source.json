@@ -4,6 +4,6 @@
   "integrity": "sha256-4/ttxrd+rxZ8srDEEN+V0JEny+IFR+WjKcdxgIqBarQ=",
   "strip_prefix": "toolchains_llvm-v1.2.0",
   "overlay": {
-    "MODULE.bazel": "sha256-H32UwIte2dI5BB3CiEl5LazPRhQsoV4tUqOe/6tsH0g="
+    "MODULE.bazel": "sha256-2i6JbFGuVYBFgWCUAeRutGoc5EEFohqrUQ+AZGA1zpE="
   }
 }
