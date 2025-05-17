@@ -5,7 +5,7 @@
   "strip_prefix": "riegeli-bcae1d3b1f6da547e77119c463bcab67d7f785d3",
   "overlay": {
     "bazel_to_cmake.json": "sha256-ae0SuaMQZpOyj335ZJvoLNc7xExRcXCYyH0HFnJN82A=",
-    "MODULE.bazel": "sha256-WZ23AJ8U+cjvPD7lxa/c3/+cyXRnVS/m6N4A0SyE0X8="
+    "MODULE.bazel": "sha256-B9bH9v3MZZiThlhB2yEZlIXnRp/bBl8WTgzqEZ1XiLM="
   },
   "patches": {
     "chain.diff": "sha256-EaRNdckMlV+xydRf+5AEQtdvpX5UEAZGPatjd1W0h9U="

@@ -6,10 +6,9 @@
   "overlay": {
     "bazel_to_cmake.json": "sha256-pNrsRpaM+2EYoJgzi/YJwzz4ShmymRGvi/48dWR9O8A=",
     "BUILD.bazel_to_cmake": "sha256-k+IPP6+9pKpSguhFTAPC0YC+P1gZLsoBl0u9k+xLpzs=",
-    "MODULE.bazel": "sha256-1LLIYzhJjF4WPLdZXLYTkvsb88fn1s257PwnA1ZZoSU="
+    "MODULE.bazel": "sha256-GIpbU91h6msA1y9LIzc9vTW5H71CJcsiRntRwsD4a1A="
   },
   "patches": {
-    "win_infinity.diff": "sha256-4B4ZVMhqLXcHhXnQ+iEqjfVXmQWdjoirPrVwHXSGYfU=",
     "no_rules_java.diff": "sha256-IAJwjQASKlK3rW1v/u4jjaBunTLF3Xp0Kbzea5s2rFI="
   },
   "patch_strip": 1

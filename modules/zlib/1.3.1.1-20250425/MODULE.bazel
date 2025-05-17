@@ -1,7 +1,7 @@
 
 module(
     name = "zlib",
-    version = "1.3.0.1-20240223",
+    version = "1.3.1.1-20250425",
     compatibility_level = 1,
     bazel_compatibility = [">=7.2.1"],
 )

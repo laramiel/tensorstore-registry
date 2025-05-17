@@ -18,7 +18,7 @@ bazel_dep(name='rules_apple', version='3.16.0', repo_name='build_bazel_rules_app
 bazel_dep(name='rules_cc', version='0.1.1')
 bazel_dep(name='rules_proto', version='7.1.0')
 bazel_dep(name='xds', version='0.0.0-20240905-b4127c9', repo_name='com_github_cncf_xds')
-bazel_dep(name='zlib', version='1.3.0.1-20240223')
+bazel_dep(name='zlib', version='1.3.1.1-20250425')
 switched_rules = use_extension('@com_google_googleapis//:extensions.bzl', 'switched_rules')
 switched_rules.use_languages(cc=True, grpc=True, python=True)
 bazel_dep(name='fuzztest', version='20241028.0', dev_dependency=True, repo_name='com_google_fuzztest')
