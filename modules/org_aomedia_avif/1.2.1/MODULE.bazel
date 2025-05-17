@@ -5,4 +5,8 @@ module(
     compatibility_level = 1,
     bazel_compatibility = [">=7.2.1"],
 )
+bazel_dep(name = "libyuv", version = "0.0.0-20240924-61bf0b6")
+bazel_dep(name = "org_aomedia_aom", version = "3.5.0-20221031-d730cef")
+bazel_dep(name = "org_videolan_dav1d", version = "1.5.1")
+bazel_dep(name = "rules_cc", version = "0.1.1")
 

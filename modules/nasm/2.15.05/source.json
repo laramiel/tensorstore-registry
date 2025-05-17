@@ -5,6 +5,6 @@
   "strip_prefix": "nasm-2.15.05",
   "overlay": {
     "BUILD.bazel": "sha256-KndpDb8Xoxy6ZvRyUc6fm/v5sKvcZ+3cnfmznF8efSA=",
-    "MODULE.bazel": "sha256-Q1h2eGiwKIANfnWPIhpdT+T6pc/PaQE8MDyAgey9Pn8="
+    "MODULE.bazel": "sha256-MeOSLc0cU02DDf6YDT+TumIlKj8Ze1X1HvSm4l8j09k="
   }
 }

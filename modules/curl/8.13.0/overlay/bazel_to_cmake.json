@@ -19,7 +19,6 @@
     "bazel_skylib",
     "boringssl",
     "brotli",
-    "c-ares",
     "nghttp2",
     "platforms",
     "rules_cc",

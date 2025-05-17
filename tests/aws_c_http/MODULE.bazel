@@ -5,8 +5,12 @@ module(
     compatibility_level = 1,
     bazel_compatibility = [">=7.2.1"],
 )
+bazel_dep(name = "aws_c_compression", version = "0.3.1")
+single_version_override(module_name = "aws_c_compression", version = "0.3.1")
 bazel_dep(name = "aws_c_http", version = "0.9.7")
 single_version_override(module_name = "aws_c_http", version = "0.9.7")
+bazel_dep(name = "aws_c_io", version = "0.18.1")
+single_version_override(module_name = "aws_c_io", version = "0.18.1")
 bazel_dep(name = "bazel_skylib", version = "1.7.1")
 single_version_override(module_name = "bazel_skylib", version = "1.7.1")
 bazel_dep(name = "protobuf", version = "30.2")
