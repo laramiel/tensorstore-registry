@@ -5,7 +5,7 @@
   "strip_prefix": "aws-c-common-0.12.2",
   "overlay": {
     "bazel_to_cmake.json": "sha256-u//pIsKgG6WzUonV6QwalnK05PnuQxQEmBQBmLmeUqs=",
-    "BUILD.bazel": "sha256-TNBchtr3xahLIFRyH2fDw8IIpq+uxmNJGPWR/bX5zzI=",
+    "BUILD.bazel": "sha256-UYjwc9/XDyk+AbqfsWGF6J/TZqU0THYBwDzjgKf+Lms=",
     "MODULE.bazel": "sha256-26vvywjobQ33Kl5cZS7zOTr9l8ztn/TflhAFmRr8TMA="
   }
 }

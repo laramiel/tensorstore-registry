@@ -1,5 +1,5 @@
 {
-  "doc_version": "1.2.1-20240817-32ded45",
+  "doc_version": "1.2.2-20250426-6af9287",
   "urls": [
     "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/google/snappy/archive/6af9287fbdb913f0794d0148c6aa43b58e63c8e3.tar.gz"
   ],
@@ -8,10 +8,11 @@
   "cmake_name": "Snappy",
   "bazel_to_cmake": {},
   "cmake_target_mapping": {
-    "//:snappy": "Snappy::Snappy"
+    "//:snappy": "Snappy::Snappy",
+    "//:snappy-c": "Snappy::Snappy_c"
   },
   "cmake_package_redirect_libraries": {
-    "Snappy": "Snappy::Snappy"
+    "Snappy": "Snappy::Snappy_c"
   },
   "name": "snappy",
   "bazel_deps": {
@@ -22,9 +23,11 @@
   "doc_homepage": "https://github.com/google/snappy",
   "has_system_package": true,
   "build_deps": [
-    "bazel_skylib"
+    "bazel_skylib",
+    "platforms"
   ],
   "build_targets": {
-    "snappy": "cc_library"
+    "snappy": "cc_library",
+    "snappy-c": "cc_library"
   }
 }

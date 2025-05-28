@@ -25,7 +25,8 @@
   "build_deps": [
     "bazel_skylib",
     "platforms",
-    "rules_cc"
+    "rules_cc",
+    "rules_nasm"
   ],
   "build_targets": {
     "libaom": "cc_library"

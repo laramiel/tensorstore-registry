@@ -4,8 +4,8 @@
   "integrity": "sha256-+mNeK9slFHsThAB8g+Fd5ExYlYK7O5pT/BV5y510tpU=",
   "strip_prefix": "dav1d-1.5.1",
   "overlay": {
-    "bazel_to_cmake.json": "sha256-5wvZvQt//18Wq53kli1MY+hYisvSUkwbZ6aFIn+U1Jc=",
-    "BUILD.bazel": "sha256-294ntzGc9t7tbzsFidspoOsZzpFUHDMVLYNCGftfFno=",
-    "MODULE.bazel": "sha256-oUua1/Zq5le80/wcZzTLG2/bV+RNIDGT/0G32boYiAM="
+    "bazel_to_cmake.json": "sha256-viOgyz6l/5GzsLGgrrGtoqr8/f6K9TMqpn/hlxAoXB4=",
+    "BUILD.bazel": "sha256-O7rc0gktkTBFO9JTeET+TDJweRieMUsN1THHHN6JtY8=",
+    "MODULE.bazel": "sha256-PTbpylJyuYtWcF8KW6HqV7/ZsaI87NnqdAVbJF0q51k="
   }
 }

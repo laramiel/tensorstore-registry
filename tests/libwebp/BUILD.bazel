@@ -6,11 +6,71 @@ build_test(
 )
 
 build_test(
-  name = "webp_utils_test",
-  targets = ["@libwebp//:webp_utils"],
+  name = "utils_dec_test",
+  targets = ["@libwebp//:utils_dec"],
+)
+
+build_test(
+  name = "utils_test",
+  targets = ["@libwebp//:utils"],
+)
+
+build_test(
+  name = "headers_internal_test",
+  targets = ["@libwebp//:headers_internal"],
+)
+
+build_test(
+  name = "dec_test",
+  targets = ["@libwebp//:dec"],
+)
+
+build_test(
+  name = "enc_test",
+  targets = ["@libwebp//:enc"],
+)
+
+build_test(
+  name = "dsp_test",
+  targets = ["@libwebp//:dsp"],
+)
+
+build_test(
+  name = "dsp_sse2_test",
+  targets = ["@libwebp//:dsp_sse2"],
+)
+
+build_test(
+  name = "dsp_sse41_test",
+  targets = ["@libwebp//:dsp_sse41"],
+)
+
+build_test(
+  name = "dsp_avx2_test",
+  targets = ["@libwebp//:dsp_avx2"],
+)
+
+build_test(
+  name = "dsp_neon_test",
+  targets = ["@libwebp//:dsp_neon"],
 )
 
 build_test(
   name = "sharpyuv_test",
   targets = ["@libwebp//:sharpyuv"],
+)
+
+build_test(
+  name = "sharpyuv_hdrs_test",
+  targets = ["@libwebp//:sharpyuv_hdrs"],
+)
+
+build_test(
+  name = "sharpyuv_sse2_test",
+  targets = ["@libwebp//:sharpyuv_sse2"],
+)
+
+build_test(
+  name = "sharpyuv_neon_test",
+  targets = ["@libwebp//:sharpyuv_neon"],
 )

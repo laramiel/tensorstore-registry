@@ -1,0 +1,9 @@
+{
+  "homepage": "https://github.com/bazel-contrib/rules_python",
+  "repository": [
+    "github:bazel-contrib/rules_python"
+  ],
+  "versions": [
+    "1.4.1"
+  ]
+}

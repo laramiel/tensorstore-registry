@@ -20,7 +20,8 @@
   "build_deps": [
     "bazel_skylib",
     "platforms",
-    "rules_cc"
+    "rules_cc",
+    "rules_nasm"
   ],
   "build_targets": {
     "dav1d": "cc_library"

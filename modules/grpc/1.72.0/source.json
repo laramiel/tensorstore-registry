@@ -4,8 +4,8 @@
   "integrity": "sha256-SoqpnV4k+A6mt+yVRj4Wr1vZGqgF4mxmHvZJGuPS0jw=",
   "strip_prefix": "grpc-1.72.0",
   "overlay": {
-    "bazel_to_cmake.json": "sha256-/Nf8C4QKwnDmEnKJs8jeEr1dMYEXTOLG8Ej3DRQzd8o=",
-    "MODULE.bazel": "sha256-zi+kctgJzc97mzkdwrCvBATQYj2nmN2bLdHj+40PtgU="
+    "bazel_to_cmake.json": "sha256-6KyORzSweXZrLbCXBHT0uWqJIAtxqsj1h0Xes5ujSEU=",
+    "MODULE.bazel": "sha256-B4WL50DTWI2U7sonuxe4WWeY3dE57AMqlPqQ29qAjeU="
   },
   "patches": {
     "update_build_system.diff": "sha256-eKYg3jbEGLYRdbeBcLRDjY5NoKJQHoy6+FDPa0lG2mc=",

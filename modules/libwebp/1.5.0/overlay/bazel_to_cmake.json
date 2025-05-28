@@ -23,11 +23,24 @@
   "doc_homepage": "https://github.com/webmproject/libwebp",
   "has_system_package": true,
   "build_deps": [
-    "platforms"
+    "platforms",
+    "rules_cc"
   ],
   "build_targets": {
     "webp": "cc_library",
-    "webp_utils": "cc_library",
-    "sharpyuv": "cc_library"
+    "utils_dec": "cc_library",
+    "utils": "cc_library",
+    "headers_internal": "cc_library",
+    "dec": "cc_library",
+    "enc": "cc_library",
+    "dsp": "cc_library",
+    "dsp_sse2": "cc_library",
+    "dsp_sse41": "cc_library",
+    "dsp_avx2": "cc_library",
+    "dsp_neon": "cc_library",
+    "sharpyuv": "cc_library",
+    "sharpyuv_hdrs": "cc_library",
+    "sharpyuv_sse2": "cc_library",
+    "sharpyuv_neon": "cc_library"
   }
 }

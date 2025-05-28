@@ -19,7 +19,8 @@
   "build_deps": [
     "bazel_skylib",
     "platforms",
-    "rules_cc"
+    "rules_cc",
+    "rules_nasm"
   ],
   "build_targets": {
     "jpeg": "cc_library"

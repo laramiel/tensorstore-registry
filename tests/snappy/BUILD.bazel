@@ -4,3 +4,8 @@ build_test(
   name = "snappy_test",
   targets = ["@snappy//:snappy"],
 )
+
+build_test(
+  name = "snappy-c_test",
+  targets = ["@snappy//:snappy-c"],
+)

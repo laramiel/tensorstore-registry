@@ -5,7 +5,7 @@
   "strip_prefix": "zstd-1.5.7",
   "overlay": {
     "bazel_to_cmake.json": "sha256-Pz7+VGbq0KEWZ88Wp4sKvUslEtadNFO9Iy2ARC9DEeA=",
-    "BUILD.bazel": "sha256-vPyX2qY25EJReh8nJXLoEp3QgQbRqLTIbDfNEw75Bts=",
+    "BUILD.bazel": "sha256-JFd33YNod28EDSAlRKzmKJceWsBuNQUnq/tIBbOgN10=",
     "MODULE.bazel": "sha256-Xv3hkKpzv89nmII/+JHrQQv+QbUSyuiVFKQWOgmmBx0="
   }
 }

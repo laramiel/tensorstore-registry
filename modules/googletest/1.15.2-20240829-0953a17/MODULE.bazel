@@ -2,7 +2,7 @@ module(name='googletest', version='1.15.2-20240829-0953a17', compatibility_level
 bazel_dep(name='abseil-cpp', version='20250429-5f3435aba')
 bazel_dep(name='platforms', version='0.0.10')
 bazel_dep(name='re2', version='2024-07-02')
-bazel_dep(name='rules_python', version='1.1.0', dev_dependency=True)
+bazel_dep(name='rules_python', version='1.4.1', dev_dependency=True)
 python = use_extension('@rules_python//python/extensions:python.bzl', 'python', dev_dependency=True)
 python.toolchain(ignore_root_user_error=True, is_default=True, python_version='3.12')
 fuchsia_sdk = use_extension('//:fake_fuchsia_sdk.bzl', 'fuchsia_sdk')

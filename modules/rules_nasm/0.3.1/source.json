@@ -1,0 +1,13 @@
+{
+  "type": "archive",
+  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/morganwl/rules_nasm/archive/0.3.1.tar.gz",
+  "integrity": "sha256-zXnBzP8tKQ+R6j0jtC3yRoZdyI4SR88ZOZnj4fTNaIY=",
+  "strip_prefix": "rules_nasm-0.3.1",
+  "overlay": {
+    "MODULE.bazel": "sha256-Z53LfehT0ltI6OLX5jq/O2lk1V7Kx9t2vdayD49BYwA="
+  },
+  "patches": {
+    "rules_nasm_pull_56.diff": "sha256-JxrgptkUXaAXj4CSQ1mstdgK3nnmU/Yi3Ieq6k4DXoA="
+  },
+  "patch_strip": 1
+}

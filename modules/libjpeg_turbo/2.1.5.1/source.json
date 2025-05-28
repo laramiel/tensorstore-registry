@@ -4,8 +4,8 @@
   "integrity": "sha256-YYRiUZQeV5EAX7f6zhlu7CRUH84E8SVwwwhVdSnpLHU=",
   "strip_prefix": "libjpeg-turbo-2.1.5.1",
   "overlay": {
-    "bazel_to_cmake.json": "sha256-J5mjcP6+UMq9b1+oD+vc0hqMTVUs2Ju8LDsFQ+yeThA=",
-    "BUILD.bazel": "sha256-EtNYKNjKhTXffWl/TpieX/0jyKd7Q0z8GWdE30RojMw=",
-    "MODULE.bazel": "sha256-kltfBraz21tHq+ryV3eZO5WrdMClzcs1jpGonGiQnoE="
+    "bazel_to_cmake.json": "sha256-mRCtARd/03Ii9bGDtL+bLcFEmI/42uLyxI95LV57Abg=",
+    "BUILD.bazel": "sha256-9PulNAIMrNe2Gfr4ZfGDCw7D99fqiwNY/uw12MKsvLY=",
+    "MODULE.bazel": "sha256-e+HEqbrDxw2WFNz7SjY/tHgh1IPhHL0PdNTWmN6aqq4="
   }
 }

@@ -18,7 +18,8 @@
   "has_system_package": true,
   "build_deps": [
     "bazel_skylib",
-    "platforms"
+    "platforms",
+    "rules_cc"
   ],
   "build_targets": {
     "blake3": "cc_library"

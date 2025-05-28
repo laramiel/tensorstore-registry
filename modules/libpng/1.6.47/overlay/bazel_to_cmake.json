@@ -17,9 +17,11 @@
     "bazel_skylib",
     "platforms",
     "rules_cc",
+    "rules_license",
     "zlib"
   ],
   "build_targets": {
+    "null": "package",
     "png": "cc_library"
   }
 }
