@@ -5,7 +5,7 @@
   "strip_prefix": "c-ares-1.34.5",
   "overlay": {
     "bazel_to_cmake.json": "sha256-ZmjzZTwpLxK6IxOAUloApqs56fmlnsDanvZsSQcD824=",
-    "BUILD.bazel": "sha256-sS5lAXRLcns0oMPB6O4HUNPaKyl4SqRsGHOYYNjT61w=",
+    "BUILD.bazel": "sha256-qBaP2gpoUhkEnPTjZmgKtORFOy3y/g4bdXu2Pgf3nPY=",
     "MODULE.bazel": "sha256-ig4eXE9Anb5coeDYqqYHsqq8AlR8T8yeOX+yFBCDLEo="
   }
 }

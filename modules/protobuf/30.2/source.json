@@ -6,7 +6,6 @@
   "overlay": {
     "bazel_to_cmake.json": "sha256-Wra8HRauZ4cm6RtgLU7u6v7N9zZ6uWqWO9IsK14wWao=",
     "BUILD.bazel_to_cmake": "sha256-k+IPP6+9pKpSguhFTAPC0YC+P1gZLsoBl0u9k+xLpzs=",
-    "cmake_extra.BUILD.bazel": "sha256-k+IPP6+9pKpSguhFTAPC0YC+P1gZLsoBl0u9k+xLpzs=",
     "MODULE.bazel": "sha256-JFdQ5zFQ73s5hNoE7fHvS1kDcCRelD0RrnRMZgegm6U="
   },
   "patches": {

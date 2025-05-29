@@ -501,21 +501,21 @@ expand_template(
     name = "config_h_tmpl",
     out = "config/aom_config.h",
     substitutions = CONFIG_SUBSTITUTIONS,
-    template = "@tensorstore//third_party:org_aomedia_aom/aom_config.h.template",
+    template = "aom_config.h.template",
 )
 
 expand_template(
     name = "config_asm_tmpl",
     out = "config/aom_config.asm",
     substitutions = CONFIG_SUBSTITUTIONS,
-    template = "@tensorstore//third_party:org_aomedia_aom/aom_config.asm.template",
+    template = "aom_config.asm.template",
 )
 
 expand_template(
     name = "config_version_tmpl",
     out = "config/aom_version.h",
     substitutions = CONFIG_SUBSTITUTIONS,
-    template = "@tensorstore//third_party:org_aomedia_aom/aom_version.h.template",
+    template = "aom_version.h.template",
 )
 
 write_file(
@@ -551,7 +551,7 @@ GENERATED_CONFIGS = [
     copy_file(
         name = "copy_{tag}".format(tag = tag),
         src = select({
-            condition: "@tensorstore//third_party:org_aomedia_aom/generated_configs/{config}/{tag}.h".format(
+            condition: "generated_configs/{config}/{tag}.h".format(
                 config = config,
                 tag = tag,
             )
