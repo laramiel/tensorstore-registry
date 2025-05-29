@@ -1,11 +1,6 @@
 load("@bazel_skylib//rules:build_test.bzl", "build_test")
 
 build_test(
-  name = "None_test",
-  targets = ["@libpng//:None"],
-)
-
-build_test(
   name = "png_test",
   targets = ["@libpng//:png"],
 )

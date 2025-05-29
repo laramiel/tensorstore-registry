@@ -21,7 +21,6 @@
     "zlib"
   ],
   "build_targets": {
-    "null": "package",
     "png": "cc_library"
   }
 }

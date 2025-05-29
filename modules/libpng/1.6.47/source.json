@@ -4,7 +4,7 @@
   "integrity": "sha256-YxpMWOpsEMgfFgxLIfqElbcV0lFpjrwlUgd+hFDzBFQ=",
   "strip_prefix": "libpng-1.6.47",
   "overlay": {
-    "bazel_to_cmake.json": "sha256-amMYWT8BQTtgqXZ3pzmmkZ3ptgIC8UbtTEmv38wJTFM=",
+    "bazel_to_cmake.json": "sha256-/LYrRKfv5Bpiz9miYSxaOHm1aFOkCTd7frPlSdoJS7c=",
     "BUILD.bazel": "sha256-k9NkUs2tDuSZ0uUZCAdYMesIYjdaF0ccWFMw3k0xCac=",
     "MODULE.bazel": "sha256-GAD+tZpqSbYLdL718DftJTXPHp9NiF9gZpWsRtWhZAE="
   }
