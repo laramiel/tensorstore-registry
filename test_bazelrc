@@ -1,0 +1,11 @@
+
+build --incompatible_disallow_empty_glob=False
+
+# Use absl with googletest
+build --define=absl=1
+build --define=protobuf_allow_msvc=true
+
+# Configure C++17 mode
+build --per_file_copt=.*\\.h$,.*\\.cc$,.*\\.cpp$@-std=c++17,-fsized-deallocation
+build --host_per_file_copt=.*\\.h$,.*\\.cc$,.*\\.cpp$@-std=c++17,-fsized-deallocation
+

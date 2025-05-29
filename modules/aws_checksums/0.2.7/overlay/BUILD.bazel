@@ -79,7 +79,7 @@ selects.config_setting_group(
 
 [
     selects.config_setting_group(
-        name = cpu_os + "_" + compiler[0],
+        name = cpu + "_" + compiler[0],
         match_all = [
             "@platforms//cpu:" + cpu,
             compiler[1],
