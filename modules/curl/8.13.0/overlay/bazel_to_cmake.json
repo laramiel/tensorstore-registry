@@ -26,6 +26,7 @@
     "zstd"
   ],
   "build_targets": {
-    "curl": "cc_library"
+    "curl": "cc_library",
+    "curl_lib_includes": "cc_library"
   }
 }

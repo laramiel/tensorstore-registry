@@ -5,7 +5,7 @@
   "strip_prefix": "aws-checksums-0.2.7",
   "overlay": {
     "bazel_to_cmake.json": "sha256-cy7IjfxM7hpUQGSq9tQIEgY/dW3qEE7pMbQMBTU/4Qk=",
-    "BUILD.bazel": "sha256-HSH0vXNF01oL3IF0mak+hgC+Hrz7lCQpH3dc0ewWZXg=",
+    "BUILD.bazel": "sha256-/WTte2duk4u61Y2a9HXmvvjQFCYgUtxxjMNOFWcWZIA=",
     "MODULE.bazel": "sha256-kkvu4VR0vgrV9/RDGDN31/5Z5iS6Ch5IR1t1p2PEpiU="
   }
 }
