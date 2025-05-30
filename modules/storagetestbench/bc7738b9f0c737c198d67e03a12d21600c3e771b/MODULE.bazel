@@ -5,4 +5,12 @@ module(
     compatibility_level = 1,
     bazel_compatibility = [">=7.2.1"],
 )
+# bazel_dep(name = "pypa_crc32c")
+# bazel_dep(name = "pypa_flask")
+# bazel_dep(name = "pypa_googleapis_common_protos")
+# bazel_dep(name = "pypa_grpcio")
+# bazel_dep(name = "pypa_protobuf")
+# bazel_dep(name = "pypa_requests_toolbelt")
+# bazel_dep(name = "pypa_scalpl")
+# bazel_dep(name = "pypa_werkzeug")
 

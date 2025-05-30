@@ -14,7 +14,7 @@
     "@com_github_grpc_grpc": "@grpc"
   },
   "cmake_name": "envoy",
-  "cmake_extra_build_file": "//third_party:envoy_api/cmake_extra.BUILD.bazel",
+  "cmake_extra_build_file": "BUILD.bazel_to_cmake",
   "bazel_to_cmake": {
     "args": [
       "--ignore-library=//bazel/cc_proto_descriptor_library:builddefs.bzl",

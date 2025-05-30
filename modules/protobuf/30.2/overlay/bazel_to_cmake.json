@@ -17,7 +17,7 @@
     "@proto_bazel_features": "@bazel_features"
   },
   "cmake_name": "protobuf",
-  "cmake_extra_build_file": "//third_party:com_google_protobuf/cmake_extra.BUILD.bazel",
+  "cmake_extra_build_file": "BUILD.bazel_to_cmake",
   "bazel_to_cmake": {
     "args": [
       "--bind=//src/google/protobuf:wkt_cc_proto=//src/google/protobuf:cmake_wkt_cc_proto",
