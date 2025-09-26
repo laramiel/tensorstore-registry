@@ -1,7 +1,7 @@
 {
   "strip_prefix": "re2-2024-07-02",
   "urls": [
-    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/google/re2/releases/download/2024-07-02/re2-2024-07-02.tar.gz"
+    "https://github.com/google/re2/releases/download/2024-07-02/re2-2024-07-02.tar.gz"
   ],
   "sha256": "eb2df807c781601c14a260a507a5bb4509be1ee626024cb45acbd57cb9d4032b",
   "doc_version": "2024-07-02",
@@ -29,7 +29,8 @@
   "doc_homepage": "https://github.com/google/re2",
   "build_deps": [
     "abseil-cpp",
-    "platforms"
+    "platforms",
+    "rules_cc"
   ],
   "build_targets": {
     "re2": "cc_library"

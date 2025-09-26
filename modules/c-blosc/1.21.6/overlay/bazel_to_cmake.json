@@ -1,7 +1,7 @@
 {
   "strip_prefix": "c-blosc-1.21.6",
   "urls": [
-    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/Blosc/c-blosc/archive/v1.21.6.zip"
+    "https://github.com/Blosc/c-blosc/archive/v1.21.6.zip"
   ],
   "sha256": "1919c97d55023c04aa8771ea8235b63e9da3c22e3d2a68340b33710d19c2a2eb",
   "cmake_name": "Blosc",

@@ -1,0 +1,23 @@
+{
+  "sha256": "f9f3bc6a069e2efe25fcdf73e4d2b16b5608c327d2eb57c8f7a8524e9e1fcad0",
+  "strip_prefix": "aws-c-cal-0.9.2",
+  "urls": [
+    "https://github.com/awslabs/aws-c-cal/archive/v0.9.2.tar.gz"
+  ],
+  "cmake_name": "aws_c_cal",
+  "cmake_target_mapping": {
+    "@aws_c_cal//:aws_c_cal": "aws_c_cal::aws_c_cal"
+  },
+  "bazel_to_cmake": {},
+  "name": "aws_c_cal",
+  "doc_homepage": "https://github.com/awslabs/aws-c-cal",
+  "build_deps": [
+    "aws_c_common",
+    "boringssl",
+    "platforms",
+    "rules_cc"
+  ],
+  "build_targets": {
+    "aws_c_cal": "cc_library"
+  }
+}

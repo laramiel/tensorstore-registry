@@ -1,0 +1,11 @@
+{
+  "type": "archive",
+  "url": "https://github.com/awslabs/aws-c-io/archive/v0.21.4.tar.gz",
+  "integrity": "sha256-3ck11q4Of9o7QEp8Is4goKGCXBiNAIfJ/8gX6OcGAyU=",
+  "strip_prefix": "aws-c-io-0.21.4",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-dT2Kj2VhaPuBfm3FgG5g5dJBU6z+TwX1lrAnyRTis48=",
+    "BUILD.bazel": "sha256-+YeudMcsSumLiVvx0oF7hA81tBOtwUYXGav/jN1gdwM=",
+    "MODULE.bazel": "sha256-GcqxZUGe+AJrf/QFbbhpjTavbhD5cJvLHg0jH1dlvJ0="
+  }
+}

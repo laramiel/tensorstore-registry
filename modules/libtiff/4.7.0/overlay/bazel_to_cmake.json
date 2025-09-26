@@ -1,6 +1,6 @@
 {
   "urls": [
-    "https://storage.googleapis.com/tensorstore-bazel-mirror/download.osgeo.org/libtiff/tiff-4.7.0.tar.gz"
+    "https://download.osgeo.org/libtiff/tiff-4.7.0.tar.gz"
   ],
   "sha256": "67160e3457365ab96c5b3286a0903aa6e78bdc44c4bc737d2e486bcecb6ba976",
   "doc_version": "4.7.0",
@@ -14,7 +14,7 @@
   },
   "bazel_to_cmake": {},
   "name": "libtiff",
-  "doc_homepage": "https://download.osgeo.org/",
+  "doc_homepage": "https://download.osgeo.org/libtiff/tiff-4.7.0.tar.gz",
   "has_system_package": true,
   "build_deps": [
     "bazel_skylib",

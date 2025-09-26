@@ -1,10 +1,10 @@
 {
   "type": "archive",
-  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/envoyproxy/data-plane-api/archive/d9c5e84658eef279e9a021ff0517f8f8ee35d79a.tar.gz",
+  "url": "https://github.com/envoyproxy/data-plane-api/archive/d9c5e84658eef279e9a021ff0517f8f8ee35d79a.tar.gz",
   "integrity": "sha256-qfHrdsjoFT7IHOBEA8iCm0J4YGC3ux3MkbWXIgtx6vY=",
   "strip_prefix": "data-plane-api-d9c5e84658eef279e9a021ff0517f8f8ee35d79a",
   "overlay": {
-    "bazel_to_cmake.json": "sha256-zTj+7FQ1lrWGQWCcJmExq3o76UxflVIvmmQpUB4oJps=",
+    "bazel_to_cmake.json": "sha256-0EkFEF+BOsUwpUb9YFt7JPFfTRvbGgI3LHEkxUSsavo=",
     "BUILD.bazel_to_cmake": "sha256-2HKDhpeUcFOwMeY3bnhrsDTxnSkQMSHHMmFDAtdedfE="
   }
 }

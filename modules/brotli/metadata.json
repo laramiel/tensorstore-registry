@@ -4,6 +4,7 @@
     "github:google/brotli"
   ],
   "versions": [
+    "1.1.0",
     "1.1.0-20250426-440e036"
   ]
 }

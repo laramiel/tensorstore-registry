@@ -1,0 +1,11 @@
+{
+  "type": "archive",
+  "url": "https://github.com/awslabs/aws-c-http/archive/v0.10.4.tar.gz",
+  "integrity": "sha256-3+7qouhMzaTIywwp9BIpjfgKV6JwA+cW8tPfl5SVb8E=",
+  "strip_prefix": "aws-c-http-0.10.4",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-rK031Iby1sI9HJW0pX61ALNypEPvtdFbKQQlHfNLqB8=",
+    "BUILD.bazel": "sha256-Wn3cDv7jYfuQ0o0t1FHTwKU8Au3XbyUff4P8X6gVpXc=",
+    "MODULE.bazel": "sha256-K6bIy9upqEFNzEn+kzd+bQblz+041nyxEtTB1Dxb1gI="
+  }
+}

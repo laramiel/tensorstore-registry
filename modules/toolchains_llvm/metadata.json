@@ -4,6 +4,7 @@
     "github:bazel-contrib/toolchains_llvm"
   ],
   "versions": [
-    "v1.2.0"
+    "1.2.0"
+    "1.4.0",
   ]
 }

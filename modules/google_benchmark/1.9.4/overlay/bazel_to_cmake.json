@@ -1,0 +1,31 @@
+{
+  "urls": [
+    "https://github.com/google/benchmark/archive/v1.9.4.zip"
+  ],
+  "sha256": "7a273667fbc23480df1306f82bdb960672811dd29a0342bb34e14040307cf820",
+  "strip_prefix": "benchmark-1.9.4",
+  "patches": [
+    "//third_party:google_benchmark/patches/fix_mingw.diff"
+  ],
+  "doc_version": "1.9.0",
+  "patch_args": [
+    "-p1"
+  ],
+  "cmake_name": "benchmark",
+  "bazel_to_cmake": {
+    "include": [
+      ""
+    ]
+  },
+  "name": "google_benchmark",
+  "bazel_deps": {
+    "bazel_skylib": "1.7.1",
+    "platforms": "0.0.10",
+    "rules_cc": "0.0.9",
+    "rules_python": "1.0.0",
+    "googletest": "1.14.0",
+    "libpfm": "4.11.0.bcr.1",
+    "nanobind_bazel": "2.7.0"
+  },
+  "doc_homepage": "https://github.com/google/benchmark"
+}

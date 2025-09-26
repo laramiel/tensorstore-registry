@@ -1,7 +1,7 @@
 {
   "type": "archive",
-  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/aomedia.googlesource.com/aom/+archive/d730cef03ac754f2b6a233e926cd925d8ce8de81.tar.gz",
-  "integrity": "sha256-f4eWC+Ye24RuJbfRDk5BrvbWUvYicOGRcufK+um1Nq0=",
+  "url": "https://aomedia.googlesource.com/aom/+archive/d730cef03ac754f2b6a233e926cd925d8ce8de81.tar.gz",
+  "integrity": "sha256-Dss+DSN/PQVbNO+srUe7OGY6Pj2ZpLMN4elx6U0b3iQ=",
   "overlay": {
     "post_update.py": "sha256-xVONPxIwSqaOvC+pQ8cQKmqXd9dheJ+KKo04NiT4zBU=",
     "aom_config.h.template": "sha256-VqCVC7BBonAryKQ3dMdyARgRR8Fj3rtYQ2KvNqKu6ok=",
@@ -18,9 +18,9 @@
     "generated_configs/x86_64/aom_dsp_rtcd.h": "sha256-Dc2wrErRRIa0RuaBUEWQU1G+/fskGPrDKJHLY+5y09w=",
     "generated_configs/x86_64/aom_scale_rtcd.h": "sha256-NppxkfuyZJPV6/ckf0r5kvqUZfxNLYkrmHlq8/8KGqU=",
     "aom_config.asm.template": "sha256-EinPcw90woQFI75aQlxdL1XChH5M6uAaKijWtofj/4E=",
-    "bazel_to_cmake.json": "sha256-dBc/E9Rcz4yUc/85ZgDkmec+zJ+f0oOEpiI9AVYqlpU=",
-    "BUILD.bazel": "sha256-cOePafcx4V3BRFbQYgdqF8wQeJlZ77LLBDb5zo6sMy0=",
-    "MODULE.bazel": "sha256-rV++nIS3QP1QJxoDKTWUEehczaNIltJNe2FFBhvl7Ko=",
+    "bazel_to_cmake.json": "sha256-A4Zl3K/BWyw2S1nfiVyIPZnQHuC7DSo5HqwOP5Lus4c=",
+    "BUILD.bazel": "sha256-oozBFDSzqifypg88c3coW0mgWq0Y5PqbBtYym+JbMRI=",
+    "MODULE.bazel": "sha256-xFI8zRACOfe0AIFTbkk8ZQHtHZm2KSVNT5StJJuXc7A=",
     "aom_version.h.template": "sha256-nPQvNTgijp8Uf8+iHgafQhsOcPjOPfzNeFjgjrgpCL4="
   },
   "patches": {

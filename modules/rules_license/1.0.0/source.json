@@ -1,9 +1,9 @@
 {
   "type": "archive",
-  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/bazelbuild/rules_license/archive/1.0.0.tar.gz",
+  "url": "https://github.com/bazelbuild/rules_license/archive/1.0.0.tar.gz",
   "integrity": "sha256-dXWZOa7zrrcm6AFBeog97vra23/qSZRqH1u3SlFi6B4=",
   "strip_prefix": "rules_license-1.0.0",
   "overlay": {
-    "MODULE.bazel": "sha256-doq3CCElpsJI9oDFk4GVLewt/JWuh/Fc9puxDFh1ibU="
+    "MODULE.bazel": "sha256-vOoj63I79m0O64qXZkgjpAYeepysfVSCx20bG52xit0="
   }
 }

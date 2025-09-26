@@ -1,0 +1,10 @@
+{
+  "type": "archive",
+  "url": "https://github.com/google/riegeli/archive/4214a733e7aad4654cc789e3b1ff4687f923323d.tar.gz",
+  "integrity": "sha256-BsYY/6Eb5QS1YaAQO91GnOrms7a4RLul1YG9/8cwH08=",
+  "strip_prefix": "riegeli-4214a733e7aad4654cc789e3b1ff4687f923323d",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-267qzfH4k+QU63UKfdQJSuwB7wfby62lzavu5DJwG08=",
+    "MODULE.bazel": "sha256-+GCMSfqhepm6jGM3smB+oAo0xUA1pWLoPU+ACKR4A0A="
+  }
+}

@@ -1,12 +1,16 @@
 {
   "type": "archive",
-  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/tukaani-project/xz/releases/download/v5.8.1/xz-5.8.1.tar.gz",
+  "url": "https://github.com/tukaani-project/xz/releases/download/v5.8.1/xz-5.8.1.tar.gz",
   "integrity": "sha256-UHgltZk1bBDcoc1yDJ0NDJ1UALneMArwDk0eoVB5VUM=",
   "strip_prefix": "xz-5.8.1",
   "overlay": {
     "config/config_generic.h": "sha256-fM00LWL7RTAdoVK47SDo/R2H9dBZPB7SmtmSWJzkhjI=",
-    "bazel_to_cmake.json": "sha256-/f4HRYgpKBc/jxTqY/JIPxDYt7ZSBwiEk89EWKVba+w=",
-    "BUILD.bazel": "sha256-rMrNAGrukJSXZJPPYWtM2ODIc9OdackjWd+hmYbe5os=",
-    "MODULE.bazel": "sha256-W/WR/aMB9lqLwNV7bWvZ6EEuSzGQLw0KxqspmRh4+F0="
-  }
+    "bazel_to_cmake.json": "sha256-mvMfA4hqo7Uaq2rSfoc62BLy1eb568BbS5pEPBu6nzM=",
+    "BUILD.bazel": "sha256-TrZyQrQHnTLghQIbGLkeALrawhVDHNXDiZj0j87BAmM=",
+    "MODULE.bazel": "sha256-iMn/RflyfCSRxM94yntSlpqYZDqAPxhBvlD7L3G03RQ="
+  },
+  "patches": {
+    "remove_have_config.diff": "sha256-G8uD46q9v/QLp0nM2mgIEWqLlXuPmdkp1o1cb1Hu/6M="
+  },
+  "patch_strip": 1
 }

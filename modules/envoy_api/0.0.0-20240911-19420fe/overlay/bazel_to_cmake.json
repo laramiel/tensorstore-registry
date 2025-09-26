@@ -1,6 +1,5 @@
 {
   "urls": [
-    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/envoyproxy/data-plane-api/archive/d9c5e84658eef279e9a021ff0517f8f8ee35d79a.tar.gz",
     "https://github.com/envoyproxy/data-plane-api/archive/d9c5e84658eef279e9a021ff0517f8f8ee35d79a.tar.gz"
   ],
   "sha256": "a9f1eb76c8e8153ec81ce04403c8829b42786060b7bb1dcc91b597220b71eaf6",

@@ -1,0 +1,11 @@
+{
+  "type": "archive",
+  "url": "https://github.com/libjpeg-turbo/libjpeg-turbo/archive/3.1.1.tar.gz",
+  "integrity": "sha256-MEFlrhHmSrdS6c/AfDe/3Ier0L/kvGmeWfNANtnIT3I=",
+  "strip_prefix": "libjpeg-turbo-3.1.1",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-abHbJb480inKNmUjuhCEHuqq8eEZcV3U5spbZbgI7b0=",
+    "BUILD.bazel": "sha256-VHqLtg0JlK52ULuZMugFzOUh2knSWbqBmIbWXlelTs0=",
+    "MODULE.bazel": "sha256-zO29Uf57RzhxKcOkKtmspKTCictXZzWeKrsHb2YWibw="
+  }
+}

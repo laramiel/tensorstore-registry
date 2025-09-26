@@ -4,6 +4,7 @@
     "github:abseil/abseil-cpp"
   ],
   "versions": [
-    "20250429-5f3435aba"
+    "20250429-5f3435aba",
+    "20250811-274c81389"
   ]
 }

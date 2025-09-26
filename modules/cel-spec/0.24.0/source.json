@@ -1,0 +1,10 @@
+{
+  "type": "archive",
+  "url": "https://github.com/google/cel-spec/archive/v0.24.0.zip",
+  "integrity": "sha256-D6UUbxbbJHtoGflbH3S5fjBXX3AD08I17nlnv59Cw7g=",
+  "strip_prefix": "cel-spec-0.24.0",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-FDYqcOXdVBEt6assmcwI1uMijT/i8cf0gwbMH++zotw=",
+    "MODULE.bazel": "sha256-ypesTguR0qggx4HF+1fo8QqIWfqxYJP8GicHaDFu8tM="
+  }
+}

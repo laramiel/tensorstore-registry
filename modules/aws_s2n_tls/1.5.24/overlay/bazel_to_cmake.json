@@ -1,0 +1,21 @@
+{
+  "sha256": "72a160498f97565d694c740901fbfa320f6fad7db4a8e946ccd5352c9472c556",
+  "strip_prefix": "s2n-tls-1.5.24",
+  "urls": [
+    "https://github.com/aws/s2n-tls/archive/v1.5.24.tar.gz"
+  ],
+  "cmake_name": "s2n_tls",
+  "cmake_target_mapping": {
+    "@aws_s2n_tls//:s2n_tls": "s2n_tls::s2n_tls"
+  },
+  "bazel_to_cmake": {},
+  "name": "aws_s2n_tls",
+  "doc_homepage": "https://github.com/aws/s2n-tls",
+  "build_deps": [
+    "boringssl",
+    "rules_cc"
+  ],
+  "build_targets": {
+    "s2n_tls": "cc_library"
+  }
+}

@@ -1,8 +1,8 @@
 """Bazel dependencies"""
 module(name='rules_proto', version='7.1.0', compatibility_level=1)
 bazel_dep(name='protobuf', version='30.2', repo_name='com_google_protobuf')
-bazel_dep(name='bazel_skylib', version='1.7.1')
-bazel_dep(name='rules_cc', version='0.1.1')
+bazel_dep(name='bazel_skylib', version='1.8.1')
+bazel_dep(name='rules_cc', version='0.1.4')
 bazel_dep(name='rules_license', version='1.0.0')
 bazel_dep(name='platforms', version='0.0.10', dev_dependency=True)
 bazel_dep(name='googletest', version='1.15.2-20240829-0953a17', dev_dependency=True, repo_name='com_google_googletest')

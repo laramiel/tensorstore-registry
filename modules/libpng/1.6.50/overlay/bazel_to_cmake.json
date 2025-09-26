@@ -1,0 +1,26 @@
+{
+  "doc_version": "1.6.50",
+  "urls": [
+    "https://github.com/pnggroup/libpng/archive/v1.6.50.tar.gz"
+  ],
+  "sha256": "71158e53cfdf2877bc99bcab33641d78df3f48e6e0daad030afe9cb8c031aa46",
+  "strip_prefix": "libpng-1.6.50",
+  "cmake_name": "PNG",
+  "bazel_to_cmake": {},
+  "cmake_target_mapping": {
+    "//:png": "PNG::PNG"
+  },
+  "name": "libpng",
+  "doc_homepage": "https://github.com/pnggroup/libpng",
+  "has_system_package": true,
+  "build_deps": [
+    "bazel_skylib",
+    "platforms",
+    "rules_cc",
+    "rules_license",
+    "zlib"
+  ],
+  "build_targets": {
+    "png": "cc_library"
+  }
+}

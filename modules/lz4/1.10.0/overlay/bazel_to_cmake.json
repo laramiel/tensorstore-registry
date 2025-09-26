@@ -1,7 +1,7 @@
 {
   "strip_prefix": "lz4-1.10.0",
   "urls": [
-    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/lz4/lz4/archive/v1.10.0.zip"
+    "https://github.com/lz4/lz4/archive/v1.10.0.zip"
   ],
   "sha256": "3224b4c80f351f194984526ef396f6079bd6332dd9825c72ac0d7a37b3cdc565",
   "doc_homepage": "https://github.com/lz4/lz4",
@@ -16,7 +16,9 @@
   },
   "name": "lz4",
   "has_system_package": true,
-  "build_deps": [],
+  "build_deps": [
+    "rules_cc"
+  ],
   "build_targets": {
     "lz4": "cc_library"
   }

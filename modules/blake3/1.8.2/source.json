@@ -1,11 +1,11 @@
 {
   "type": "archive",
-  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/BLAKE3-team/BLAKE3/archive/1.8.2.tar.gz",
+  "url": "https://github.com/BLAKE3-team/BLAKE3/archive/1.8.2.tar.gz",
   "integrity": "sha256-a1Gu/lFZaXhdoC6Hvvr8f9x6BlzTRYzxFB8pJndJ6B8=",
   "strip_prefix": "BLAKE3-1.8.2",
   "overlay": {
-    "bazel_to_cmake.json": "sha256-5tKmRFAbiaVHD/lkd8wJQxovdNacYyZ2I9lUvETy8Zs=",
-    "BUILD.bazel": "sha256-w/YloZo/JBMNVkkOythMUEXudb8LU/N9X+a3ANI2rq8=",
-    "MODULE.bazel": "sha256-nUg4O09mu4l6C71Eka58UQIeshEcvhiG1ymAYYDCUoA="
+    "bazel_to_cmake.json": "sha256-+gDUY1iIS37gcnJrXC2V9emRK4KOms419b84AqduBDA=",
+    "BUILD.bazel": "sha256-T4Qx9Kpu3b6x9x7CrlaUjSFvif6z7bv8MdqMv2EXKFM=",
+    "MODULE.bazel": "sha256-NfkEc8z2Jb1MAGB028rHBKxUh9hV/MfaVo/fqXV7T4c="
   }
 }

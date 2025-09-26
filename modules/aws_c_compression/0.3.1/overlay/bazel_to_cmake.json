@@ -2,7 +2,7 @@
   "sha256": "d89fca17a37de762dc34f332d2da402343078da8dbd2224c46a11a88adddf754",
   "strip_prefix": "aws-c-compression-0.3.1",
   "urls": [
-    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/awslabs/aws-c-compression/archive/v0.3.1.tar.gz"
+    "https://github.com/awslabs/aws-c-compression/archive/v0.3.1.tar.gz"
   ],
   "cmake_name": "aws_c_compression",
   "cmake_target_mapping": {
@@ -12,7 +12,8 @@
   "name": "aws_c_compression",
   "doc_homepage": "https://github.com/awslabs/aws-c-compression",
   "build_deps": [
-    "aws_c_common"
+    "aws_c_common",
+    "rules_cc"
   ],
   "build_targets": {
     "aws_c_compression": "cc_library"

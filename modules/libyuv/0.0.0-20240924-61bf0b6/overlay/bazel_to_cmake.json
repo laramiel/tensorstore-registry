@@ -2,7 +2,7 @@
   "doc_name": "libyuv",
   "doc_homepage": "https://chromium.googlesource.com/libyuv/libyuv/",
   "urls": [
-    "https://storage.googleapis.com/tensorstore-bazel-mirror/chromium.googlesource.com/libyuv/libyuv/+archive/1e40e34573c3861480d107cd4a4ce290df79951f.tar.gz"
+    "https://chromium.googlesource.com/libyuv/libyuv/+archive/1e40e34573c3861480d107cd4a4ce290df79951f.tar.gz"
   ],
   "sha256": "dc032a4462e6ce994c2c0f01d07a8742f0355661d4f9716ddb621f4578a4f4fc",
   "cmake_name": "libyuv",
@@ -14,7 +14,9 @@
     "LIBYUV": "LIBYUV::LIBYUV"
   },
   "name": "libyuv",
-  "build_deps": [],
+  "build_deps": [
+    "rules_cc"
+  ],
   "build_targets": {
     "libyuv": "cc_library"
   }

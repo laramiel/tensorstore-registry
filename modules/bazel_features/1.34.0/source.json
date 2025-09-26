@@ -1,0 +1,9 @@
+{
+  "type": "archive",
+  "url": "https://github.com/bazel-contrib/bazel_features/archive/v1.34.0.tar.gz",
+  "integrity": "sha256-8Id2wUMOjzUgmgVPgo0JhQGYeeVUxOsyoJPh9JvJIx4=",
+  "strip_prefix": "bazel_features-1.34.0",
+  "overlay": {
+    "MODULE.bazel": "sha256-B78NtykBwp4RY3riJRsT+Il98/3y3hZcyIzShYmHZrM="
+  }
+}

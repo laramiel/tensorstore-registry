@@ -4,6 +4,7 @@
     "github:google/cel-spec"
   ],
   "versions": [
-    "0.16.2"
+    "0.16.2",
+    "0.24.0"
   ]
 }

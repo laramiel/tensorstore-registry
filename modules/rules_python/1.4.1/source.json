@@ -1,9 +1,9 @@
 {
   "type": "archive",
-  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/bazel-contrib/rules_python/archive/1.4.1.tar.gz",
+  "url": "https://github.com/bazel-contrib/rules_python/archive/1.4.1.tar.gz",
   "integrity": "sha256-n587MAqSZOTHeZkxLOZjvl3umlbjYaH2/n7GDhvu+aM=",
   "strip_prefix": "rules_python-1.4.1",
   "overlay": {
-    "MODULE.bazel": "sha256-xf7OLwbOjhVyN1jgSAztVAtkLCHe7R5WOsO+/SWwOe8="
+    "MODULE.bazel": "sha256-gSNhYvsZAc0LUyOwMvg4aW8Yn7cDBONwF9Rbe9op9AE="
   }
 }

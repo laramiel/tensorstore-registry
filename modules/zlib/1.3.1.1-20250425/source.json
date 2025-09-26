@@ -1,10 +1,10 @@
 {
   "type": "archive",
-  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/chromium.googlesource.com/chromium/src/third_party/zlib/+archive/a26c752876190c456e44188db38931561bfa7064.tar.gz",
-  "integrity": "sha256-6v3AgY8JGlCw6/Q5+SvOKP1fMk6T74ZE99j+bBA93zU=",
+  "url": "https://chromium.googlesource.com/chromium/src/third_party/zlib/+archive/a26c752876190c456e44188db38931561bfa7064.tar.gz",
+  "integrity": "sha256-D1HDzGyEEWIuzPrTSp6rWBz2dwWZFeq8ONHLpNNKQ7M=",
   "overlay": {
-    "bazel_to_cmake.json": "sha256-pd4ebAyYBScO7rbb0E9Wi+i0qwc94HNu+VSEmN0RjIw=",
-    "BUILD.bazel": "sha256-fWbYHgtohkXf+HMzOvgH4t+yqEAO/52kawQbAw1hY4o=",
-    "MODULE.bazel": "sha256-iLjziinZKI4xE+/e7pm/rGa5w29/dgE+vCzZX5Fvd2w="
+    "bazel_to_cmake.json": "sha256-vyWAgPDIVdd4+q3AwZCHaafqR0/qFcV1M3P6MGN/oio=",
+    "BUILD.bazel": "sha256-jLaTD6usCrPLo7XdqZ+tOneAfZV5pK6GgSlRWYY3zSM=",
+    "MODULE.bazel": "sha256-LquffF+Xdg6hM6rd0VQ1PbHhRO1YZjyH/mVDILPAnxE="
   }
 }

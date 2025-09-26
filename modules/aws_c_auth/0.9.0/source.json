@@ -1,11 +1,11 @@
 {
   "type": "archive",
-  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/awslabs/aws-c-auth/archive/v0.9.0.tar.gz",
+  "url": "https://github.com/awslabs/aws-c-auth/archive/v0.9.0.tar.gz",
   "integrity": "sha256-qm6Yhk/vuVwknBANpK567Ta6E6ipFBV5Hsb60gvsBCc=",
   "strip_prefix": "aws-c-auth-0.9.0",
   "overlay": {
-    "bazel_to_cmake.json": "sha256-EIPfipjyCUGbZE1Z498SuxFIRRmBo3i1TxUL40j6t30=",
-    "BUILD.bazel": "sha256-KgnR+BxE0tXUSgqDrGguGG6yO8p1N+GdMbrUrH33sZs=",
-    "MODULE.bazel": "sha256-FpzoucdbRl/G2qvNKYZwBQgDernGc03V1lqBElmn0iM="
+    "bazel_to_cmake.json": "sha256-R1kNG9aDmpm/rZR+we4FoyJKQdHg+RAb4Liqk+iT2ZU=",
+    "BUILD.bazel": "sha256-DdtvFG5Z7cyzN6J7UHu5rbbfSeB1ZxtqoDeaeszstWI=",
+    "MODULE.bazel": "sha256-TMtyg+X3yowYm4FLaUhEp1HL0SBBG9KfO8DFDGO0fNY="
   }
 }

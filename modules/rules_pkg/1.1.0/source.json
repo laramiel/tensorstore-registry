@@ -1,0 +1,9 @@
+{
+  "type": "archive",
+  "url": "https://github.com/bazelbuild/rules_pkg/archive/1.1.0.tar.gz",
+  "integrity": "sha256-D68oRn7Zv4gdi1gITRpRKoLfdLu1GCyAYWbQ0msjn6Q=",
+  "strip_prefix": "rules_pkg-1.1.0",
+  "overlay": {
+    "MODULE.bazel": "sha256-4e6y94jvptRsu/nfAqVvm6E8BlXqItbgVeS+QQJFxBQ="
+  }
+}

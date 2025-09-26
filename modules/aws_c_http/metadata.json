@@ -4,6 +4,7 @@
     "github:awslabs/aws-c-http"
   ],
   "versions": [
+    "0.10.4",
     "0.9.7"
   ]
 }

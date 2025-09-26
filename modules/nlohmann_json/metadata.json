@@ -4,6 +4,7 @@
     "github:nlohmann/json"
   ],
   "versions": [
-    "3.11.3"
+    "3.11.3",
+    "3.12.0"
   ]
 }

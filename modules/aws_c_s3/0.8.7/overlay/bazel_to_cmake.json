@@ -1,0 +1,23 @@
+{
+  "sha256": "bbe1159f089ac4e5ddcdf5ef96941489240a3f780c5e140f3c8462df45e787ac",
+  "strip_prefix": "aws-c-s3-0.8.7",
+  "urls": [
+    "https://github.com/awslabs/aws-c-s3/archive/v0.8.7.tar.gz"
+  ],
+  "cmake_name": "aws_c_s3",
+  "cmake_target_mapping": {
+    "@aws_c_s3//:aws_c_s3": "aws_c_s3::aws_c_s3"
+  },
+  "bazel_to_cmake": {},
+  "name": "aws_c_s3",
+  "doc_homepage": "https://github.com/awslabs/aws-c-s3",
+  "build_deps": [
+    "aws_c_auth",
+    "aws_c_http",
+    "aws_checksums",
+    "rules_cc"
+  ],
+  "build_targets": {
+    "aws_c_s3": "cc_library"
+  }
+}

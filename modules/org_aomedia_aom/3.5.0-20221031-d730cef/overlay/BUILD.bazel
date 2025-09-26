@@ -1,10 +1,11 @@
-load("@bazel_skylib//rules:copy_file.bzl", "copy_file")
-
 # Description:
 #   The libaom package is the reference codec for AV1 and AVIF.
 #
+
+load("@bazel_skylib//rules:copy_file.bzl", "copy_file")
 load("@bazel_skylib//rules:expand_template.bzl", "expand_template")
 load("@bazel_skylib//rules:write_file.bzl", "write_file")
+load("@rules_cc//cc:cc_library.bzl", "cc_library")
 load("@rules_nasm//nasm:nasm_cc_library.bzl", "nasm_cc_library")
 
 package(default_visibility = ["//visibility:private"])
@@ -75,6 +76,7 @@ LIBAOM_HEADERS = select({
             "**/*sse4_1.h",
             "**/*ssse3.h",
         ],
+        allow_empty = True,
     ),
 })
 
@@ -187,17 +189,13 @@ AV1_SRC_PATTERNS = {
         "av1/encoder/x86/*_sse2.c",
         "av1/common/x86/*_sse2.c",
         "av1/encoder/x86/*_sse3.c",
-        "av1/common/x86/*_sse3.c",
         "av1/encoder/x86/*_ssse3.c",
         "av1/common/x86/*_ssse3.c",
         "av1/encoder/x86/*_sse4.c",
         "av1/common/x86/*_sse4.c",
         "av1/encoder/x86/*_sse42.c",
-        "av1/common/x86/*_sse42.c",
     ],
     "avx": [
-        "av1/encoder/x86/*_avx.c",
-        "av1/common/x86/*_avx.c",
         "third_party/SVT-AV1/*.h",
     ],
     "avx2": [
@@ -240,7 +238,10 @@ cc_library(
 nasm_cc_library(
     name = "av1_x86_asm",
     srcs = AV1_ASM,
-    copts = ["-w+all"],
+    copts = [
+        "-w+all",
+        "-w-reloc-rel-dword",
+    ],
     hdrs = NASM_HDRS,
     alwayslink = 1,
 )
@@ -312,7 +313,10 @@ cc_library(
 nasm_cc_library(
     name = "dsp_x86_asm",
     srcs = DSP_ASM,
-    copts = ["-w+all"],
+    copts = [
+        "-w+all",
+        "-w-reloc-rel-dword",
+    ],
     hdrs = NASM_HDRS,
     alwayslink = 1,
 )
@@ -407,7 +411,10 @@ nasm_cc_library(
     srcs = [
         "aom_ports/float.asm",
     ],
-    copts = ["-w+all"],
+    copts = [
+        "-w+all",
+        "-w-reloc-rel-dword",
+    ],
     hdrs = NASM_HDRS,
     alwayslink = 1,
 )

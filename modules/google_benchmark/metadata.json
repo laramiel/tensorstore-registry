@@ -4,6 +4,7 @@
     "github:google/benchmark"
   ],
   "versions": [
-    "1.9.2"
+    "1.9.2",
+    "1.9.4"
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "type": "archive",
+  "url": "https://github.com/abseil/abseil-cpp/archive/274c81389f97afc612d76dc7cb5d38144cd9647f.tar.gz",
+  "integrity": "sha256-+yhWBwiM3mW1hJtX3/QjQqJuTj5Xjh9k+i+JXQSw/oU=",
+  "strip_prefix": "abseil-cpp-274c81389f97afc612d76dc7cb5d38144cd9647f",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-lEuMsECUnuAqDSbOwpJ6xZ9MgxGBvuHQecugKf/Q/KQ=",
+    "MODULE.bazel": "sha256-/SRInUUR8FtBnJWDtP1JlxV2hXBi9it/qr61py+yfME="
+  }
+}

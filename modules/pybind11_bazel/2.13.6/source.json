@@ -1,10 +1,10 @@
 {
   "type": "archive",
-  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/pybind/pybind11/archive/v2.13.6.tar.gz",
+  "url": "https://github.com/pybind/pybind11/archive/v2.13.6.tar.gz",
   "integrity": "sha256-4Iy4f0dz2pf6e18DXeh2OrxlbYfVdz5i9toFh9Hw7CA=",
   "strip_prefix": "pybind11-2.13.6",
   "overlay": {
-    "BUILD.bazel": "sha256-Z6thViuPsoKPnHxpV4P6ThILTXNFV9YV/okT4+wpe1M=",
-    "MODULE.bazel": "sha256-IHK53wejttEPDt6xwaJbGmdol/gV7HE6Ygieq+xOCIw="
+    "BUILD.bazel": "sha256-UVIBkJlAunfr6taofDBOBCf5ceewQBFQUGI0K/t6S5Y=",
+    "MODULE.bazel": "sha256-mpIKm91NY4iqPSnmo/F8N9EeFHM27W/XxdRZ8ZohRyo="
   }
 }

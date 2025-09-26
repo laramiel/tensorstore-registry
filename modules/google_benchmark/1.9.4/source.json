@@ -1,0 +1,14 @@
+{
+  "type": "archive",
+  "url": "https://github.com/google/benchmark/archive/v1.9.4.zip",
+  "integrity": "sha256-eic2Z/vCNIDfEwb4K9uWBnKBHdKaA0K7NOFAQDB8+CA=",
+  "strip_prefix": "benchmark-1.9.4",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-6I/vtqlGsu5lbZr6LD/MWHyHxrX82WTWEA87vwSrwuo=",
+    "MODULE.bazel": "sha256-xn5P2kVo1V74h0o/+4TghV+N9xRtOtKxF1J1CT51n44="
+  },
+  "patches": {
+    "fix_mingw.diff": "sha256-cLjl3CK5w+9ymzvoYB+5CpKbKprCAjcx3FZIocdbuw0="
+  },
+  "patch_strip": 1
+}

@@ -1,0 +1,12 @@
+{
+  "type": "archive",
+  "url": "https://github.com/awslabs/aws-c-common/archive/v0.12.4.tar.gz",
+  "integrity": "sha256-C3cFpNEVZjw/SF01OnXthuN1gxV1heWCXYUa9jS1f+M=",
+  "strip_prefix": "aws-c-common-0.12.4",
+  "overlay": {
+    "config/common_config.h": "sha256-99m5I1sg1VGYJDXmxVYkV3uzSBMNns0Kz9HwPdZzrTE=",
+    "bazel_to_cmake.json": "sha256-CeRjHS5RgmlWdsq+rcBGaSPYw46bewujrlbPTA79lYU=",
+    "BUILD.bazel": "sha256-j4M/yoCZDXwbsufPz3d46j0xXyYaBTgDhH6tmRrYfXw=",
+    "MODULE.bazel": "sha256-JqzetvBrAVNQJovRes74f4WFECai+JhwnTy6Q46X6wo="
+  }
+}

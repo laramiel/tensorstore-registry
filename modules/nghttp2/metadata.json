@@ -4,6 +4,7 @@
     "github:nghttp2/nghttp2"
   ],
   "versions": [
-    "1.65.0"
+    "1.65.0",
+    "1.66.0"
   ]
 }

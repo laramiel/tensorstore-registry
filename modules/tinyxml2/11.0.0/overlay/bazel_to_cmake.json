@@ -1,7 +1,7 @@
 {
   "strip_prefix": "tinyxml2-11.0.0",
   "urls": [
-    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/leethomason/tinyxml2/archive/11.0.0.tar.gz"
+    "https://github.com/leethomason/tinyxml2/archive/11.0.0.tar.gz"
   ],
   "sha256": "5556deb5081fb246ee92afae73efd943c889cef0cafea92b0b82422d6a18f289",
   "cmake_name": "tinyxml2",
@@ -12,7 +12,9 @@
   "name": "tinyxml2",
   "doc_homepage": "https://github.com/leethomason/tinyxml2",
   "has_system_package": true,
-  "build_deps": [],
+  "build_deps": [
+    "rules_cc"
+  ],
   "build_targets": {
     "tinyxml2": "cc_library"
   }

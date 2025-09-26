@@ -1,12 +1,12 @@
 {
   "type": "archive",
-  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/protocolbuffers/protobuf/archive/v30.2.tar.gz",
+  "url": "https://github.com/protocolbuffers/protobuf/archive/v30.2.tar.gz",
   "integrity": "sha256-B6Q9iP5aOOQ0x/lBKcrVakxDpR+ZM2B00HmcL31ORMU=",
   "strip_prefix": "protobuf-30.2",
   "overlay": {
-    "bazel_to_cmake.json": "sha256-ISyvQyZxKDUSuovZ2GVr9VQa77VCQQ1xiM8FxSXKlgI=",
+    "bazel_to_cmake.json": "sha256-cs0+2/jw8T90aCflgEUJ81UlhcMaL+M+5h7m4A8DNHk=",
     "BUILD.bazel_to_cmake": "sha256-k+IPP6+9pKpSguhFTAPC0YC+P1gZLsoBl0u9k+xLpzs=",
-    "MODULE.bazel": "sha256-JFdQ5zFQ73s5hNoE7fHvS1kDcCRelD0RrnRMZgegm6U="
+    "MODULE.bazel": "sha256-AZbSSarXTT5SDtEGf3RIUZdQFgZLes4MwnPKEE062qs="
   },
   "patches": {
     "no_rules_java.diff": "sha256-IAJwjQASKlK3rW1v/u4jjaBunTLF3Xp0Kbzea5s2rFI="

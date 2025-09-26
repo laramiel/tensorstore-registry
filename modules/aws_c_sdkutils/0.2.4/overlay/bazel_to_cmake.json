@@ -1,0 +1,21 @@
+{
+  "sha256": "493cbed4fa57e0d4622fcff044e11305eb4fc12445f32c8861025597939175fc",
+  "strip_prefix": "aws-c-sdkutils-0.2.4",
+  "urls": [
+    "https://github.com/awslabs/aws-c-sdkutils/archive/v0.2.4.tar.gz"
+  ],
+  "cmake_name": "aws_c_sdkutils",
+  "cmake_target_mapping": {
+    "@aws_c_sdkutils//:aws_c_sdkutils": "aws_c_sdkutils::aws_c_sdkutils"
+  },
+  "bazel_to_cmake": {},
+  "name": "aws_c_sdkutils",
+  "doc_homepage": "https://github.com/awslabs/aws-c-sdkutils",
+  "build_deps": [
+    "aws_c_common",
+    "rules_cc"
+  ],
+  "build_targets": {
+    "aws_c_sdkutils": "cc_library"
+  }
+}

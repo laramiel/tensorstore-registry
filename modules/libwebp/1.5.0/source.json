@@ -1,11 +1,11 @@
 {
   "type": "archive",
-  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/webmproject/libwebp/archive/v1.5.0.tar.gz",
-  "integrity": "sha256-ZoyaukVWXiTCfhf3qvcGCjmffzHbpsl6BE4f6suTDzc=",
-  "strip_prefix": "libwebp-1.5.0",
+  "url": "https://github.com/webmproject/libwebp/archive/v1.6.0.tar.gz",
+  "integrity": "sha256-k6hSwrPvr+43I+/UY23oVbRvn+Hv3dYH4fQvYPyPITY=",
+  "strip_prefix": "libwebp-1.6.0",
   "overlay": {
-    "bazel_to_cmake.json": "sha256-WrD19U5yOTJouSnl14xrIwAN5fvrDTzlXPRw4UUIxSE=",
-    "BUILD.bazel": "sha256-HDUtre2KWhUwy3qDwGzfxUhEq1HywCjrF604ZliXz5I=",
-    "MODULE.bazel": "sha256-cAWkb4xqM89PnBiE1gxcI7gToMRP0txboE46nIxJ9Zk="
+    "bazel_to_cmake.json": "sha256-hzNrRCW/z9mi0v5erSKjAndRZ7oiFVZYt/FWf4SJ85Y=",
+    "BUILD.bazel": "sha256-S2nhb3pko3GlnhDBLLMQya9dSbWTkOd91j3TgL86htk=",
+    "MODULE.bazel": "sha256-kakOPmSr7YZiF5yDROs8UIK8cSCRkUNCMhvkx2jfb5c="
   }
 }

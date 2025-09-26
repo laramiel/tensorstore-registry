@@ -1,0 +1,13 @@
+{
+  "type": "archive",
+  "url": "https://github.com/morganwl/rules_nasm/archive/0.4.0.tar.gz",
+  "integrity": "sha256-ltlnUFFRs+K01Zrc1lXAahbXi2MKQHTmQ4EOegGm1CA=",
+  "strip_prefix": "rules_nasm-0.4.0",
+  "overlay": {
+    "MODULE.bazel": "sha256-Qmjt+kAcT8jiR859ql8vGJsVnLzZDu/efvrWcRdWUis="
+  },
+  "patches": {
+    "use_default_shell_env.diff": "sha256-8s+zZa5FtXXhTf6F6AO/Zpinalq3qNsBRiIIYy/89/A="
+  },
+  "patch_strip": 1
+}

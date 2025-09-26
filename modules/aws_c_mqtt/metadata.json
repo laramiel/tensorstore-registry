@@ -4,6 +4,7 @@
     "github:awslabs/aws-c-mqtt"
   ],
   "versions": [
-    "0.12.3"
+    "0.12.3",
+    "0.13.3"
   ]
 }

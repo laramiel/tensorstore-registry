@@ -1,3 +1,5 @@
+load("@rules_cc//cc:cc_library.bzl", "cc_library")
+
 package(default_visibility = ["//visibility:public"])
 
 licenses(["notice"])
@@ -9,6 +11,6 @@ cc_library(
     hdrs = glob(include = ["include/pybind11/**/*.h"]),
     includes = ["include"],
     deps = [
-        "@local_config_python//:python_headers",
+        "@rules_python//python/cc:current_py_cc_headers",
     ],
 )

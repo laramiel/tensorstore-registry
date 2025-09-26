@@ -1,0 +1,9 @@
+{
+  "type": "archive",
+  "url": "https://github.com/bazel-contrib/toolchains_llvm/archive/v1.4.0.tar.gz",
+  "integrity": "sha256-h9jYJTFlSCVxPbpGZnXCO6ZPhDCgBE/wUNVDzGYm99g=",
+  "strip_prefix": "toolchains_llvm-1.4.0",
+  "overlay": {
+    "MODULE.bazel": "sha256-6FPisX24FE2+/ffTlYkA7+t8D28vyqnOkZcAKdgXQb0="
+  }
+}

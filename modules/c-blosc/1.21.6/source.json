@@ -1,11 +1,11 @@
 {
   "type": "archive",
-  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/Blosc/c-blosc/archive/v1.21.6.zip",
+  "url": "https://github.com/Blosc/c-blosc/archive/v1.21.6.zip",
   "integrity": "sha256-GRnJfVUCPASqh3HqgjW2Pp2jwi49Kmg0CzNxDRnCous=",
   "strip_prefix": "c-blosc-1.21.6",
   "overlay": {
-    "bazel_to_cmake.json": "sha256-RZNnjHdpIYJ/3dcwZlLWKwAgt3T3aptoICog+IAKgVI=",
-    "BUILD.bazel": "sha256-oS7OHyQbWfz1vT6uOl5Fs3vtPdIfPrfmB3b3cgjvWpo=",
-    "MODULE.bazel": "sha256-FqHclyzXPfT/oQAo+0McVYC6qCki/nTOKNBIYnrTtbo="
+    "bazel_to_cmake.json": "sha256-bK8Jj73sqy2m5lpHbYp3NS8P1UDBpINIC63+5G16MSQ=",
+    "BUILD.bazel": "sha256-D1wZCjfLUQ6kqAz0XM1NH5gFbW8b5bk8Y2ITbkSHDIQ=",
+    "MODULE.bazel": "sha256-2trS9t4oRf0mWhR9FP1ujZZCFIwmaReFfzUOZa9BHiI="
   }
 }

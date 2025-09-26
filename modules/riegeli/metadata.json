@@ -4,6 +4,7 @@
     "github:google/riegeli"
   ],
   "versions": [
-    "20250415-9da769a3"
+    "20250415-9da769a3",
+    "20250607-c4d1f27"
   ]
 }

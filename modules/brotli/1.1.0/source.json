@@ -1,0 +1,14 @@
+{
+  "type": "archive",
+  "url": "https://github.com/google/brotli/archive/9a4ba5932b763a621023b66915afe168bd231161.zip",
+  "integrity": "sha256-+KNpvTbI5/Gt26eO78A/SWAGfRnKtiziy5V5LglP1Ns=",
+  "strip_prefix": "brotli-9a4ba5932b763a621023b66915afe168bd231161",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-sRMXZoIS+ECYuETUzGudRryfEDhjaHHncnPMpSCGD2Y=",
+    "MODULE.bazel": "sha256-rOA6fXLu6n9K/5pCeuv1PTWcnN5RE/DBcMv85Sx4xys="
+  },
+  "patches": {
+    "fix_ror.diff": "sha256-S4MKjm2FoR7wM1k4s1/0AtWbLnaIZooKQANRYqSNldI="
+  },
+  "patch_strip": 1
+}

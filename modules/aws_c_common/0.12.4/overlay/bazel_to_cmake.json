@@ -1,0 +1,22 @@
+{
+  "sha256": "0b7705a4d115663c3f485d353a75ed86e37583157585e5825d851af634b57fe3",
+  "strip_prefix": "aws-c-common-0.12.4",
+  "urls": [
+    "https://github.com/awslabs/aws-c-common/archive/v0.12.4.tar.gz"
+  ],
+  "cmake_name": "aws_c_common",
+  "cmake_target_mapping": {
+    "@aws_c_common//:aws_c_common": "aws_c_common::aws_c_common"
+  },
+  "bazel_to_cmake": {},
+  "name": "aws_c_common",
+  "doc_homepage": "https://github.com/awslabs/aws-c-common",
+  "build_deps": [
+    "bazel_skylib",
+    "platforms",
+    "rules_cc"
+  ],
+  "build_targets": {
+    "aws_c_common": "cc_library"
+  }
+}

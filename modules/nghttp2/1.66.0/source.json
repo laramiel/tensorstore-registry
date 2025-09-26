@@ -1,0 +1,12 @@
+{
+  "type": "archive",
+  "url": "https://github.com/nghttp2/nghttp2/archive/v1.66.0.tar.gz",
+  "integrity": "sha256-4lBdCKr6wwPtjjuUv4yq+lXdzBmPibJUu3mmGjeUmOo=",
+  "strip_prefix": "nghttp2-1.66.0",
+  "overlay": {
+    "config/config.h": "sha256-ionfCCUf7G0RP+Ae+9PyGof5bAGYtcha5tDCEY7wHUQ=",
+    "bazel_to_cmake.json": "sha256-ZRhJi2jsEctLDAtu8hQe7yBGfUfG8onJ/WrEP60Nl6w=",
+    "BUILD.bazel": "sha256-V+2yn70PvMbGzucu3EN9NFy+U3FgKpoRh2ClKIeuXmg=",
+    "MODULE.bazel": "sha256-hZYZpbjR+7PmEzyOLJstl+dMBHA13YtrnpJkATqlDyc="
+  }
+}

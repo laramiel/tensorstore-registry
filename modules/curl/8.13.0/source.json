@@ -1,12 +1,12 @@
 {
   "type": "archive",
-  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/curl.se/download/curl-8.13.0.tar.gz",
+  "url": "https://curl.se/download/curl-8.13.0.tar.gz",
   "integrity": "sha256-wmGk21ebKJp1AVZUl2WLvVLTE4/brM8UkPqRgSmrRbw=",
   "strip_prefix": "curl-8.13.0",
   "overlay": {
-    "config/curl_config.h": "sha256-HyR0FcUI/Gp1MB5iBP+S3avhvl+2dNyH8ldiONRvQVg=",
-    "bazel_to_cmake.json": "sha256-1gkXT5BhkJMkh905vqExTm7XOuzYMI9IYvOSk+sRgqM=",
-    "BUILD.bazel": "sha256-bj/hH2uagCeRHdUoouXIAJgdSPchlerQzdU7JzxbBkw=",
-    "MODULE.bazel": "sha256-wW3fN43bUoneWDLkR/6L7ft5bSZ8s7J+t+C3UIsPC+k="
+    "config/curl_config.h": "sha256-rYOhxDLKddYM1IQlTOF6Bh/YIMUzjWdU32hFyjCH5us=",
+    "bazel_to_cmake.json": "sha256-x2AYClJNKZaqQmPizMLd7diKqalRUbETk57AhIaFH/w=",
+    "BUILD.bazel": "sha256-NmX3BkY76AdJSd7lHNsx3hVbA826s7LsVkCbgIKbPrY=",
+    "MODULE.bazel": "sha256-FFUFr8TN6fZuT4RPKlDhNNDmtwst80VedmYyalxE3oQ="
   }
 }

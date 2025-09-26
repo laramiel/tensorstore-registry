@@ -1,0 +1,23 @@
+{
+  "sha256": "e94a8172e7d198d11bc7aa769c5334f1a8518f2b5bd4446d37d18fb5683623fd",
+  "strip_prefix": "aws-c-event-stream-0.5.6",
+  "urls": [
+    "https://github.com/awslabs/aws-c-event-stream/archive/v0.5.6.tar.gz"
+  ],
+  "cmake_name": "aws_c_event_stream",
+  "cmake_target_mapping": {
+    "@aws_c_event_stream//:aws_c_event_stream": "aws_c_event_stream::aws_c_event_stream"
+  },
+  "bazel_to_cmake": {},
+  "name": "aws_c_event_stream",
+  "doc_homepage": "https://github.com/awslabs/aws-c-event-stream",
+  "build_deps": [
+    "aws_c_common",
+    "aws_c_io",
+    "aws_checksums",
+    "rules_cc"
+  ],
+  "build_targets": {
+    "aws_c_event_stream": "cc_library"
+  }
+}

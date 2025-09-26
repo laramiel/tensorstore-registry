@@ -1,0 +1,11 @@
+{
+  "type": "archive",
+  "url": "https://github.com/awslabs/aws-c-cal/archive/v0.9.2.tar.gz",
+  "integrity": "sha256-+fO8agaeLv4l/N9z5NKxa1YIwyfS61fI96hSTp4fytA=",
+  "strip_prefix": "aws-c-cal-0.9.2",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-ryXJzOIwCZeJxtVeoN0F0A+EtJvVy3O/Lv+PTZgoHpA=",
+    "BUILD.bazel": "sha256-R/5GEU4hCIOKcHXJ2cqcQn0qQA2kyIsf9wqkQ/nVVws=",
+    "MODULE.bazel": "sha256-VWLTVtK0LYqT6DVgw1uBBgHKWvwtFe1uWK5hqO4ExBc="
+  }
+}

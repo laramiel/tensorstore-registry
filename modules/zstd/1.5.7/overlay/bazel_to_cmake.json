@@ -3,7 +3,7 @@
   "doc_version": "1.5.7",
   "strip_prefix": "zstd-1.5.7",
   "urls": [
-    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/facebook/zstd/archive/v1.5.7.zip"
+    "https://github.com/facebook/zstd/archive/v1.5.7.zip"
   ],
   "sha256": "7897bc5d620580d9b7cd3539c44b59d78f3657d33663fe97a145e07b4ebd69a4",
   "cmake_name": "Zstd",

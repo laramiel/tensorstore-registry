@@ -1,0 +1,11 @@
+{
+  "type": "archive",
+  "url": "https://github.com/aws/s2n-tls/archive/v1.5.24.tar.gz",
+  "integrity": "sha256-cqFgSY+XVl1pTHQJAfv6Mg9vrX20qOlGzNU1LJRyxVY=",
+  "strip_prefix": "s2n-tls-1.5.24",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-nTsOvQHs7WxRoTRvsUGgdodVykvLznn4Q3GDHmDbuxo=",
+    "BUILD.bazel": "sha256-dFRmDCTQDh9fWRV5J8cMhl2k4grphJt6eugTV3aLQ8o=",
+    "MODULE.bazel": "sha256-CjxI0w7LeWSHeSrOp1oUkSmMLDRPCMdsobbGeYKCCps="
+  }
+}

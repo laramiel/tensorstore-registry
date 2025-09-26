@@ -1,0 +1,11 @@
+{
+  "type": "archive",
+  "url": "https://github.com/awslabs/aws-c-event-stream/archive/v0.5.6.tar.gz",
+  "integrity": "sha256-6UqBcufRmNEbx6p2nFM08ahRjytb1ERtN9GPtWg2I/0=",
+  "strip_prefix": "aws-c-event-stream-0.5.6",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-o7w01nKI+5fVzdMqNa13C6cryWbDy2O1qEupFEZ2x1s=",
+    "BUILD.bazel": "sha256-OlDQDPghfDeGJSMKgSaVGmSMD1L7rRlCgxdIWJK84Vw=",
+    "MODULE.bazel": "sha256-JJ49SUEnGNf8CrqSU9GJGrHAIaKyS95oVaWRmIeMeb8="
+  }
+}

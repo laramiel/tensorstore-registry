@@ -1,11 +1,11 @@
 {
   "type": "archive",
-  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz",
+  "url": "https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz",
   "integrity": "sha256-q1oDF27hBtPw+pDjgdpHjdrkBZGBU8yiSOaCzQxKImk=",
   "strip_prefix": "bzip2-1.0.8",
   "overlay": {
-    "bazel_to_cmake.json": "sha256-3rZ5Vj1SQtQUD4motAqOkNM3YCz+0KTXpMd+Sxehq5g=",
-    "BUILD.bazel": "sha256-td/6Da85cue7JNEEsPwWa3Jp5UUrPBdX0rFO/4C2Jjc=",
-    "MODULE.bazel": "sha256-NlrFZ6GSLbP/7nkFfYYIavC59DRcikGPo0Cu1xVi0tE="
+    "bazel_to_cmake.json": "sha256-Iyi9cT1w4X6oMo6qHowfFi3eq8PPd3WML+DYF2+MsnQ=",
+    "BUILD.bazel": "sha256-MEeovY5KLSTzXG8aBIncKAa3AH+ULHAZyJhHQqARsuU=",
+    "MODULE.bazel": "sha256-DhrrQzKDA5Bd5BB+iFyJID8sEvTf6+wIUFKalNLMBCk="
   }
 }

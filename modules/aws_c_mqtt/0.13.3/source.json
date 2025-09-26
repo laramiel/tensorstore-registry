@@ -1,0 +1,11 @@
+{
+  "type": "archive",
+  "url": "https://github.com/awslabs/aws-c-mqtt/archive/v0.13.3.tar.gz",
+  "integrity": "sha256-HfwR1rPcGm1AjfZAc+gjhzm0xQN0B4020/LTBJHRVSc=",
+  "strip_prefix": "aws-c-mqtt-0.13.3",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-MsbG4ZBLMQHaGv3NxsFrj1IQB6RGTzMpoOBlF9ri6Bw=",
+    "BUILD.bazel": "sha256-wJB6gS906hYuypzMNPzLI5SpgMrvosT5TS4gUjLLWGs=",
+    "MODULE.bazel": "sha256-duR4l9rl90jQyBKS600UIqyZpTf9t/XdxJmnShaISTo="
+  }
+}

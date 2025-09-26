@@ -1,11 +1,10 @@
 {
   "doc_version": "1.5.0",
   "urls": [
-    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/webmproject/libwebp/archive/v1.5.0.tar.gz",
-    "https://github.com/webmproject/libwebp/archive/v1.5.0.tar.gz"
+    "https://github.com/webmproject/libwebp/archive/v1.6.0.tar.gz"
   ],
-  "sha256": "668c9aba45565e24c27e17f7aaf7060a399f7f31dba6c97a044e1feacb930f37",
-  "strip_prefix": "libwebp-1.5.0",
+  "sha256": "93a852c2b3efafee3723efd4636de855b46f9fe1efddd607e1f42f60fc8f2136",
+  "strip_prefix": "libwebp-1.6.0",
   "cmake_name": "WebP",
   "bazel_to_cmake": {},
   "cmake_target_mapping": {
@@ -27,20 +26,6 @@
     "rules_cc"
   ],
   "build_targets": {
-    "webp": "cc_library",
-    "utils_dec": "cc_library",
-    "utils": "cc_library",
-    "headers_internal": "cc_library",
-    "dec": "cc_library",
-    "enc": "cc_library",
-    "dsp": "cc_library",
-    "dsp_sse2": "cc_library",
-    "dsp_sse41": "cc_library",
-    "dsp_avx2": "cc_library",
-    "dsp_neon": "cc_library",
-    "sharpyuv": "cc_library",
-    "sharpyuv_hdrs": "cc_library",
-    "sharpyuv_sse2": "cc_library",
-    "sharpyuv_neon": "cc_library"
+    "webp": "cc_library"
   }
 }

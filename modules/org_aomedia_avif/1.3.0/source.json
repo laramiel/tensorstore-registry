@@ -1,0 +1,11 @@
+{
+  "type": "archive",
+  "url": "https://github.com/AOMediaCodec/libavif/archive/v1.3.0.tar.gz",
+  "integrity": "sha256-ClRelTzASb9bz07kZzBqLxE6dREO31nmEkiHMQHNJsE=",
+  "strip_prefix": "libavif-1.3.0",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-aqCf/hf9SiKe6jnX3TmqpoTfK5bc4b2CMiT6o1DpYTE=",
+    "BUILD.bazel": "sha256-hW7uy0lQraQuT2W7SR+oCRv8pc4WiwCuMBwL0R/+Vrs=",
+    "MODULE.bazel": "sha256-gRqQK6mWfE047MNHY2J0O1y/oFu+3l356uftgoaSOCY="
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "strip_prefix": "json-3.12.0",
+  "urls": [
+    "https://github.com/nlohmann/json/archive/v3.12.0.zip"
+  ],
+  "sha256": "34660b5e9a407195d55e8da705ed26cc6d175ce5a6b1fb957e701fb4d5b04022",
+  "doc_name": "nlohmann/json",
+  "doc_homepage": "https://json.nlohmann.me/",
+  "doc_version": "3.12.0",
+  "cmake_name": "nlohmann_json",
+  "cmake_target_mapping": {
+    "//:json": "nlohmann_json::nlohmann_json"
+  },
+  "bazel_to_cmake": {},
+  "name": "nlohmann_json",
+  "bazel_deps": {
+    "rules_cc": "0.0.17",
+    "rules_license": "1.0.0"
+  },
+  "has_system_package": true
+}

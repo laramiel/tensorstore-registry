@@ -4,6 +4,7 @@
     "github:pnggroup/libpng"
   ],
   "versions": [
-    "1.6.47"
+    "1.6.47",
+    "1.6.50"
   ]
 }

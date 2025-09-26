@@ -1,0 +1,11 @@
+{
+  "type": "archive",
+  "url": "https://github.com/pnggroup/libpng/archive/v1.6.50.tar.gz",
+  "integrity": "sha256-cRWOU8/fKHe8mbyrM2QdeN8/SObg2q0DCv6cuMAxqkY=",
+  "strip_prefix": "libpng-1.6.50",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-iySC8UKfvZVlqXtF1yzgltXDfDN6OQpWD9Y0FgYSpPQ=",
+    "BUILD.bazel": "sha256-k9NkUs2tDuSZ0uUZCAdYMesIYjdaF0ccWFMw3k0xCac=",
+    "MODULE.bazel": "sha256-hEqXguQjj6u1j8GvNgh4ds7gfFUVvK2X+zisCUEiBBk="
+  }
+}

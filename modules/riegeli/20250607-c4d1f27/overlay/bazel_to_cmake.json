@@ -1,0 +1,53 @@
+{
+  "doc_version": "20250607-c4d1f27",
+  "urls": [
+    "https://github.com/google/riegeli/archive/4214a733e7aad4654cc789e3b1ff4687f923323d.tar.gz"
+  ],
+  "sha256": "06c618ffa11be504b561a0103bdd469ceae6b3b6b844bba5d581bdffc7301f4f",
+  "strip_prefix": "riegeli-4214a733e7aad4654cc789e3b1ff4687f923323d",
+  "repo_mapping": {
+    "@net_zstd": "@zstd",
+    "@com_google_googleapis": "@googleapis",
+    "@com_google_googletest": "@googletest",
+    "@com_google_absl": "@abseil-cpp"
+  },
+  "cmake_name": "riegeli",
+  "bazel_to_cmake": {
+    "args": [
+      "--exclude-target=//riegeli/digests:highwayhash_digester"
+    ],
+    "include": [
+      "riegeli/**"
+    ],
+    "exclude": [
+      "riegeli/brotli/**",
+      "riegeli/chunk_encoding/**",
+      "riegeli/lz4/**",
+      "riegeli/records/**",
+      "riegeli/snappy/**",
+      "riegeli/tensorflow/**",
+      "riegeli/gcs/**"
+    ]
+  },
+  "name": "riegeli",
+  "bazel_deps": {
+    "abseil-cpp": "20250814.0",
+    "abseil-py": "2.1.0",
+    "bazel_skylib": "1.7.1",
+    "boringssl": "0.0.0-20240530-2db0eb3",
+    "brotli": "1.1.0",
+    "bzip2": "1.0.8",
+    "highwayhash": "0.0.0-20240305-5ad3bf8",
+    "lz4": "1.9.4",
+    "platforms": "0.0.9",
+    "protobuf": "28.3",
+    "rules_cc": "0.1.2",
+    "rules_python": "0.36.0",
+    "snappy": "1.2.0",
+    "xz": "5.4.5.bcr.1",
+    "zlib": "1.3.1.bcr.3",
+    "zstd": "1.5.6",
+    "google_cloud_cpp": "3.0.0-rc1"
+  },
+  "doc_homepage": "https://github.com/google/riegeli"
+}

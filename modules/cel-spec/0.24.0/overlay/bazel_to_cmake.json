@@ -1,0 +1,53 @@
+{
+  "sha256": "0fa5146f16db247b6819f95b1f74b97e30575f7003d3c235ee7967bf9f42c3b8",
+  "strip_prefix": "cel-spec-0.24.0",
+  "urls": [
+    "https://github.com/google/cel-spec/archive/v0.24.0.zip"
+  ],
+  "repo_mapping": {
+    "@io_bazel_rules_go": "@local_proto_mirror",
+    "@com_google_googleapis": "@googleapis"
+  },
+  "cmake_name": "cel-spec",
+  "bazel_to_cmake": {
+    "args": [
+      "--target=//proto/cel/expr:expr_proto",
+      "--target=//proto/cel/expr:syntax_proto",
+      "--target=//proto/cel/expr:checked_proto",
+      "--target=//proto/cel/expr:value_proto",
+      "--target=//proto/cel/expr:eval_proto",
+      "--target=//proto/cel/expr:explain_proto",
+      "--target=//proto/cel/expr:syntax_cc_proto",
+      "--target=//proto/cel/expr:checked_cc_proto",
+      "--target=//proto/cel/expr:value_cc_proto",
+      "--target=//proto/cel/expr:eval_cc_proto",
+      "--target=//proto/cel/expr:explain_cc_proto",
+      "--target=//proto/cel/expr:syntax_proto__upb_library",
+      "--target=//proto/cel/expr:checked_proto__upb_library",
+      "--target=//proto/cel/expr:value_proto__upb_library",
+      "--target=//proto/cel/expr:eval_proto__upb_library",
+      "--target=//proto/cel/expr:explain_proto__upb_library",
+      "--target=//proto/cel/expr:syntax_proto__upbdefs_library",
+      "--target=//proto/cel/expr:checked_proto__upbdefs_library",
+      "--target=//proto/cel/expr:value_proto__upbdefs_library",
+      "--target=//proto/cel/expr:eval_proto__upbdefs_library",
+      "--target=//proto/cel/expr:explain_proto__upbdefs_library"
+    ]
+  },
+  "name": "cel-spec",
+  "bazel_deps": {
+    "bazel_skylib": "1.7.1",
+    "gazelle": "0.39.1",
+    "googleapis": "0.0.0-20241220-5e258e33.bcr.1",
+    "googleapis-cc": "1.0.0",
+    "googleapis-java": "1.0.0",
+    "googleapis-go": "1.0.0",
+    "protobuf": "27.0",
+    "rules_cc": "0.0.17",
+    "rules_go": "0.53.0",
+    "rules_java": "7.6.5",
+    "rules_proto": "7.0.2",
+    "rules_python": "0.35.0"
+  },
+  "doc_homepage": "https://github.com/google/cel-spec"
+}

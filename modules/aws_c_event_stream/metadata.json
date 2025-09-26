@@ -4,6 +4,7 @@
     "github:awslabs/aws-c-event-stream"
   ],
   "versions": [
-    "0.5.4"
+    "0.5.4",
+    "0.5.6"
   ]
 }

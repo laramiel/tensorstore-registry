@@ -1,0 +1,11 @@
+{
+  "type": "archive",
+  "url": "https://github.com/awslabs/aws-c-s3/archive/v0.8.7.tar.gz",
+  "integrity": "sha256-u+EVnwiaxOXdzfXvlpQUiSQKP3gMXhQPPIRi30Xnh6w=",
+  "strip_prefix": "aws-c-s3-0.8.7",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-qWotqktIQc3WC0CJK03IU/mTqnrtehIVhhdUPPYz9Jk=",
+    "BUILD.bazel": "sha256-W3yFz0Al8w+0MIW5J4YzK1G8pFqmyvvZkmp14Y1Fdr0=",
+    "MODULE.bazel": "sha256-Ab39ivwY+HGVLPMhCFNVt7DHTweg3E2Wx1ZiwXqL5Y8="
+  }
+}

@@ -2,7 +2,7 @@
   "sha256": "aa6e98864fefb95c249c100da4ae7aed36ba13a8a91415791ec6fad20bec0427",
   "strip_prefix": "aws-c-auth-0.9.0",
   "urls": [
-    "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/awslabs/aws-c-auth/archive/v0.9.0.tar.gz"
+    "https://github.com/awslabs/aws-c-auth/archive/v0.9.0.tar.gz"
   ],
   "cmake_name": "aws_c_auth",
   "cmake_target_mapping": {
@@ -13,7 +13,8 @@
   "doc_homepage": "https://github.com/awslabs/aws-c-auth",
   "build_deps": [
     "aws_c_http",
-    "aws_c_sdkutils"
+    "aws_c_sdkutils",
+    "rules_cc"
   ],
   "build_targets": {
     "aws_c_auth": "cc_library"

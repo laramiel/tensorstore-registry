@@ -1,0 +1,10 @@
+{
+  "type": "archive",
+  "url": "https://github.com/nlohmann/json/archive/v3.12.0.zip",
+  "integrity": "sha256-NGYLXppAcZXVXo2nBe0mzG0XXOWmsfuVfnAftNWwQCI=",
+  "strip_prefix": "json-3.12.0",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-bmgl4HIRX2kUR3MC7ajLMGjcQOtV0+TdxKhll4cNVEo=",
+    "MODULE.bazel": "sha256-YdU1fgM0GDogSR5qWemT24AXOsukXyyjnk75e+C+A+Y="
+  }
+}

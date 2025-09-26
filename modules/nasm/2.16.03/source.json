@@ -1,0 +1,13 @@
+{
+  "type": "archive",
+  "url": "https://www.nasm.us/pub/nasm/releasebuilds/2.16.03/nasm-2.16.03.tar.gz",
+  "integrity": "sha256-W8lA3YpCRWhpdqj36WupNAoJFfLVuINWh0iQ4ge9tYE=",
+  "strip_prefix": "nasm-2.16.03",
+  "overlay": {
+    "config/config_mingw.h": "sha256-NtZ1/obiZTh7iyLylgt7HMT7lalfWWpqewVv3/Cf2t0=",
+    "config/config_linux.h": "sha256-RCkC9jKao6vSF9138LnbOmhXbEsjN/PZzJXuz11ug+Y=",
+    "config/config_macos.h": "sha256-cqRztChnOz3fYGIwib7TFpQnLkAa6xOM3faDr2fNoSE=",
+    "BUILD.bazel": "sha256-s2ubY+TTPdgAvZR+uBT9y3cEoGRtzt3lcdbuCriaBec=",
+    "MODULE.bazel": "sha256-32BxcYaOUA/YCzIHzW4MS97kCcJHcdcw9Ld1bEWVE1Y="
+  }
+}

@@ -1,11 +1,11 @@
 {
   "type": "archive",
-  "url": "https://storage.googleapis.com/tensorstore-bazel-mirror/github.com/awslabs/aws-c-compression/archive/v0.3.1.tar.gz",
+  "url": "https://github.com/awslabs/aws-c-compression/archive/v0.3.1.tar.gz",
   "integrity": "sha256-2J/KF6N952LcNPMy0tpAI0MHjajb0iJMRqEaiK3d91Q=",
   "strip_prefix": "aws-c-compression-0.3.1",
   "overlay": {
-    "bazel_to_cmake.json": "sha256-1gOGUlqN2CSQ26XNge3/XU6vQng8AfoOzWnSnyfuk7Q=",
-    "BUILD.bazel": "sha256-9d5yvqci6uzdNgj/Dd65MLRMY0Ss6gUWNj/h+DBwYl8=",
-    "MODULE.bazel": "sha256-oIWt8Hw0daduNCv4N30KDvjg0+a/b4oJAVyDdNENaDQ="
+    "bazel_to_cmake.json": "sha256-2j7stipmawP4e8v2g6V8fiQRLPjFL55nFvhP6huOz+s=",
+    "BUILD.bazel": "sha256-JrSgGHZT3/eenwOfvulLWiT3nJ4UNXHXYR+V+OU6Wgo=",
+    "MODULE.bazel": "sha256-AsXo5dILrfwFsscvyrhv0SupJbgUSqqWxojFGuGiiD8="
   }
 }

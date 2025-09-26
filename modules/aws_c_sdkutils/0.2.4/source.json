@@ -1,0 +1,11 @@
+{
+  "type": "archive",
+  "url": "https://github.com/awslabs/aws-c-sdkutils/archive/v0.2.4.tar.gz",
+  "integrity": "sha256-STy+1PpX4NRiL8/wROETBetPwSRF8yyIYQJVl5ORdfw=",
+  "strip_prefix": "aws-c-sdkutils-0.2.4",
+  "overlay": {
+    "bazel_to_cmake.json": "sha256-VplIuP0ODnlrR3f2eHy6sMXvCq1lYJskzyAJ9rC7bf0=",
+    "BUILD.bazel": "sha256-gECZHTf99ZHuXDZHCj7PdlKcjdel9vVB1pIwJ49zeeI=",
+    "MODULE.bazel": "sha256-wbMo6Ow/GBvafuLydFLG0d4Fhiwn5VikIT1L/KspjXM="
+  }
+}
